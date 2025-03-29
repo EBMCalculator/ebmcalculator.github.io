@@ -1,8 +1,3 @@
----
-layout: default
-title: Privacy Policy
----
-
 <img src="/assets/images/EBM Calculator Logo Any 3x.png" alt="EBM Calculator Logo" width="200">
 
 # Privacy Policy for EBM Calculator  
