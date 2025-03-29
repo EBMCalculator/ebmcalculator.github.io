@@ -9,10 +9,16 @@
   <a href="/privacy-policy" style="padding: 10px 20px; text-decoration: none; display: inline-block;">Privacy</a>
 </div>
 
-# Support  
+## Support  
 
 If you have any issues, questions, or feedback, feel free to reach out.  
 
 **Contact:** [EBMCalculator@icloud.com](mailto:EBMCalculator@icloud.com)  
 
 For privacy-related information, please view our [Privacy Policy](/privacy-policy).
+
+---
+
+<div style="text-align: center; margin-top: 40px;">
+  &copy; 2024 David A. Stewart, MD
+</div>
