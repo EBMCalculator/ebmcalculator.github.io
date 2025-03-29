@@ -13,8 +13,9 @@
 ## Privacy Policy
 **Effective Date:** November 4, 2024 
 
-<div style="max-width: 600px; margin: 20px auto; text-align: justify;">
 ---
+
+<div style="max-width: 600px; margin: 20px auto; text-align: justify;">
 
 ### 1. Introduction  
 Thank you for using **EBM Calculator**. Your privacy is important to me.  
@@ -56,7 +57,9 @@ Any changes will be reflected on this page.
 ### 6. Contact  
 
 If you have any questions about this privacy policy, please contact: [EBMCalculator@icloud.com](mailto:EBMCalculator@icloud.com)
+
 </div>
+
 ---
 
 <div style="text-align: center; margin-top: 40px;">
