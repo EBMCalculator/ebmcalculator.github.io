@@ -1,8 +1,3 @@
----
-layout: default
-title: Welcome to EBM Calculator
----
-
 <img src="/assets/images/EBM Calculator Logo Any 3x.png" alt="EBM Calculator Logo" width="200">
 
 # Welcome to EBM Calculator
