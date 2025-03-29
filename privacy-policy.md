@@ -53,7 +53,7 @@ Any changes will be reflected on this page.
 
 ### 6. Contact  
 
-If you have any questions about this privacy policy, please contact: EBMCalculator@icloud.com
+If you have any questions about this privacy policy, please contact: [EBMCalculator@icloud.com](mailto:EBMCalculator@icloud.com)
 
 ---
 
