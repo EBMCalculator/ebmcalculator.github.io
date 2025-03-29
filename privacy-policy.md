@@ -21,7 +21,7 @@ This policy explains what data the app collects, how it is used, and your rights
 
 ---
 
-## 2. Data Collection & Usage  
+### 2. Data Collection & Usage  
 
 **No Personal Data Collected:** EBM Calculator does not collect, store, or transmit any personally identifiable information.  
 
@@ -31,26 +31,26 @@ This policy explains what data the app collects, how it is used, and your rights
 
 ---
 
-## 3. Third-Party Services  
+### 3. Third-Party Services  
 
 EBM Calculator does not use third-party services for analytics, advertising, or data tracking.  
 
 ---
 
-## 4. User Control & Deletion  
+### 4. User Control & Deletion  
 
 Since no user data is collected or stored remotely, there is no need for account management or data deletion requests.  
 You can delete saved results manually within the app.  
 
 ---
 
-## 5. Changes to This Policy  
+### 5. Changes to This Policy  
 
 This privacy policy may be updated from time to time.  
 Any changes will be reflected on this page.  
 
 ---
 
-## 6. Contact  
+### 6. Contact  
 
 If you have any questions about this privacy policy, please contact: EBMCalculator@icloud.com
