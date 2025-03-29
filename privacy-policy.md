@@ -2,16 +2,12 @@
 
 # EBM Calculator
 
----
-
-<div style="text-align: center; margin-top: 20px;">
-  <a href="/" style="margin-right: 20px;">Home</a>
-  <a href="/about" style="margin-right: 20px;">About</a>
-  <a href="/support" style="margin-right: 20px;">Support</a>
-  <a href="/privacy-policy">Privacy</a>
+<div style="text-align: center; margin-top: 20px; border-bottom: 2px solid #ccc; padding-bottom: 10px;">
+  <a href="/" style="padding: 10px 20px; text-decoration: none; display: inline-block;">Home</a>
+  <a href="/about" style="padding: 10px 20px; text-decoration: none; display: inline-block;">About</a>
+  <a href="/support" style="padding: 10px 20px; text-decoration: none; display: inline-block;">Support</a>
+  <a href="/privacy-policy" style="padding: 10px 20px; text-decoration: none; display: inline-block;">Privacy</a>
 </div>
-
----
 
 # Privacy Policy
 **Effective Date:** November 4, 2024 
