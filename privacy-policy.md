@@ -13,7 +13,7 @@
 ## Privacy Policy
 **Effective Date:** November 4, 2024 
 
-</div> style="max-width: 600px; margin: 20px auto; text-align: justify;">
+<div> style="max-width: 600px; margin: 20px auto; text-align: justify;">
 ---
 
 ### 1. Introduction  
