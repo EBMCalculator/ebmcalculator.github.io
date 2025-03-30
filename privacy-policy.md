@@ -17,7 +17,7 @@
 
 <div style="max-width: 600px; margin: 20px auto; text-align: justify;">
 
-### 1. Introduction  
+### 1. Intro
 Thank you for using **EBM Calculator**. Your privacy is important to me.  
 
 This policy explains what data the app collects, how it is used, and your rights regarding that data.
