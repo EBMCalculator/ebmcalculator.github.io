@@ -11,8 +11,9 @@
 </div>
 
 ## Disclaimer
-
-<div style="max-width: 600px; margin: 20px auto; text-align: justify;">
+<!-- Wrap the bulk of Markdown content in a container with width 600px and centered -->
+<div style="max-width: 600px; margin: 20px auto;" markdown="1">
+  
   This app was created for educational use.  
   The content provided should not replace clinical judgement and results should be interpreted within the context of statistical and study limitations.  
   Medical decisions should **NOT** be based solely on results from this app.
