@@ -10,8 +10,10 @@
   <a href="/privacy-policy" style="padding: 10px 20px; text-decoration: none; display: inline-block;">Privacy</a>
 </div>
 
-<div style="max-width: 600px; margin: 20px auto; text-align: justify;">
-## Support  
+## Support
+
+<!-- Wrap the bulk of Markdown content in a container with width 600px and centered -->
+<div style="max-width: 600px; margin: 20 auto;" text-align: justify:; markdown="1">
 
 If you have any issues, questions, or feedback, feel free to reach out.  
 
