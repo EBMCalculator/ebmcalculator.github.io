@@ -10,6 +10,9 @@
   <a href="/privacy-policy" style="padding: 10px 20px; text-decoration: none; display: inline-block;">Privacy</a>
 </div>
 
+<!-- Wrap the bulk of your Markdown content in a container with width 600px and centered -->
+<div style="width: 600px; margin: 0 auto;" markdown="1">
+  
 ## Privacy Policy
 **Effective Date:** November 4, 2024 
 
@@ -57,10 +60,10 @@ Any changes will be reflected on this page.
 
 ### 6. Contact  
 
-If you have any questions about this privacy policy, please contact:  
-[EBMCalculator@icloud.com](mailto:EBMCalculator@icloud.com)
+If you have any questions about this privacy policy, please contact: [EBMCalculator@icloud.com](mailto:EBMCalculator@icloud.com)
 
 ---
+</div>
 
 <div style="text-align: center; margin-top: 40px;">
   &copy; 2024 David A. Stewart, MD
