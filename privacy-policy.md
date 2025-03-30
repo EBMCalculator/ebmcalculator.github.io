@@ -10,20 +10,10 @@
   <a href="/privacy-policy" style="padding: 10px 20px; text-decoration: none; display: inline-block;">Privacy</a>
 </div>
 
-<style>
-  .privacy-content {
-    max-width: 600px;
-    margin: 20px auto;
-    text-align: justify;
-  }
-</style>
-
 ## Privacy Policy
 **Effective Date:** November 4, 2024 
 
 ---
-
-<div class="privacy-content">
 
 ### 1. Introduction  
 Thank you for using **EBM Calculator**. Your privacy is important to me.  
@@ -69,8 +59,6 @@ Any changes will be reflected on this page.
 
 If you have any questions about this privacy policy, please contact:  
 [EBMCalculator@icloud.com](mailto:EBMCalculator@icloud.com)
-
-</div>
 
 ---
 
