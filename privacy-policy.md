@@ -59,9 +59,8 @@ Any changes will be reflected on this page.
 ### 6. Contact  
 
 If you have any questions about this privacy policy, please contact: [EBMCalculator@icloud.com](mailto:EBMCalculator@icloud.com)
-
----
 </div>
+---
 
 <div style="text-align: center; margin-top: 40px;">
   &copy; 2024 David A. Stewart, MD
