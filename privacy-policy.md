@@ -3,12 +3,35 @@
   <h1>EBM Calculator</h1>
 </div>
 
-<div style="text-align: center; margin-top: 20px; border-bottom: 2px solid #ccc; padding-bottom: 10px;">
-  <a href="/" style="padding: 10px 20px; text-decoration: none; display: inline-block;">Home</a>
-  <a href="/about" style="padding: 10px 20px; text-decoration: none; display: inline-block;">About</a>
-  <a href="/support" style="padding: 10px 20px; text-decoration: none; display: inline-block;">Support</a>
-  <a href="/privacy-policy" style="padding: 10px 20px; text-decoration: none; display: inline-block;">Privacy</a>
+<style>
+  .tab-bar {
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    margin-top: 20px;
+  }
+  .tab-bar a {
+    padding: 10px 20px;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: padding 0.3s ease;
+  }
+  /* When the screen is 480px wide or less, reduce horizontal padding */
+  @media (max-width: 480px) {
+    .tab-bar a {
+      padding: 10px 10px;
+    }
+  }
+</style>
+
+<div class="tab-bar">
+  <a href="/">Home</a>
+  <a href="/about">About</a>
+  <a href="/support">Support</a>
+  <a href="/privacy-policy">Privacy</a>
 </div>
+
   
 ## Privacy Policy
 **Effective Date:** November 4, 2024 
