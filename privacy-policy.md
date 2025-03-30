@@ -13,7 +13,6 @@
 ## Privacy Policy
 **Effective Date:** November 4, 2024 
 
----
 <!-- Wrap the bulk of Markdown content in a container with width 600px and centered -->
 <div style="max-width: 600px; margin: 20px auto;" markdown="1">
   
