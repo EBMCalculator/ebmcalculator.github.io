@@ -10,6 +10,11 @@
   <a href="/privacy-policy" style="padding: 10px 20px; text-decoration: none; display: inline-block;">Privacy</a>
 </div>
 
+<!-- Wrap the bulk of Markdown content in a container with width 600px and centered -->
+<div style="max-width: 600px; margin: 20 auto;" text-align: justify:; markdown="1">
+
+</div>
+
 ---
 
 <div style="text-align: center; margin-top: 40px;">
