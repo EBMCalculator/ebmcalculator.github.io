@@ -10,8 +10,10 @@
   <a href="/privacy-policy" style="padding: 10px 20px; text-decoration: none; display: inline-block;">Privacy</a>
 </div>
 
-## Welcome to EBM Calculator
+## EBM Calculator
 
+<!-- Wrap the bulk of Markdown content in a container with width 600px and centered -->
+<div style="max-width: 600px; margin: 20px auto;" markdown="1">
 The goal of **EBM Calculator** is to help with your appraisal of the medical literature!  
 
 ### Features
@@ -55,6 +57,7 @@ The goal of **EBM Calculator** is to help with your appraisal of the medical lit
 #### **Save & Share**
 - Up to 50 results can be **saved** within the app for future reference.  
 - Easily **share, export, or print** results directly from the app.
+</div>
 
 ---
 
