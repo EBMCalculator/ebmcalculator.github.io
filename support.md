@@ -10,6 +10,7 @@
   <a href="/privacy-policy" style="padding: 10px 20px; text-decoration: none; display: inline-block;">Privacy</a>
 </div>
 
+<div style="max-width: 600px; margin: 20px auto; text-align: justify;">
 ## Support  
 
 If you have any issues, questions, or feedback, feel free to reach out.  
@@ -17,6 +18,7 @@ If you have any issues, questions, or feedback, feel free to reach out.
 **Contact:** [EBMCalculator@icloud.com](mailto:EBMCalculator@icloud.com)  
 
 For privacy-related information, please view our [Privacy Policy](/privacy-policy).
+</div>
 
 ---
 
