@@ -10,10 +10,51 @@
   <a href="/privacy-policy" style="padding: 10px 20px; text-decoration: none; display: inline-block;">Privacy</a>
 </div>
 
-<!-- Wrap the bulk of Markdown content in a container with width 600px and centered -->
-<div style="max-width: 600px; margin: 20px auto; text-align: justify;" markdown="1">
+## Welcome to EBM Calculator
 
-</div>
+The goal of **EBM Calculator** is to help with your appraisal of the medical literature!  
+
+### Features
+
+#### **Effect Calculator**
+- Used for studies that examine the effect of a therapy or exposure.  
+- Calculate key effect estimates for **dichotomous outcomes**, including:
+  - **Absolute Risk Reduction (ARR)**  
+  - **Number Needed to Treat (NNT)**  
+  - **Risk Ratio (RR)**  
+  - **Relative Risk Reduction (RRR)**  
+  - **Odds Ratio (OR)**  
+- Each measure is accompanied by a **95% Confidence Interval** to assess the precision of the effect.
+
+---
+
+#### **Diagnostic Test Calculator**
+- Evaluate the utility of diagnostic tests using metrics like:
+  - **Sensitivity**  
+  - **Specificity**  
+  - **Likelihood Ratios (LR+ and LR-)**  
+  - **Positive Predictive Value (PPV)**  
+  - **Negative Predictive Value (NPV)**  
+- Each measure includes a **95% Confidence Interval** to ensure accurate evaluation.
+
+---
+
+#### **Post-Test Probability Calculator**
+- Estimate the likelihood of a condition or disease based on the result of a diagnostic test.  
+- Calculate **Post-Test Probability** using Sensitivity, Specificity, or Likelihood Ratios.
+- Use an **Interactive Fagan Nomogram** to see how Post-Test Probability changes.  
+
+---
+
+#### **Library**
+- Access lessons in **Evidence-Based Medicine (EBM)**.  
+- Reinforce concepts in biostatistics and study design.
+
+---
+
+#### **Save & Share**
+- Up to 50 results can be **saved** within the app for future reference.  
+- Easily **share, export, or print** results directly from the app.
 
 ---
 
