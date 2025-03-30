@@ -15,7 +15,7 @@
 
 ---
 <!-- Wrap the bulk of Markdown content in a container with width 600px and centered -->
-<div style="max-width: 600px; margin: 20 auto;" text-align: justify; markdown="1">
+<div style="width: 600px; margin: 20 auto; text-align: justify;" markdown="1">
   
 ### 1. Introduction  
 Thank you for using **EBM Calculator**. Your privacy is important to me.  
