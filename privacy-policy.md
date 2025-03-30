@@ -10,14 +10,22 @@
   <a href="/privacy-policy" style="padding: 10px 20px; text-decoration: none; display: inline-block;">Privacy</a>
 </div>
 
+<style>
+  .privacy-content {
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: justify;
+  }
+</style>
+
 ## Privacy Policy
 **Effective Date:** November 4, 2024 
 
 ---
 
-<div style="max-width: 600px; margin: 20px auto; text-align: justify;">
+<div class="privacy-content">
 
-### 1. Intro
+### 1. Introduction  
 Thank you for using **EBM Calculator**. Your privacy is important to me.  
 
 This policy explains what data the app collects, how it is used, and your rights regarding that data.
