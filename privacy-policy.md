@@ -9,15 +9,14 @@
   <a href="/support" style="padding: 10px 20px; text-decoration: none; display: inline-block;">Support</a>
   <a href="/privacy-policy" style="padding: 10px 20px; text-decoration: none; display: inline-block;">Privacy</a>
 </div>
-
-<!-- Wrap the bulk of your Markdown content in a container with width 600px and centered -->
-<div style="width: 600px; margin: 0 auto;" markdown="1">
   
 ## Privacy Policy
 **Effective Date:** November 4, 2024 
 
 ---
-
+<!-- Wrap the bulk of Markdown content in a container with width 600px and centered -->
+<div style="max-width: 600px; margin: 20 auto;" text-align: justify:; markdown="1">
+  
 ### 1. Introduction  
 Thank you for using **EBM Calculator**. Your privacy is important to me.  
 
