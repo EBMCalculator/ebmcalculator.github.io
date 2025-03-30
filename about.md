@@ -14,9 +14,12 @@
 <!-- Wrap the bulk of Markdown content in a container with width 600px and centered -->
 <div style="max-width: 600px; margin: 20px auto;" markdown="1">
   
-  This app was created for educational use.  
-  The content provided should not replace clinical judgement and results should be interpreted within the context of statistical and study limitations.  
-  Medical decisions should **NOT** be based solely on results from this app.
+  This app was created for educational use. The content provided should not replace clinical judgement and results should be interpreted within the context of statistical and study limitations. Medical decisions should **NOT** be based solely on results from this app.
+
+  I hope my app helps your ongoing learning and appraisal of medical literature!
+
+  **Questions or Feedback?**
+  
 </div>
 
 ---
