@@ -22,7 +22,33 @@
       padding: 10px 10px;
     }
   }
-
+  
+  /* New support navigation styles */
+  .support-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0 20px;
+  }
+  .support-nav a {
+    margin-left: 15px;
+    text-decoration: none;
+  }
+  
+  /* Section header with top link */
+  .section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    margin-top: 40px;
+  }
+  .section-header h3 {
+    margin: 0;
+  }
+  
   .faq-item {
     margin-bottom: 20px;
   }
@@ -34,13 +60,6 @@
     display: none;
     margin-top: 10px;
   }
-  .section-links {
-    text-align: center;
-    margin-top: 20px;
-  }
-  .section-links a {
-    margin-right: 15px;
-  }
 </style>
 
 <div class="tab-bar">
@@ -50,34 +69,34 @@
   <a href="/privacy-policy">Privacy</a>
 </div>
 
-## Support
-
-<div class="section-links">
-  <a href="#faq">FAQ</a>
-  <a href="#how-to-guide">How-To Guide</a>
-  <a href="#versions">Versions</a>
-  <a href="#top">^Top</a>
+<!-- New support navigation block with Support and section links -->
+<div class="support-nav">
+  <div>
+    <span style="font-size: 1.5em; font-weight: bold;">Support</span>
+    <a href="#faq">FAQ</a>
+    <a href="#how-to-guide">How-To Guide</a>
+    <a href="#versions">Versions</a>
+  </div>
 </div>
 
 <div style="max-width: 600px; margin: 20px auto; text-align: justify;" markdown="1" id="top">
+  If you have any issues, questions, or feedback, please email me at [support@ebmcalculator.com](mailto:support@ebmcalculator.com).
 
-If you have any issues, questions, or feedback, feel free to reach out.  
-
-**Contact:** [support@ebmcalculator.com](mailto:support@ebmcalculator.com)  
-
-For privacy-related information, please view our [Privacy Policy](/privacy-policy).
-
+  For privacy-related information, please view the [Privacy Policy](/privacy-policy).
 </div>
 
 ---
 
-### <a id="faq"></a> Frequently Asked Questions
+<!-- FAQ Section Header with ^Top link on the right -->
+<div class="section-header">
+  <h3><a id="faq"></a> Frequently Asked Questions</h3>
+  <a href="#top">^Top</a>
+</div>
 
 <div style="max-width: 600px; margin: 20px auto;" markdown="1">
-  
   <div class="faq-item">
     <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> Compatibility</div>
-    <div class="faq-answer">EBM Calculator is available on iOS devices running iOS 16 or later. It is optimized for both iPhones and iPads.</div>
+    <div class="faq-answer">EBM Calculator is available on iOS devices running iOS 18.1 or later. It is optimized for iPhones, but will also run on iPads and Apple Silicon Macs.</div>
   </div>
 
   <div class="faq-item">
@@ -117,15 +136,27 @@ function toggleAnswer(element) {
 
 ---
 
-### <a id="how-to-guide"></a> How-To Guide (Coming Soon)
+<!-- How-To Guide Section Header with ^Top link on the right -->
+<div class="section-header">
+  <h3><a id="how-to-guide"></a> How-To Guide (Coming Soon)</h3>
+  <a href="#top">^Top</a>
+</div>
 
-This section will include walkthroughs of how to use the calculator for different scenarios. Stay tuned!
+<p style="max-width: 600px; margin: 20px auto;">
+  This section will include walkthroughs of how to use the calculator for different scenarios. Stay tuned!
+</p>
 
 ---
 
-### <a id="versions"></a> Versions (Coming Soon)
+<!-- Versions Section Header with ^Top link on the right -->
+<div class="section-header">
+  <h3><a id="versions"></a> Versions (Coming Soon)</h3>
+  <a href="#top">^Top</a>
+</div>
 
-A list of past versions and updates will be available here, along with release notes and new features.
+<p style="max-width: 600px; margin: 20px auto;">
+  A list of past versions and updates will be available here, along with release notes and new features.
+</p>
 
 ---
 
