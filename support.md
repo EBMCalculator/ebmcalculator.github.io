@@ -61,7 +61,7 @@
 <h2 style="text-align: center;">Support</h2>
 <div class="section-links">
   <a href="#faq">FAQ</a>
-  <a href="#how-to-guide">How-To Guide</a>
+  <a href="#how-to-guide">How-To</a>
   <a href="#versions">Versions</a>
 </div>
 
