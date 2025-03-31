@@ -67,7 +67,7 @@
   <a href="/privacy-policy">Privacy</a>
 </div>
 
-<!-- Original Support header with centered links immediately below -->
+<!-- Support header with centered links immediately below -->
 <h2>Support</h2>
 <div class="section-links">
   <a href="#faq">FAQ</a>
@@ -75,7 +75,7 @@
   <a href="#versions">Versions</a>
 </div>
 
-<div style="max-width: 600px; margin: 20px auto; text-align: justify;" markdown="1">
+<div style="max-width: 600px; margin: 20px auto;" markdown="1">
   If you have any issues, questions, or feedback, please email me at 
   <a href="mailto:support@ebmcalculator.com">support@ebmcalculator.com</a>.
 
@@ -93,28 +93,28 @@
 
 <div style="max-width: 600px; margin: 20px auto;" markdown="1">
   <div class="faq-item">
-    <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> Compatibility</div>
+    <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> What devices are compatible?</div>
     <div class="faq-answer">EBM Calculator is available on iOS devices running iOS 18.1 or later. It is optimized for iPhones, but will also run on iPads and Apple Silicon Macs.</div>
   </div>
 
   <div class="faq-item">
-    <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> Saved Results Management</div>
-    <div class="faq-answer">You can save up to 50 results. You can reorder, delete individual results, or delete all saved results. This can be managed from the Saved Results screen.</div>
+    <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> How many results can I save?</div>
+    <div class="faq-answer">You can save up to 50 results. From the Results tab, you can reorder results (press and drag), delete individual results (swipe left), share results (swipe right), or delete all saved results (from the menu button).</div>
   </div>
 
   <div class="faq-item">
-    <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> Why Different Input Options?</div>
-    <div class="faq-answer">Different input methods are available to fit various clinical scenarios. Choose the one that makes the most sense for your data or question.</div>
+    <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> Why do the calculators have different input options?</div>
+    <div class="faq-answer">Different input methods are available to fit various ways authors report their results. Choose the one that makes the most sense for the study you are appraising. For example, if you are assessing the performance of a Diagnostic Test and the authors report only the Predictive Values (and not sensitivity or specificity), choose PPV/NPV for your input fields.</div>
   </div>
 
   <div class="faq-item">
-    <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> Why Did You Make This?</div>
-    <div class="faq-answer">I created EBM Calculator to make evidence-based medicine calculations more accessible for clinicians. I wanted a simple, fast, and reliable tool for making informed decisions.</div>
+    <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> Why did you create this app?</div>
+    <div class="faq-answer">I was frustrated by constantly having to switch between various websites to find online calculators for interpreting study results. I built the EBM Calculator app to streamline this process and to simplify evidence appraisal. My first version was coded in Python on my local devices. I decided to make it an official iOS app to share it easily with colleagues who were also evaluating the medical literature!</div>
   </div>
 
   <div class="faq-item">
-    <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> Are You Adding More Features?</div>
-    <div class="faq-answer">Yes! The more I learn, the more I want to build into the app. I wanted to get it out there ASAP to start helping clinicians. If you have a suggestion of what would be helpful, let me know!</div>
+    <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> Are you planning to add more features?</div>
+    <div class="faq-answer">Yes! The more I learn, the more features I want to build into the app. But I also wanted to get it out there ASAP to start helping clinicians. If you have a suggestion of what would be helpful, please let me know at <a href="mailto:support@ebmcalculator.com">support@ebmcalculator.com</a>!</div>
   </div>
 </div>
 
