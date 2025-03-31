@@ -62,7 +62,7 @@
 <div style="max-width: 600px; margin: 20px auto; text-align: center;" markdown="1">
   I hope my app helps your ongoing learning and appraisal of medical literature!
   
-  **Questions or Feedback?** 
+  **Questions or Feedback?** <br>
   [support@ebmcalculator.com](mailto:support@ebmcalculator.com)  
 </div>
 
