@@ -47,7 +47,7 @@
 
   **Questions or Feedback?**
   
-  [EBMCalculator@icloud.com](mailto:EBMCalculator@icloud.com)
+  [support@ebmcalculator.com](mailto:support@ebmcalculator.com)
   
 </div>
 
