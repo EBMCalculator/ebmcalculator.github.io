@@ -164,6 +164,10 @@
   </div>
 </div>
 
+<div style="text-align: center; margin-top: 40px;">
+  &copy; 2024 David A. Stewart, MD
+</div>
+
 <script>
 function toggleAnswer(element) {
   var answer = element.nextElementSibling;
