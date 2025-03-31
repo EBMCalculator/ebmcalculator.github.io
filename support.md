@@ -104,7 +104,7 @@
 
   <div class="faq-item">
     <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> Why do the calculators have different input options?</div>
-    <div class="faq-answer">Different input methods are available to fit various ways authors report their results. Choose the one that makes the most sense for the study you are appraising.
+    <div class="faq-answer">Different input methods are available to fit various ways authors report their results. Choose the one that makes the most sense for the study you are appraising.<br>
       For example, if you are assessing the performance of a Diagnostic Test and the authors report only the Predictive Values (and not sensitivity or specificity), choose PPV/NPV for your input fields.</div>
   </div>
 
@@ -175,7 +175,7 @@ function toggleAnswer(element) {
     <div class="faq-answer">
       <ul>
         <li>Add feature to save, delete, and share results</li>
-        <li>Add formula pages</li>
+        <li>Add info pages with equations for each calculator</li>
         <li>Update icons and logos</li>
         <li>Debug and refine UI</li>
       </ul>
