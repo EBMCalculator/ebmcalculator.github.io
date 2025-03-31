@@ -57,22 +57,13 @@
       <p>This app was created for educational use. The content provided should not replace clinical judgement and results should be interpreted within the context of statistical and study limitations. Medical decisions should <strong>NOT</strong> be based solely on results from this app.</p>
     </div>
   </div>
+</div>
+
+<div style="max-width: 600px; margin: 20px auto; text-align: center;" markdown="1">
+  I hope my app helps your ongoing learning and appraisal of medical literature!
   
-  <!-- About Content Box -->
-  <div class="faq-item">
-    <div class="faq-question">About the App</div>
-    <div class="faq-answer">
-      <p>I hope my app helps your ongoing learning and appraisal of medical literature!</p>
-    </div>
-  </div>
-  
-  <!-- Feedback Box -->
-  <div class="faq-item">
-    <div class="faq-question">Questions or Feedback?</div>
-    <div class="faq-answer" style="text-align: center;">
-      <p><a href="mailto:support@ebmcalculator.com">support@ebmcalculator.com</a></p>
-    </div>
-  </div>
+  **Questions or Feedback?** 
+  [support@ebmcalculator.com](mailto:support@ebmcalculator.com)  
 </div>
 
 <div style="text-align: center; margin-top: 40px;">
