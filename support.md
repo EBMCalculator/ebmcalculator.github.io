@@ -1,5 +1,3 @@
-<!-- Top anchor added so ^Top links go to the very top of the page -->
-<a id="top"></a>
 <div style="text-align: center;">
   <img src="/assets/images/EBM Calculator Logo Any 3x.png" alt="EBM Calculator Logo" width="200">
   <h1>EBM Calculator</h1>
@@ -24,7 +22,7 @@
       padding: 10px 10px;
     }
   }
-
+  
   .section-links {
     text-align: center;
     margin-top: 20px;
@@ -34,29 +32,22 @@
     text-decoration: none;
   }
   
-  /* Section header style with ^Top link on the right */
-  .section-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 5px;
-    margin-top: 40px;
-  }
-  .section-header h3 {
-    margin: 0;
-  }
-  
+  /* Box styling for collapsible sections */
   .faq-item {
     margin-bottom: 20px;
   }
   .faq-question {
     font-weight: bold;
     cursor: pointer;
+    padding: 10px;
+    background: #f7f7f7;
+    border: 1px solid #ccc;
   }
   .faq-answer {
-    display: none;
-    margin-top: 10px;
+    display: none; /* Collapsed by default */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-top: none;
   }
 </style>
 
@@ -67,145 +58,115 @@
   <a href="/privacy-policy">Privacy</a>
 </div>
 
-<!-- Support header with centered links immediately below -->
-<h2>Support</h2>
+<h2 style="text-align: center;">Support</h2>
 <div class="section-links">
   <a href="#faq">FAQ</a>
   <a href="#how-to-guide">How-To Guide</a>
   <a href="#versions">Versions</a>
 </div>
 
-<div style="max-width: 600px; margin: 20px auto;" markdown="1">
-  If you have any issues, questions, or feedback, please email me at 
-  <a href="mailto:support@ebmcalculator.com">support@ebmcalculator.com</a>.
-
-  For privacy-related information, please view the 
-  <a href="/privacy-policy">Privacy Policy</a>.
-</div>
-
----
-
-<!-- FAQ Section -->
-<div class="section-header">
-  <h3><a id="faq"></a> Frequently Asked Questions</h3>
-  <a href="#top">^Top</a>
-</div>
-
-<div style="max-width: 600px; margin: 20px auto;" markdown="1">
+<div style="max-width: 600px; margin: 20px auto;">
+  <!-- FAQ Section Box -->
   <div class="faq-item">
-    <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> What devices are compatible?</div>
-    <div class="faq-answer">EBM Calculator is available on iOS devices running iOS 18.1 or later. It is optimized for iPhones, but will also run on iPads and Apple Silicon Macs.</div>
+    <div class="faq-question" id="faq" onclick="toggleAnswer(this)"><span>&#9654;</span> Frequently Asked Questions</div>
+    <div class="faq-answer">
+      <!-- Individual FAQ items -->
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> What devices are compatible?</div>
+        <div class="faq-answer">EBM Calculator is available on iOS devices running iOS 18.1 or later. It is optimized for iPhones, but will also run on iPads and Apple Silicon Macs.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> How many results can I save?</div>
+        <div class="faq-answer">You can save up to 50 results. From the Results tab, you can reorder results (press and drag), delete individual results (swipe left), share results (swipe right), or delete all saved results (from the menu button).</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> Why do the calculators have different input options?</div>
+        <div class="faq-answer">
+          Different input methods are available to fit various ways authors report their results. Choose the one that makes the most sense for the study you are appraising.<br>
+          For example, if you are assessing the performance of a Diagnostic Test and the authors report only the Predictive Values (and not sensitivity or specificity), choose PPV/NPV for your input fields.
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> Why did you create this app?</div>
+        <div class="faq-answer">I was frustrated by constantly having to switch between various websites to find online calculators for interpreting study results. I built the EBM Calculator app to streamline this process and to simplify evidence appraisal. My first version was coded in Python on my local devices. I decided to make it an official iOS app to share it easily with colleagues who were also evaluating the medical literature!</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> Are you planning to add more features?</div>
+        <div class="faq-answer">Yes! The more I learn, the more features I want to build into the app. But I also wanted to get it out there ASAP to start helping clinicians. If you have a suggestion of what would be helpful, please let me know at <a href="mailto:support@ebmcalculator.com">support@ebmcalculator.com</a>!</div>
+      </div>
+    </div>
   </div>
 
+  <!-- How-To Guide Section Box -->
   <div class="faq-item">
-    <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> How many results can I save?</div>
-    <div class="faq-answer">You can save up to 50 results. From the Results tab, you can reorder results (press and drag), delete individual results (swipe left), share results (swipe right), or delete all saved results (from the menu button).</div>
+    <div class="faq-question" id="how-to-guide" onclick="toggleAnswer(this)"><span>&#9654;</span> How-To Guide</div>
+    <div class="faq-answer">
+      <p>This section will include walkthroughs of how to use the calculator for different scenarios. Stay tuned!</p>
+    </div>
   </div>
 
+  <!-- Versions Section Box -->
   <div class="faq-item">
-    <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> Why do the calculators have different input options?</div>
-    <div class="faq-answer">Different input methods are available to fit various ways authors report their results. Choose the one that makes the most sense for the study you are appraising.<br>
-      For example, if you are assessing the performance of a Diagnostic Test and the authors report only the Predictive Values (and not sensitivity or specificity), choose PPV/NPV for your input fields.</div>
-  </div>
-
-  <div class="faq-item">
-    <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> Why did you create this app?</div>
-    <div class="faq-answer">I was frustrated by constantly having to switch between various websites to find online calculators for interpreting study results. I built the EBM Calculator app to streamline this process and to simplify evidence appraisal. My first version was coded in Python on my local devices. I decided to make it an official iOS app to share it easily with colleagues who were also evaluating the medical literature!</div>
-  </div>
-
-  <div class="faq-item">
-    <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> Are you planning to add more features?</div>
-    <div class="faq-answer">Yes! The more I learn, the more features I want to build into the app. But I also wanted to get it out there ASAP to start helping clinicians. If you have a suggestion of what would be helpful, please let me know at <a href="mailto:support@ebmcalculator.com">support@ebmcalculator.com</a>!</div>
+    <div class="faq-question" id="versions" onclick="toggleAnswer(this)"><span>&#9654;</span> Versions</div>
+    <div class="faq-answer">
+      <!-- Individual Version Items -->
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> v1.3.0</div>
+        <div class="faq-answer">
+          <ul>
+            <li>All new UI with navigation bar and cleaner appearance</li>
+            <li>Swipe on results to Share, Edit, Save, or Delete</li>
+            <li>Drag and drop results to rearrange in Results section</li>
+            <li>Calculate Post-Test Probability from any diagnostic test result</li>
+            <li>New Library section with various Lessons in EBM</li>
+            <li>Add Interactive Fagan Nomogram</li>
+            <li>Debug and refine UI</li>
+          </ul>
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> v1.2.0</div>
+        <div class="faq-answer">
+          <ul>
+            <li>Add feature to save, delete, and share results</li>
+            <li>Add formula pages</li>
+            <li>Update icons and logos</li>
+            <li>Debug and refine UI</li>
+          </ul>
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> v1.1.0</div>
+        <div class="faq-answer">
+          <ul>
+            <li>Add icons and logos</li>
+            <li>Debug and refine UI</li>
+          </ul>
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> v1.0.0</div>
+        <div class="faq-answer">
+          <ul>
+            <li>Effect Calculator</li>
+            <li>Diagnostic Test Calculator</li>
+            <li>Post-Test Probability Calculator</li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
 <script>
 function toggleAnswer(element) {
-  const answer = element.nextElementSibling;
-  const arrow = element.querySelector('span');
-  if (answer.style.display === 'block') {
-    answer.style.display = 'none';
-    arrow.innerHTML = '&#9654;'; // Right caret
+  var answer = element.nextElementSibling;
+  if (answer.style.display === "block") {
+    answer.style.display = "none";
+    element.querySelector("span").innerHTML = "&#9654;";
   } else {
-    answer.style.display = 'block';
-    arrow.innerHTML = '&#9660;'; // Down caret
+    answer.style.display = "block";
+    element.querySelector("span").innerHTML = "&#9660;";
   }
 }
 </script>
-
----
-
-<!-- How-To Guide Section -->
-<div class="section-header">
-  <h3><a id="how-to-guide"></a> How-To Guide (Coming Soon)</h3>
-  <a href="#top">^Top</a>
-</div>
-
-<p style="max-width: 600px; margin: 20px auto;">
-  This section will include walkthroughs of how to use the calculator for different scenarios. Stay tuned!
-</p>
-
----
-
-<!-- Versions Section -->
-<div class="section-header">
-  <h3><a id="versions"></a> Versions</h3>
-  <a href="#top">^Top</a>
-</div>
-
-<div style="max-width: 600px; margin: 20px auto;" markdown="1">
-  <!-- v1.3.0 -->
-  <div class="faq-item">
-    <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> v1.3.0</div>
-    <div class="faq-answer">
-      <ul>
-        <li>All new UI with navigation bar and cleaner appearance</li>
-        <li>Swipe on results to Share, Edit, Save, or Delete</li>
-        <li>Drag and drop results to rearrange in Results section</li>
-        <li>Calculate Post-Test Probability from any diagnostic test result</li>
-        <li>New Library section with various Lessons in EBM</li>
-        <li>Add Interactive Fagan Nomogram</li>
-        <li>Debug and refine UI</li>
-      </ul>
-    </div>
-  </div>
-  <!-- v1.2.0 -->
-  <div class="faq-item">
-    <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> v1.2.0</div>
-    <div class="faq-answer">
-      <ul>
-        <li>Add feature to save, delete, and share results</li>
-        <li>Add info pages with equations for each calculator</li>
-        <li>Update icons and logos</li>
-        <li>Debug and refine UI</li>
-      </ul>
-    </div>
-  </div>
-  <!-- v1.1.0 -->
-  <div class="faq-item">
-    <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> v1.1.0</div>
-    <div class="faq-answer">
-      <ul>
-        <li>Add icons and logos</li>
-        <li>Debug and refine UI</li>
-      </ul>
-    </div>
-  </div>
-  <!-- v1.0.0 -->
-  <div class="faq-item">
-    <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> v1.0.0</div>
-    <div class="faq-answer">
-      <ul>
-        <li>Effect Calculator</li>
-        <li>Diagnostic Test Calculator</li>
-        <li>Post-Test Probability Calculator</li>
-      </ul>
-    </div>
-  </div>
-</div>
-
----
-
-<div style="text-align: center; margin-top: 40px;">
-  &copy; 2024 David A. Stewart, MD
-</div>
