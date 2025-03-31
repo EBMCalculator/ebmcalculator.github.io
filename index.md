@@ -35,6 +35,12 @@
 
 ## EBM Calculator
 
+<div style="text-align: center; margin-top: 20px;">
+  <a href="https://testflight.apple.com/join/9FZgaZyd" style="background-color: #073472; color: white; padding: 12px 24px; font-size: 16px; border-radius: 8px; text-decoration: none; display: inline-block;">
+    Join the EBM Calculator Beta on TestFlight
+  </a>
+</div>
+
 <!-- Wrap the bulk of Markdown content in a container with width 600px and centered -->
 <div style="max-width: 600px; margin: 20px auto;" markdown="1">
 The goal of **EBM Calculator** is to help with your appraisal of the medical literature!  
