@@ -1,3 +1,5 @@
+<!-- Top anchor added so ^Top links go to the very top of the page -->
+<a id="top"></a>
 <div style="text-align: center;">
   <img src="/assets/images/EBM Calculator Logo Any 3x.png" alt="EBM Calculator Logo" width="200">
   <h1>EBM Calculator</h1>
@@ -22,21 +24,17 @@
       padding: 10px 10px;
     }
   }
-  
-  /* New support navigation styles */
-  .support-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
+  .section-links {
+    text-align: center;
     margin-top: 20px;
-    padding: 0 20px;
   }
-  .support-nav a {
-    margin-left: 15px;
+  .section-links a {
+    margin-right: 15px;
     text-decoration: none;
   }
   
-  /* Section header with top link */
+  /* Section header style with ^Top link on the right */
   .section-header {
     display: flex;
     justify-content: space-between;
@@ -69,25 +67,25 @@
   <a href="/privacy-policy">Privacy</a>
 </div>
 
-<!-- New support navigation block with Support and section links -->
-<div class="support-nav">
-  <div>
-    <span style="font-size: 1.5em; font-weight: bold;">Support</span>
-    <a href="#faq">FAQ</a>
-    <a href="#how-to-guide">How-To Guide</a>
-    <a href="#versions">Versions</a>
-  </div>
+<!-- Original Support header with centered links immediately below -->
+<h2>Support</h2>
+<div class="section-links">
+  <a href="#faq">FAQ</a>
+  <a href="#how-to-guide">How-To Guide</a>
+  <a href="#versions">Versions</a>
 </div>
 
-<div style="max-width: 600px; margin: 20px auto; text-align: justify;" markdown="1" id="top">
-  If you have any issues, questions, or feedback, please email me at [support@ebmcalculator.com](mailto:support@ebmcalculator.com).
+<div style="max-width: 600px; margin: 20px auto; text-align: justify;" markdown="1">
+  If you have any issues, questions, or feedback, please email me at 
+  <a href="mailto:support@ebmcalculator.com">support@ebmcalculator.com</a>.
 
-  For privacy-related information, please view the [Privacy Policy](/privacy-policy).
+  For privacy-related information, please view the 
+  <a href="/privacy-policy">Privacy Policy</a>.
 </div>
 
 ---
 
-<!-- FAQ Section Header with ^Top link on the right -->
+<!-- FAQ Section -->
 <div class="section-header">
   <h3><a id="faq"></a> Frequently Asked Questions</h3>
   <a href="#top">^Top</a>
@@ -101,7 +99,7 @@
 
   <div class="faq-item">
     <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> Saved Results Management</div>
-    <div class="faq-answer">You can save up to 25 results. You can reorder, delete individual results, or delete all saved results. This can be managed from the Saved Results screen.</div>
+    <div class="faq-answer">You can save up to 50 results. You can reorder, delete individual results, or delete all saved results. This can be managed from the Saved Results screen.</div>
   </div>
 
   <div class="faq-item">
@@ -136,7 +134,7 @@ function toggleAnswer(element) {
 
 ---
 
-<!-- How-To Guide Section Header with ^Top link on the right -->
+<!-- How-To Guide Section -->
 <div class="section-header">
   <h3><a id="how-to-guide"></a> How-To Guide (Coming Soon)</h3>
   <a href="#top">^Top</a>
@@ -148,7 +146,7 @@ function toggleAnswer(element) {
 
 ---
 
-<!-- Versions Section Header with ^Top link on the right -->
+<!-- Versions Section -->
 <div class="section-header">
   <h3><a id="versions"></a> Versions (Coming Soon)</h3>
   <a href="#top">^Top</a>
