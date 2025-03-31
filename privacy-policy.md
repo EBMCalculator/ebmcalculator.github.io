@@ -23,19 +23,18 @@
     }
   }
   
-  /* Accordion styling for privacy policy sections */
+  /* Box styling for privacy policy sections */
   .faq-item {
     margin-bottom: 20px;
   }
   .faq-question {
     font-weight: bold;
-    cursor: pointer;
     padding: 10px;
     background: #f7f7f7;
     border: 1px solid #ccc;
   }
   .faq-answer {
-    display: none;
+    display: block; /* Always visible */
     padding: 10px;
     border: 1px solid #ccc;
     border-top: none;
@@ -55,7 +54,7 @@
 <div style="max-width: 600px; margin: 20px auto;">
   <!-- 1. Introduction -->
   <div class="faq-item">
-    <div class="faq-question" onclick="toggleAnswer(this)">
+    <div class="faq-question">
       1. Introduction
     </div>
     <div class="faq-answer">
@@ -66,7 +65,7 @@
   
   <!-- 2. Data Collection & Usage -->
   <div class="faq-item">
-    <div class="faq-question" onclick="toggleAnswer(this)">
+    <div class="faq-question">
       2. Data Collection &amp; Usage
     </div>
     <div class="faq-answer">
@@ -81,7 +80,7 @@
   
   <!-- 3. Third-Party Services -->
   <div class="faq-item">
-    <div class="faq-question" onclick="toggleAnswer(this)">
+    <div class="faq-question">
       3. Third-Party Services
     </div>
     <div class="faq-answer">
@@ -91,7 +90,7 @@
   
   <!-- 4. User Control & Deletion -->
   <div class="faq-item">
-    <div class="faq-question" onclick="toggleAnswer(this)">
+    <div class="faq-question">
       4. User Control &amp; Deletion
     </div>
     <div class="faq-answer">
@@ -102,7 +101,7 @@
   
   <!-- 5. Changes to This Policy -->
   <div class="faq-item">
-    <div class="faq-question" onclick="toggleAnswer(this)">
+    <div class="faq-question">
       5. Changes to This Policy
     </div>
     <div class="faq-answer">
@@ -112,7 +111,7 @@
   
   <!-- 6. Contact -->
   <div class="faq-item">
-    <div class="faq-question" onclick="toggleAnswer(this)">
+    <div class="faq-question">
       6. Contact
     </div>
     <div class="faq-answer">
@@ -124,14 +123,3 @@
 <div style="text-align: center; margin-top: 40px;">
   &copy; 2024 David A. Stewart, MD
 </div>
-
-<script>
-function toggleAnswer(element) {
-  var answer = element.nextElementSibling;
-  if (answer.style.display === "block") {
-    answer.style.display = "none";
-  } else {
-    answer.style.display = "block";
-  }
-}
-</script>
