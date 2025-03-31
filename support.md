@@ -77,7 +77,9 @@
       </div>
       <div class="faq-item">
         <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> How many results can I save?</div>
-        <div class="faq-answer">You can save up to 50 results. From the Results tab, you can reorder results (press and drag), delete individual results (swipe left), share results (swipe right), or delete all saved results (from the menu button).</div>
+        <div class="faq-answer">You can save up to 50 results.<br>
+          <br>
+          From the Results tab, you can also reorder results (press and drag), delete individual results (swipe left), share results (swipe right), or delete all saved results (from the menu button).</div>
       </div>
       <div class="faq-item">
         <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> Why do the calculators have different input options?</div>
@@ -98,7 +100,9 @@
       </div>
       <div class="faq-item">
         <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> Are you planning to add more features?</div>
-        <div class="faq-answer">Yes! The more I learn, the more features I want to build into the app. But I also wanted to get it out there ASAP to start helping clinicians. If you have a suggestion of what would be helpful, please let me know at <a href="mailto:support@ebmcalculator.com">support@ebmcalculator.com</a>!</div>
+        <div class="faq-answer">Yes! The more I learn, the more features I want to build into the app. But I also wanted to get it out there ASAP to start helping clinicians.<br>
+          <br>
+          If you have a suggestion of what would be helpful, please let me know at <a href="mailto:support@ebmcalculator.com">support@ebmcalculator.com</a>!</div>
       </div>
     </div>
   </div>
