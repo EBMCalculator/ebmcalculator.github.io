@@ -104,7 +104,8 @@
 
   <div class="faq-item">
     <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> Why do the calculators have different input options?</div>
-    <div class="faq-answer">Different input methods are available to fit various ways authors report their results. Choose the one that makes the most sense for the study you are appraising. For example, if you are assessing the performance of a Diagnostic Test and the authors report only the Predictive Values (and not sensitivity or specificity), choose PPV/NPV for your input fields.</div>
+    <div class="faq-answer">Different input methods are available to fit various ways authors report their results. Choose the one that makes the most sense for the study you are appraising.
+      For example, if you are assessing the performance of a Diagnostic Test and the authors report only the Predictive Values (and not sensitivity or specificity), choose PPV/NPV for your input fields.</div>
   </div>
 
   <div class="faq-item">
@@ -148,13 +149,60 @@ function toggleAnswer(element) {
 
 <!-- Versions Section -->
 <div class="section-header">
-  <h3><a id="versions"></a> Versions (Coming Soon)</h3>
+  <h3><a id="versions"></a> Versions</h3>
   <a href="#top">^Top</a>
 </div>
 
-<p style="max-width: 600px; margin: 20px auto;">
-  A list of past versions and updates will be available here, along with release notes and new features.
-</p>
+<div style="max-width: 600px; margin: 20px auto;" markdown="1">
+  <!-- v1.3.0 -->
+  <div class="faq-item">
+    <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> v1.3.0</div>
+    <div class="faq-answer">
+      <ul>
+        <li>All new UI with navigation bar and cleaner appearance</li>
+        <li>Swipe on results to Share, Edit, Save, or Delete</li>
+        <li>Drag and drop results to rearrange in Results section</li>
+        <li>Calculate Post-Test Probability from any diagnostic test result</li>
+        <li>New Library section with various Lessons in EBM</li>
+        <li>Add Interactive Fagan Nomogram</li>
+        <li>Debug and refine UI</li>
+      </ul>
+    </div>
+  </div>
+  <!-- v1.2.0 -->
+  <div class="faq-item">
+    <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> v1.2.0</div>
+    <div class="faq-answer">
+      <ul>
+        <li>Add feature to save, delete, and share results</li>
+        <li>Add formula pages</li>
+        <li>Update icons and logos</li>
+        <li>Debug and refine UI</li>
+      </ul>
+    </div>
+  </div>
+  <!-- v1.1.0 -->
+  <div class="faq-item">
+    <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> v1.1.0</div>
+    <div class="faq-answer">
+      <ul>
+        <li>Add icons and logos</li>
+        <li>Debug and refine UI</li>
+      </ul>
+    </div>
+  </div>
+  <!-- v1.0.0 -->
+  <div class="faq-item">
+    <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> v1.0.0</div>
+    <div class="faq-answer">
+      <ul>
+        <li>Effect Calculator</li>
+        <li>Diagnostic Test Calculator</li>
+        <li>Post-Test Probability Calculator</li>
+      </ul>
+    </div>
+  </div>
+</div>
 
 ---
 
