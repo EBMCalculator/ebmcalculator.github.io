@@ -37,7 +37,9 @@
 
 <!-- Wrap the bulk of Markdown content in a container with width 600px and centered -->
 <div style="max-width: 600px; margin: 20px auto;" markdown="1">
-The goal of **EBM Calculator** is to help with your appraisal of the medical literature!  
+The goal of **EBM Calculator** is to help with your appraisal of the medical literature!
+
+If you'd like to beta-test the app through Apple's TestFlight program, click here: https://testflight.apple.com/join/9FZgaZyd
 
 ### Features
 
