@@ -40,7 +40,7 @@
 
 If you have any issues, questions, or feedback, feel free to reach out.  
 
-**Contact:** [EBMCalculator@icloud.com](mailto:EBMCalculator@icloud.com)  
+**Contact:** [support@ebmcalculator.com](mailto:support@ebmcalculator.com)  
 
 For privacy-related information, please view our [Privacy Policy](/privacy-policy).
 </div>
