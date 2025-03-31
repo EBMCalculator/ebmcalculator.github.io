@@ -71,7 +71,7 @@ For privacy-related information, please view our [Privacy Policy](/privacy-polic
 
 ---
 
-## <a id="faq"></a> Frequently Asked Questions
+### <a id="faq"></a> Frequently Asked Questions
 
 <div style="max-width: 600px; margin: 20px auto;" markdown="1">
   
@@ -117,13 +117,13 @@ function toggleAnswer(element) {
 
 ---
 
-## <a id="how-to-guide"></a> How-To Guide (Coming Soon)
+### <a id="how-to-guide"></a> How-To Guide (Coming Soon)
 
 This section will include walkthroughs of how to use the calculator for different scenarios. Stay tuned!
 
 ---
 
-## <a id="versions"></a> Versions (Coming Soon)
+### <a id="versions"></a> Versions (Coming Soon)
 
 A list of past versions and updates will be available here, along with release notes and new features.
 
