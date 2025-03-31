@@ -83,13 +83,13 @@ The goal of **EBM Calculator** is to help with your appraisal of the medical lit
 #### **Save & Share**
 - Up to 50 results can be **saved** within the app for future reference.  
 - Easily **share, export, or print** results directly from the app.
-</div>
 
 ---
 
 #### **Library**
 - Access lessons in **Evidence-Based Medicine (EBM)**.  
 - Reinforce concepts in biostatistics and study design.
+</div>
 
 ---
 
