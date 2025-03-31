@@ -83,12 +83,18 @@
         <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> Why do the calculators have different input options?</div>
         <div class="faq-answer">
           Different input methods are available to fit various ways authors report their results. Choose the one that makes the most sense for the study you are appraising.<br>
+          <br>
           For example, if you are assessing the performance of a Diagnostic Test and the authors report only the Predictive Values (and not sensitivity or specificity), choose PPV/NPV for your input fields.
         </div>
       </div>
       <div class="faq-item">
         <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> Why did you create this app?</div>
-        <div class="faq-answer">I was frustrated by constantly having to switch between various websites to find online calculators for interpreting study results. I built the EBM Calculator app to streamline this process and to simplify evidence appraisal. My first version was coded in Python on my local devices. I decided to make it an official iOS app to share it easily with colleagues who were also evaluating the medical literature!</div>
+        <div class="faq-answer">I was frustrated by constantly having to switch between various websites to find online calculators for interpreting study results. I built the EBM Calculator app to streamline this process and to simplify evidence appraisal.<br>
+          <br>
+          My first version was coded in Python for use on my laptop. I decided to make it an official iOS app to share it easily with colleagues who were also evaluating the medical literature!<br>
+        <br>
+          It’s come a long way since I started, but it’s still a purposefully simple app: input data from a study to see the strength of association (for studies on a new therapy or exposure), the performance of a diagnostic test, or to calculate the post-test probability.
+        </div>
       </div>
       <div class="faq-item">
         <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> Are you planning to add more features?</div>
