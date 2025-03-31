@@ -1,3 +1,18 @@
+<!-- Favicon -->
+<link rel="icon" href="/assets/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" href="/assets/images/favicon-16x16.png" sizes="16x16">
+
+<!-- Apple Touch Icons -->
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon-180x180.png" sizes="180x180">
+
+<!-- Open Graph Image for iMessage -->
+<meta property="og:title" content="EBM Calculator">
+<meta property="og:description" content="A helpful app for evidence-based medicine calculations.">
+<meta property="og:image" content="https://ebmcalculator.com/assets/images/preview-image-1200x630.png">
+<meta property="og:url" content="https://ebmcalculator.com">
+<meta property="og:type" content="website">
+
+
 <div style="text-align: center;">
   <img src="/assets/images/EBM Calculator Logo Any 3x.png" alt="EBM Calculator Logo" width="200">
   <h1>EBM Calculator</h1>
