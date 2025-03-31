@@ -17,11 +17,26 @@
     white-space: nowrap;
     transition: padding 0.3s ease;
   }
-  /* When the screen is 480px wide or less, reduce horizontal padding */
   @media (max-width: 480px) {
     .tab-bar a {
       padding: 10px 10px;
     }
+  }
+  /* Box styling for non-collapsible sections */
+  .faq-item {
+    margin-bottom: 20px;
+  }
+  .faq-question {
+    font-weight: bold;
+    padding: 10px;
+    background: #f7f7f7;
+    border: 1px solid #ccc;
+  }
+  .faq-answer {
+    display: block; /* Always visible */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-top: none;
   }
 </style>
 
@@ -32,26 +47,33 @@
   <a href="/privacy-policy">Privacy</a>
 </div>
 
+<h2 style="text-align: center;">About</h2>
 
-## About
-<!-- Wrap the bulk of Markdown content in a container with width 600px and centered -->
-<div style="max-width: 600px; margin: 20px auto; text-align: justify;" markdown="1">
+<div style="max-width: 600px; margin: 20px auto;">
+  <!-- Disclaimer Box -->
+  <div class="faq-item">
+    <div class="faq-question">Disclaimer</div>
+    <div class="faq-answer">
+      <p>This app was created for educational use. The content provided should not replace clinical judgement and results should be interpreted within the context of statistical and study limitations. Medical decisions should <strong>NOT</strong> be based solely on results from this app.</p>
+    </div>
+  </div>
   
-  **Disclaimer:** This app was created for educational use. The content provided should not replace clinical judgement and results should be interpreted within the context of statistical and study limitations. Medical decisions should **NOT** be based solely on results from this app.
-
-  I hope my app helps your ongoing learning and appraisal of medical literature!
+  <!-- About Content Box -->
+  <div class="faq-item">
+    <div class="faq-question">About the App</div>
+    <div class="faq-answer">
+      <p>I hope my app helps your ongoing learning and appraisal of medical literature!</p>
+    </div>
+  </div>
   
+  <!-- Feedback Box -->
+  <div class="faq-item">
+    <div class="faq-question">Questions or Feedback?</div>
+    <div class="faq-answer" style="text-align: center;">
+      <p><a href="mailto:support@ebmcalculator.com">support@ebmcalculator.com</a></p>
+    </div>
+  </div>
 </div>
-
-<div style="max-width: 600px; margin: 20px auto; text-align: center;" markdown="1">
-
-  **Questions or Feedback?**
-  
-  [support@ebmcalculator.com](mailto:support@ebmcalculator.com)
-  
-</div>
-
----
 
 <div style="text-align: center; margin-top: 40px;">
   &copy; 2024 David A. Stewart, MD
