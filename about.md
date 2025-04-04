@@ -7,6 +7,11 @@
   
     a {
     color: #073472;
+    text-decoration: none;
+  }
+  
+    a:hover {
+    text-decoration: none;
   }
   
   .tab-bar {
@@ -89,11 +94,11 @@
   
   **Questions or Feedback?** <br>
   <a href="mailto:support@ebmcalculator.com" style="display: inline-flex; align-items: center; gap: 5px;">
-    &#x2709; Send me an email
+    <span style="font-size: 20px;">&#x2709;</span> Send me an email
   </a>  
 
   **Enjoying the app?** <br>
-  <a href="https://buymeacoffee.com/davidstewart">
+  <a href="https://buymeacoffee.com/davidstewart" target="_blank" rel="noopener noreferrer">
     <img src="/assets/images/EBMCalculator-any-bmc-logo 3x.png" alt="Buy Me a Coffee" style="height: 25px; object-fit: contain;">
   </a>
 </div>
