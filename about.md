@@ -42,8 +42,15 @@
     background: #f7f7f7;
     border: 1px solid #ccc;
   }
+ 
+  .faq-block {
+    display: block; /* Always visible */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-top: none;
+  } 
   .faq-answer {
-    display: none; /* Always visible */
+    display: none; /* Collapsible */
     padding: 10px;
     border: 1px solid #ccc;
     border-top: none;
@@ -83,7 +90,7 @@
   <!-- Disclaimer Box -->
   <div class="faq-item">
     <div class="faq-question">Disclaimer</div>
-    <div class="faq-answer">
+    <div class="faq-block">
       <p>This app was created for educational use. The content provided should not replace clinical judgement and results should be interpreted within the context of statistical and study limitations. Medical decisions should <strong>NOT</strong> be based solely on results from this app.</p>
     </div>
   </div>
