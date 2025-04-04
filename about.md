@@ -104,7 +104,7 @@
   </a>
 </div>
 
-
+<br><br>
 <!-- Collapsible Formulas Box with PDF Link -->
 <details>
   <summary style="font-weight: bold; padding: 10px; background: #f7f7f7; border: 1px solid #ccc; cursor: pointer;">Formulas</summary>
