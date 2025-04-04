@@ -94,7 +94,7 @@
   
   **Questions or Feedback?** <br>
   <a href="mailto:support@ebmcalculator.com" style="display: inline-flex; align-items: center; gap: 5px;">
-    <span style="font-size: 40px;">&#x2709;</span> Send me an email
+    <span style="font-size: 30px;">&#x2709;</span> Send me an email
   </a>  
 
   **Enjoying the app?** <br>
