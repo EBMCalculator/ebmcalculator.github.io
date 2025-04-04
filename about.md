@@ -85,9 +85,13 @@
   **Questions or Feedback?** <br>
   [support@ebmcalculator.com](mailto:support@ebmcalculator.com)  
 </div>
-
-<div style="text-align: center; margin-top: 40px;">
-  &copy; 2024 David A. Stewart, MD
+  
+  <div style="padding-top: 25px;">
+    <p style="font-weight: bold; margin: 0;">Enjoying the app?</p>
+    <a href="https://buymeacoffee.com/davidstewart" style="display: inline-block; padding-top: 10px;">
+      <img src="EBMCalculator-any-bmc-logo 3x.png" alt="Buy Me a Coffee" style="height: 25px; object-fit: contain;">
+    </a>
+  </div>
 </div>
 
 
@@ -99,3 +103,6 @@
   </div>
 </details>
 
+<div style="text-align: center; margin-top: 40px;">
+  &copy; 2024 David A. Stewart, MD
+</div>
