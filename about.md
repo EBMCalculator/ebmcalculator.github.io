@@ -95,7 +95,7 @@
 <details>
   <summary style="font-weight: bold; padding: 10px; background: #f7f7f7; border: 1px solid #ccc; cursor: pointer;">Formulas</summary>
   <div style="max-width: 600px; margin: 20px auto; padding: 10px; border: 1px solid #ccc; border-top: none; text-align: center;">
-    <p>To review the formulas used for all metrics and confidence intervals, please <a href="/assets/pdf/formulas.pdf" target="_blank" rel="noopener noreferrer">View or Download the Formulas PDF</a>.</p>
+    <p>To review the formulas used for all metrics and confidence intervals, please <a href="/assets/pdf/Formulas.pdf" target="_blank" rel="noopener noreferrer">View or Download the Formulas PDF</a>.</p>
   </div>
 </details>
 
