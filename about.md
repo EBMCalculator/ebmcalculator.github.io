@@ -55,26 +55,6 @@
     border: 1px solid #ccc;
     border-top: none;
   }
-    /* Additional styling for the collapsible formulas box */
-  details {
-    margin: 20px auto;
-    max-width: 600px;
-    border: 1px solid #ccc;
-  }
-  details summary {
-    font-weight: bold;
-    padding: 10px;
-    background: #f7f7f7;
-    border-bottom: 1px solid #ccc;
-    cursor: pointer;
-  }
-  details div {
-    padding: 10px;
-  }
-  pre {
-    white-space: pre-wrap; /* Allow line wrapping */
-    word-wrap: break-word;
-  }
 </style>
 
 <div class="tab-bar">
@@ -117,19 +97,11 @@
   <div class="faq-item">
     <div class="faq-question" id="Formulas" onclick="toggleAnswer(this)"><span>&#9654;</span> Formulas</div>
     <div class="faq-answer">
-      <p>To review the formulas used for all metrics and confidence intervals, please <a href="/assets/pdf/Formulas.pdf" target="_blank" rel="noopener noreferrer">View or Download the Formulas PDF</a>.</p>
+      <p><a href="/assets/pdf/Formulas.pdf" target="_blank" rel="noopener noreferrer">Click here to review the formulas</a> used for calculating metrics and confidence intervals in the app.</p>
     </div>
   </div>
 </div>
   
-<!-- Collapsible Formulas Box with PDF Link -->
-<details>
-  <summary style="font-weight: bold; padding: 10px; background: #f7f7f7; border: 1px solid #ccc; cursor: pointer;">Formulas</summary>
-  <div style="max-width: 600px; margin: 20px auto; padding: 10px; border: 1px solid #ccc; border-top: none; text-align: center;">
-    <p>To review the formulas used for all metrics and confidence intervals, please <a href="/assets/pdf/Formulas.pdf" target="_blank" rel="noopener noreferrer">View or Download the Formulas PDF</a>.</p>
-  </div>
-</details>
-
 <div style="text-align: center; margin-top: 40px;">
   &copy; 2024 David A. Stewart, MD
 </div>
