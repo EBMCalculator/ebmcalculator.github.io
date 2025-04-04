@@ -85,8 +85,6 @@
   **Questions or Feedback?** <br>
   [support@ebmcalculator.com](mailto:support@ebmcalculator.com)  
 
-  <br><br>
-
   **Enjoying the app?** <br>
   <a href="https://buymeacoffee.com/davidstewart">
     <img src="/assets/images/EBMCalculator-any-bmc-logo 3x.png" alt="Buy Me a Coffee" style="height: 25px; object-fit: contain;">
