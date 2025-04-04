@@ -4,6 +4,16 @@
 </div>
 
 <style>
+
+      a {
+    color: #073472;
+    text-decoration: none;
+  }
+  
+    a:hover {
+    text-decoration: none;
+  }
+  
   .tab-bar {
     display: flex;
     justify-content: center;
