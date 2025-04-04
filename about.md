@@ -95,11 +95,11 @@
   **Questions or Feedback?** <br>
   <a href="mailto:support@ebmcalculator.com" style="display: inline-flex; align-items: center; gap: 5px;">
     <span style="font-size: 30px;">&#x2709;</span> Send me an email
-  </a>  
+  </a>   
 
   **Enjoying the app?** <br>
   <a href="https://buymeacoffee.com/davidstewart" target="_blank" rel="noopener noreferrer">
-    <img src="/assets/images/EBMCalculator-any-bmc-logo 3x.png" alt="Buy Me a Coffee" style="height: 25px; object-fit: contain;">
+    <img src="/assets/images/EBMCalculator-any-bmc-logo 3x.png" alt="Buy Me a Coffee" style="height: 25px; object-fit: contain; margin-top: 10px">
   </a>
 </div>
 
