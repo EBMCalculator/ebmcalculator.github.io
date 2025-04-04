@@ -104,7 +104,15 @@
   </a>
 </div>
 
-<br><br>
+<br>
+  <!-- How-To Guide Section Box -->
+  <div class="faq-item">
+    <div class="faq-question" id="how-to-guide" onclick="toggleAnswer(this)"><span>&#9654;</span> Formulas</div>
+    <div class="faq-answer">
+      <p>This section will include walkthroughs of how to use the calculator for different scenarios. Stay tuned!</p>
+    </div>
+  </div>
+  
 <!-- Collapsible Formulas Box with PDF Link -->
 <details>
   <summary style="font-weight: bold; padding: 10px; background: #f7f7f7; border: 1px solid #ccc; cursor: pointer;">Formulas</summary>
