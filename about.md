@@ -105,13 +105,15 @@
 </div>
 
 <br>
+<div style="max-width: 600px; margin: 20px auto;">
   <!-- How-To Guide Section Box -->
   <div class="faq-item">
     <div class="faq-question" id="how-to-guide" onclick="toggleAnswer(this)"><span>&#9654;</span> Formulas</div>
     <div class="faq-answer">
-      <p>This section will include walkthroughs of how to use the calculator for different scenarios. Stay tuned!</p>
+      <p>To review the formulas used for all metrics and confidence intervals, please <a href="/assets/pdf/Formulas.pdf" target="_blank" rel="noopener noreferrer">View or Download the Formulas PDF</a>.</p>
     </div>
   </div>
+</div>
   
 <!-- Collapsible Formulas Box with PDF Link -->
 <details>
