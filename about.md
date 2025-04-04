@@ -84,7 +84,6 @@
   
   **Questions or Feedback?** <br>
   [support@ebmcalculator.com](mailto:support@ebmcalculator.com)  
-</div>
   
   <div style="padding-top: 25px;">
     <p style="font-weight: bold; margin: 0;">Enjoying the app?</p>
