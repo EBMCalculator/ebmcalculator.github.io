@@ -94,12 +94,13 @@
   
   **Questions or Feedback?** <br>
   <a href="mailto:support@ebmcalculator.com" style="display: inline-flex; align-items: center; gap: 5px;">
-    <span style="font-size: 30px;">&#x2709;</span> Send me an email
-  </a>   
+    <span style="font-size: 30px; line-height: 1; vertical-align: middle;">&#x2709;</span>
+    <span style="line-height: 1; vertical-align: middle;">Send me an email</span>
+  </a>  
 
   **Enjoying the app?** <br>
   <a href="https://buymeacoffee.com/davidstewart" target="_blank" rel="noopener noreferrer">
-    <img src="/assets/images/EBMCalculator-any-bmc-logo 3x.png" alt="Buy Me a Coffee" style="height: 25px; object-fit: contain; margin-top: 10px">
+    <img src="/assets/images/EBMCalculator-any-bmc-logo 3x.png" alt="Buy Me a Coffee" style="height: 25px; object-fit: contain; margin-top: 5px">
   </a>
 </div>
 
