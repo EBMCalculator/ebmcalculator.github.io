@@ -4,6 +4,11 @@
 </div>
 
 <style>
+  
+    a {
+    color: #073472;
+  }
+  
   .tab-bar {
     display: flex;
     justify-content: center;
@@ -83,7 +88,9 @@
   I hope my app helps your ongoing learning and appraisal of medical literature!
   
   **Questions or Feedback?** <br>
-  [support@ebmcalculator.com](mailto:support@ebmcalculator.com)  
+  <a href="mailto:support@ebmcalculator.com" style="display: inline-flex; align-items: center; gap: 5px;">
+    &#x2709; Send me an email
+  </a>  
 
   **Enjoying the app?** <br>
   <a href="https://buymeacoffee.com/davidstewart">
