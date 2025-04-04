@@ -43,7 +43,7 @@
     border: 1px solid #ccc;
   }
   .faq-answer {
-    display: block; /* Always visible */
+    display: none; /* Always visible */
     padding: 10px;
     border: 1px solid #ccc;
     border-top: none;
@@ -108,7 +108,7 @@
 <div style="max-width: 600px; margin: 20px auto;">
   <!-- How-To Guide Section Box -->
   <div class="faq-item">
-    <div class="faq-question" id="how-to-guide" onclick="toggleAnswer(this)"><span>&#9654;</span> Formulas</div>
+    <div class="faq-question" id="Formulas" onclick="toggleAnswer(this)"><span>&#9654;</span> Formulas</div>
     <div class="faq-answer">
       <p>To review the formulas used for all metrics and confidence intervals, please <a href="/assets/pdf/Formulas.pdf" target="_blank" rel="noopener noreferrer">View or Download the Formulas PDF</a>.</p>
     </div>
