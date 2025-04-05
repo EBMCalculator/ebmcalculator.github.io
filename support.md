@@ -100,7 +100,7 @@
         </div>
       </div>      
       <div class="faq-item">
-        <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> What devices are compatible?</div>
+        <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> What formulas are used for calculating confidence intervals?</div>
         <div class="faq-answer">
           <p><a href="/assets/pdf/Formulas.pdf" target="_blank" rel="noopener noreferrer">Click here to review the formulas</a> used for calculating all metrics and confidence intervals in the app.</p>
         </div>
