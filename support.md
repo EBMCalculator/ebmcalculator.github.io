@@ -101,7 +101,8 @@
       </div>
       <div class="faq-item">
         <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> What formulas did you use for the confidence intervals?</div>
-        <div class="faq-answer">EBM Calculator is available on iOS devices running iOS 18.1 or later. It is optimized for iPhones, but will also run on iPads and Apple Silicon Macs.</div>
+        <div class="faq-answer">
+                <p><a href="/assets/pdf/Formulas.pdf" target="_blank" rel="noopener noreferrer">Click here to review the formulas</a> used for calculating all metrics and confidence intervals in the app.</p>
       </div>      
       <div class="faq-item">
         <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> Why did you create this app?</div>
