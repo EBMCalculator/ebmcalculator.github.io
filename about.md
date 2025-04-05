@@ -81,7 +81,7 @@
   
   **Questions or Feedback?** <br>
   <a href="mailto:support@ebmcalculator.com" style="display: inline-flex; align-items: center; gap: 5px;">
-    <span style="font-size: 30px; line-height: 1; vertical-align: top;">&#x2709;</span>
+    <span style="font-size: 30px; line-height: 1; vertical-align: top;">&#x2709;&#xFE0E</span>
     <span style="line-height: 1; vertical-align: middle;">Send me an email</span>
   </a>  
 
