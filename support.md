@@ -131,20 +131,19 @@
 <div class="faq-item">
   <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> Effect Calculator</div>
   <div class="faq-answer">
-    <p>First, choose how you would like to input data, either as the "Event Rates" or as the "Counts" (i.e., the numbers of participants in each arm of the study). Depending on how the authors present their study results, one may be easier to find than the other.</p>
+    <p>First, select how you would like to input the study data. You can choose either "Event Rates" or "Counts" (the number of participants in each arm of the study).</p>
     <!-- Screenshots 2a and 2b with centered "or" -->
     <p style="text-align: center;">Event Rates:
       <a href="assets/images/screenshots/Effect - Screenshot 2a.png" target="_blank" rel="noopener noreferrer">
         <img src="assets/images/screenshots/Effect - Screenshot 2a.png" alt="Effect - Screenshot 2a" style="max-width:50%; height:auto; display:block; margin:0 auto; box-shadow: none;">
       </a>
     </p>
-    <p style="text-align: center;">or</p>
-    <p style="text-align: center;">Counts:
+    <p style="text-align: center;">or Counts:
       <a href="assets/images/screenshots/Effect - Screenshot 2b.png" target="_blank" rel="noopener noreferrer">
         <img src="assets/images/screenshots/Effect - Screenshot 2b.png" alt="Effect - Screenshot 2b" style="max-width:50%; height:auto; display:block; margin:0 auto; box-shadow: none;">
       </a>
     </p>
-    <p>Based on how the authors of this study<sup><a href="#ref1" style="text-decoration: none;">[1]</a></sup> presented their results, you could choose either.</p>
+    <p>Based on how the authors of this study<sup><a href="#ref1" style="text-decoration: none;">[1]</a></sup> presented their results in the table below, you could choose either input method.</p>
     <p style="text-align: center;">
       <a href="assets/images/screenshots/Effect - Example Study.png" target="_blank" rel="noopener noreferrer">
         <img src="assets/images/screenshots/Effect - Example Study.png" alt="Effect - Example Study" style="max-width:90%; height:auto; display:block; margin:0 auto; box-shadow: none;">
@@ -158,7 +157,7 @@
     </p>
     <p>Press the "Calculate" button to see the relevant effect estimates and their confidence intervals.
       <br><br>
-      The authors provided us the OR (Odds Ratio) in the table above; however, the absolute risk metrics would help us to better understand the magnitude of the treatment effect. In this example, EBM Calculator displays the ARI (Absolute Risk Increase) and NNT (Number Needed to Treat) to increase the outcome by 1, along with the relative risk metrics and associated confidence intervals:</p>
+      The authors provided us the OR (Odds Ratio) in the table above; however, the absolute risk metrics would help us to better understand the magnitude of the treatment effect. In this example, EBM Calculator displays the ARI (Absolute Risk Increase) and NNT (Number Needed to Treat) to increase the outcome by 1, along with the relative risk metrics and associated confidence intervals.</p>
     <p style="text-align: center;">
       <a href="assets/images/screenshots/Effect - Screenshot 4.png" target="_blank" rel="noopener noreferrer">
         <img src="assets/images/screenshots/Effect - Screenshot 4.png" alt="Effect - Screenshot 4" style="max-width:50%; height:auto; display:block; margin:0 auto; box-shadow: none;">
