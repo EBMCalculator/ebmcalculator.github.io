@@ -134,30 +134,40 @@
     <p>Choose to input data as event rates or as the numbers of participants in each arm of the study.</p>
     <!-- Screenshots 2a and 2b with centered "or" -->
     <p style="text-align: center;">
-      <img src="assets/images/screenshots/Effect - Screenshot 2a.png" alt="Effect - Screenshot 2a" style="max-width:50%; height:auto; display:block; margin:0 auto;">
+      <a href="assets/images/screenshots/Effect - Screenshot 2a.png" target="_blank" rel="noopener noreferrer">
+        <img src="assets/images/screenshots/Effect - Screenshot 2a.png" alt="Effect - Screenshot 2a" style="max-width:50%; height:auto; display:block; margin:0 auto; box-shadow: none;">
+      </a>
     </p>
     <p style="text-align: center;">or</p>
     <p style="text-align: center;">
-      <img src="assets/images/screenshots/Effect - Screenshot 2b.png" alt="Effect - Screenshot 2b" style="max-width:50%; height:auto; display:block; margin:0 auto;">
+      <a href="assets/images/screenshots/Effect - Screenshot 2b.png" target="_blank" rel="noopener noreferrer">
+        <img src="assets/images/screenshots/Effect - Screenshot 2b.png" alt="Effect - Screenshot 2b" style="max-width:50%; height:auto; display:block; margin:0 auto; box-shadow: none;">
+      </a>
     </p>
     <p>The way the study results are presented below<sup><a href="#ref1" style="text-decoration: none;">[1]</a></sup>, you could choose either. I chose to enter the event rates:</p>
-<p style="text-align: center;">
-  <img src="assets/images/screenshots/Effect - Example Study.png" alt="Effect - Example Study" style="max-width:90%; height:auto; display:block; margin:0 auto;">
-</p>
-<!-- Screenshot 3 repeated with downward arrow -->
-<p style="text-align: center;">
-  <img src="assets/images/screenshots/Effect - Screenshot 3.png" alt="Effect - Screenshot 3" style="max-width:50%; height:auto; display:block; margin:0 auto;">
-</p>
-<p style="text-align: center;">&#x2193;</p>
-<p style="text-align: center;">
-  <img src="assets/images/screenshots/Effect - Screenshot 4.png" alt="Effect - Screenshot 4" style="max-width:50%; height:auto; display:block; margin:0 auto;">
-</p>
-<!-- Reference in smaller text -->
-<p id="ref1" style="font-size:0.8em; text-align:left; margin-top:20px;">
-  <a href="https://pubmed.ncbi.nlm.nih.gov/29913001/" target="_blank" rel="noopener noreferrer">
-    Basu B, Sander A, Roy B, Preussler S, Barua S, Mahapatra TKS, Schaefer F. Efficacy of Rituximab vs Tacrolimus in Pediatric Corticosteroid-Dependent Nephrotic Syndrome: A Randomized Clinical Trial. JAMA Pediatr. 2018 Aug 1;172(8):757-764. doi: 10.1001/jamapediatrics.2018.1323. Erratum in: JAMA Pediatr. 2018 Dec 1;172(12):1205. doi: 10.1001/jamapediatrics.2018.3632. PMID: 29913001; PMCID: PMC6142920.
-  </a>
-</p>
+    <p style="text-align: center;">
+      <a href="assets/images/screenshots/Effect - Example Study.png" target="_blank" rel="noopener noreferrer">
+        <img src="assets/images/screenshots/Effect - Example Study.png" alt="Effect - Example Study" style="max-width:90%; height:auto; display:block; margin:0 auto; box-shadow: none;">
+      </a>
+    </p>
+    <!-- Screenshot 3 repeated with downward arrow -->
+    <p style="text-align: center;">
+      <a href="assets/images/screenshots/Effect - Screenshot 3.png" target="_blank" rel="noopener noreferrer">
+        <img src="assets/images/screenshots/Effect - Screenshot 3.png" alt="Effect - Screenshot 3" style="max-width:50%; height:auto; display:block; margin:0 auto; box-shadow: none;">
+      </a>
+    </p>
+    <p style="text-align: center;">&#x2193;</p>
+    <p style="text-align: center;">
+      <a href="assets/images/screenshots/Effect - Screenshot 4.png" target="_blank" rel="noopener noreferrer">
+        <img src="assets/images/screenshots/Effect - Screenshot 4.png" alt="Effect - Screenshot 4" style="max-width:50%; height:auto; display:block; margin:0 auto; box-shadow: none;">
+      </a>
+    </p>
+    <!-- Reference in smaller text -->
+    <p id="ref1" style="font-size:0.8em; text-align:left; margin-top:20px;">
+      <a href="https://pubmed.ncbi.nlm.nih.gov/29913001/" target="_blank" rel="noopener noreferrer">
+        Basu B, Sander A, Roy B, Preussler S, Barua S, Mahapatra TKS, Schaefer F. Efficacy of Rituximab vs Tacrolimus in Pediatric Corticosteroid-Dependent Nephrotic Syndrome: A Randomized Clinical Trial. JAMA Pediatr. 2018 Aug 1;172(8):757-764. doi: 10.1001/jamapediatrics.2018.1323. Erratum in: JAMA Pediatr. 2018 Dec 1;172(12):1205. doi: 10.1001/jamapediatrics.2018.3632. PMID: 29913001; PMCID: PMC6142920.
+      </a>
+    </p>
   </div>
 </div>
       <div class="faq-item">
