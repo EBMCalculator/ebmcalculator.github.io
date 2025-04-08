@@ -127,7 +127,31 @@
   <div class="faq-item">
     <div class="faq-question" id="how-to-guide" onclick="toggleAnswer(this)"><span>&#9654;</span> How-To Guide</div>
     <div class="faq-answer">
-      <p>This section will include walkthroughs of how to use the calculator for different scenarios. Stay tuned!</p>
+      <!-- Individual How-To items -->
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> Effect Calculator</div>
+        <div class="faq-answer">
+          Placeholder text: walkthrough instructions for using the Effect Calculator will be provided here.
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> Diagnostic Test Calculator</div>
+        <div class="faq-answer">
+          Placeholder text: a step-by-step guide for using the Diagnostic Test Calculator will be available soon.
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> Post-Test Probability Calculator</div>
+        <div class="faq-answer">
+          Placeholder text: details on how to use the Post-Test Probability Calculator will be added here shortly.
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> Viewing Results</div>
+        <div class="faq-answer">
+          Placeholder text: instructions for viewing results and best practices will appear here.
+        </div>
+      </div>
     </div>
   </div>
 
