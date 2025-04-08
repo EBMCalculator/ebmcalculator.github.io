@@ -131,7 +131,20 @@
       <div class="faq-item">
         <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> Effect Calculator</div>
         <div class="faq-answer">
-          Placeholder text: walkthrough instructions for using the Effect Calculator will be provided here.
+          <p>Choose to input data as event rates or as the numbers of participants in each arm of the study.</p>
+          <p>
+            <img src="assets/images/screenshots/Effect - Screenshot 1.png" alt="Effect - Screenshot 1" style="max-width:100%;"> → 
+            <img src="assets/images/screenshots/Effect - Screenshot 2a.png" alt="Effect - Screenshot 2a" style="max-width:100%;"> or 
+            <img src="assets/images/screenshots/Effect - Screenshot 2b.png" alt="Effect - Screenshot 2b" style="max-width:100%;">
+          </p>
+          <p>For example, choose event rates if the study you're appraising displays the following results:</p>
+          <p>
+            <img src="assets/images/screenshots/Effect - Example Study.png" alt="Effect - Example Study" style="max-width:100%;">
+          </p>
+          <p>
+            <img src="assets/images/screenshots/Effect - Screenshot 3.png" alt="Effect - Screenshot 3" style="max-width:100%;"> → 
+            <img src="assets/images/screenshots/Effect - Screenshot 4.png" alt="Effect - Screenshot 4" style="max-width:100%;">
+          </p>
         </div>
       </div>
       <div class="faq-item">
