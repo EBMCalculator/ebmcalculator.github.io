@@ -133,8 +133,7 @@
   <div class="faq-answer">
     <p>First, choose how you would like to input data, either as the "Event Rates" or as the "Counts" (i.e., the numbers of participants in each arm of the study). Depending on how the authors present their study results, one may be easier to find than the other.</p>
     <!-- Screenshots 2a and 2b with centered "or" -->
-    <p style="text-align: center;">Event Rates:</p>
-    <p style="text-align: center;">
+    <p style="text-align: center;">Event Rates:
       <a href="assets/images/screenshots/Effect - Screenshot 2a.png" target="_blank" rel="noopener noreferrer">
         <img src="assets/images/screenshots/Effect - Screenshot 2a.png" alt="Effect - Screenshot 2a" style="max-width:50%; height:auto; display:block; margin:0 auto; box-shadow: none;">
       </a>
@@ -145,20 +144,21 @@
         <img src="assets/images/screenshots/Effect - Screenshot 2b.png" alt="Effect - Screenshot 2b" style="max-width:50%; height:auto; display:block; margin:0 auto; box-shadow: none;">
       </a>
     </p>
-    <p>Based on how the authors of this study<sup><a href="#ref1" style="text-decoration: none;">[1]</a></sup> presented their results, you could choose either. I chose to enter the event rates (EER 90.0%, CER 63.3%):</p>
+    <p>Based on how the authors of this study<sup><a href="#ref1" style="text-decoration: none;">[1]</a></sup> presented their results, you could choose either.</p>
     <p style="text-align: center;">
       <a href="assets/images/screenshots/Effect - Example Study.png" target="_blank" rel="noopener noreferrer">
         <img src="assets/images/screenshots/Effect - Example Study.png" alt="Effect - Example Study" style="max-width:90%; height:auto; display:block; margin:0 auto; box-shadow: none;">
       </a>
     </p>
     <!-- Screenshot 3 repeated with downward arrow -->
-    <p style="text-align: center;">
+    <p style="text-align: center;">I chose to enter the event rates (EER 90.0%, CER 63.3%):
       <a href="assets/images/screenshots/Effect - Screenshot 3.png" target="_blank" rel="noopener noreferrer">
         <img src="assets/images/screenshots/Effect - Screenshot 3.png" alt="Effect - Screenshot 3" style="max-width:50%; height:auto; display:block; margin:0 auto; box-shadow: none;">
       </a>
     </p>
-    <p>Press the "Calculate" button to see the relevant effect estimates and their confidence intervals.<br>
-      In this study, the authors had already presented the OR; however, it is often beneficial to use the ARR and NNT to better understand the magnitude of effect the experimental treatment has on the outcome.</p>
+    <p>Press the "Calculate" button to see the relevant effect estimates and their confidence intervals.
+      <br><br>
+      In this study, the authors had already shown us the OR; however, it is often beneficial to know the absolute risk metrics to better understand the magnitude of the treatment effect. For this study's results, EBM Calculator displays the ARI (Absolute Risk Increase) and NNT (Number Needed to Treat) along with the relative risk metrics and associated confidence intervals:</p>
     <p style="text-align: center;">
       <a href="assets/images/screenshots/Effect - Screenshot 4.png" target="_blank" rel="noopener noreferrer">
         <img src="assets/images/screenshots/Effect - Screenshot 4.png" alt="Effect - Screenshot 4" style="max-width:50%; height:auto; display:block; margin:0 auto; box-shadow: none;">
