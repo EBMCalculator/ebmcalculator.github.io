@@ -193,7 +193,7 @@
         <img src="assets/images/screenshots/Diagnostic Test - Screenshot 2c.png" alt="Diagnostic Test - Screenshot 2c" style="max-width:50%; height:auto; display:block; margin:0 auto; box-shadow: none;">
       </a>
     </p>
-    <p>Based on how the authors of this study<sup><a href="#ref1" style="text-decoration: none;">[1]</a></sup> presented their results in the table below, it would be easiest to use the "Sens/Spec" input method.</p>
+    <p>Based on how the authors of this study<sup><a href="#ref2" style="text-decoration: none;">[2]</a></sup> presented their results in the table below, it would be easiest to use the "Sens/Spec" input method.</p>
     <p style="text-align: center;">
       <a href="assets/images/screenshots/Diagnostic Test - Example Study.png" target="_blank" rel="noopener noreferrer">
         <img src="assets/images/screenshots/Diagnostic Test - Example Study.png" alt="Effect - Example Study" style="max-width:90%; height:auto; display:block; margin:0 auto; box-shadow: none;">
@@ -207,16 +207,18 @@
     </p>
     <p>Press the "Calculate" button to see the relevant diagnostic test metrics and their confidence intervals.
       <br><br>
-      The authors provided us with the sensitivity and specificity in the table above. Many authors will also report the positive and negative predictive values (PPV and NPV). However, the PPV and NPV are only relevant to the prevalence of the outcome found in that specific study population. If the prevalence of the outcome is different in your patient population, the PPV and NPV of the test will be different. We can better understand the impact a test result can have on post-test probability by examining the positive and negative likelihood ratios (LR). In this example, EBM Calculator displays the LR(+) and LR(-) along with an option to calculate post-test probability.</p>
+      The authors provided us with the sensitivity and specificity in the table above. Many authors will also report the positive and negative predictive values (PPV and NPV). However, the PPV and NPV are only relevant to the prevalence of the disease or condition found in that specific study population. If the prevalence of the disease is different in your patient population, the PPV and NPV of the test will be different.
+      <br><br>
+      We can better understand the impact a test result will have on post-test probability by examining the positive and negative likelihood ratios (LR). In this example, EBM Calculator displays the LR(+) and LR(-), their confidence intervals, and  an option to calculate post-test probability should you want to change the prevalence.</p>
     <p style="text-align: center;">
-      <a href="assets/images/screenshots/Effect - Screenshot 4.png" target="_blank" rel="noopener noreferrer">
-        <img src="assets/images/screenshots/Effect - Screenshot 4.png" alt="Effect - Screenshot 4" style="max-width:50%; height:auto; display:block; margin:0 auto; box-shadow: none;">
+      <a href="assets/images/screenshots/Diagnostic Test - Screenshot 4.png" target="_blank" rel="noopener noreferrer">
+        <img src="assets/images/screenshots/Diagnostic Test - Screenshot 4.png" alt="Effect - Screenshot 4" style="max-width:50%; height:auto; display:block; margin:0 auto; box-shadow: none;">
       </a>
     </p>
     <!-- Reference in smaller text -->
-    <p id="ref1" style="font-size:0.8em; text-align:left; margin-top:20px;">
-      <a href="https://pubmed.ncbi.nlm.nih.gov/29913001/" target="_blank" rel="noopener noreferrer">
-        <sup>[1]</sup>Basu B, Sander A, Roy B, Preussler S, Barua S, Mahapatra TKS, Schaefer F. Efficacy of Rituximab vs Tacrolimus in Pediatric Corticosteroid-Dependent Nephrotic Syndrome: A Randomized Clinical Trial. JAMA Pediatr. 2018 Aug 1;172(8):757-764. doi: 10.1001/jamapediatrics.2018.1323. Erratum in: JAMA Pediatr. 2018 Dec 1;172(12):1205. doi: 10.1001/jamapediatrics.2018.3632. PMID: 29913001; PMCID: PMC6142920.
+    <p id="ref2" style="font-size:0.8em; text-align:left; margin-top:20px;">
+      <a href="https://pubmed.ncbi.nlm.nih.gov/24145848/" target="_blank" rel="noopener noreferrer">
+        <sup>[2]</sup>Traube C, Silver G, Kearney J, Patel A, Atkinson TM, Yoon MJ, Halpert S, Augenstein J, Sickles LE, Li C, Greenwald B. Cornell Assessment of Pediatric Delirium: a valid, rapid, observational tool for screening delirium in the PICU*. Crit Care Med. 2014 Mar;42(3):656-63. doi: 10.1097/CCM.0b013e3182a66b76. PMID: 24145848; PMCID: PMC5527829.
       </a>
     </p>
   </div>
