@@ -150,8 +150,9 @@
         <img src="assets/images/screenshots/Effect - Example Study.png" alt="Effect - Example Study" style="max-width:90%; height:auto; display:block; margin:0 auto; box-shadow: none;">
       </a>
     </p>
+    <br>
     <!-- Screenshots 3 and 4 -->
-    <p style="text-align: center;">I chose to enter the event rates (EER 90.0%, CER 63.3%):
+    <p>Here, I chose to enter the event rates (EER 90.0%, CER 63.3%):
       <a href="assets/images/screenshots/Effect - Screenshot 3.png" target="_blank" rel="noopener noreferrer">
         <img src="assets/images/screenshots/Effect - Screenshot 3.png" alt="Effect - Screenshot 3" style="max-width:50%; height:auto; display:block; margin:0 auto; box-shadow: none;">
       </a>
@@ -194,13 +195,14 @@
       </a>
     </p>
     <p>Based on how the authors of this study<sup><a href="#ref2" style="text-decoration: none;">[2]</a></sup> presented their results in the table below, it would be easiest to use the "Sens/Spec" input method.</p>
-    <p style="text-align: center;">
+    <p style="text-align: center;">(click to enlarge)
       <a href="assets/images/screenshots/Diagnostic Test - Example Study.png" target="_blank" rel="noopener noreferrer">
         <img src="assets/images/screenshots/Diagnostic Test - Example Study.png" alt="Effect - Example Study" style="max-width:90%; height:auto; display:block; margin:0 auto; box-shadow: none;">
       </a>
     </p>
+    <br>
     <!-- Screenshot 3 and 4 -->
-    <p style="text-align: center;">I entered the sensitivity (94.1%), specificity (79.2%), prevalence (20.6%), and total sample size (248):
+    <p style="text-align: center;">Enter the sensitivity (94.1%), specificity (79.2%), prevalence (20.6%), and total sample size (248):
       <a href="assets/images/screenshots/Diagnostic Test - Screenshot 3.png" target="_blank" rel="noopener noreferrer">
         <img src="assets/images/screenshots/Diagnostic Test - Screenshot 3.png" alt="Diagnostic Test - Screenshot 3" style="max-width:50%; height:auto; display:block; margin:0 auto; box-shadow: none;">
       </a>
