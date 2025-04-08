@@ -158,7 +158,7 @@
     </p>
     <p>Press the "Calculate" button to see the relevant effect estimates and their confidence intervals.
       <br><br>
-      In this study, the authors had already shown us the OR; however, it is often beneficial to know the absolute risk metrics to better understand the magnitude of the treatment effect. For this study's results, EBM Calculator displays the ARI (Absolute Risk Increase) and NNT (Number Needed to Treat) along with the relative risk metrics and associated confidence intervals:</p>
+      The authors provided us the OR (Odds Ratio) in the table above; however, the absolute risk metrics would help us to better understand the magnitude of the treatment effect. In this example, EBM Calculator displays the ARI (Absolute Risk Increase) and NNT (Number Needed to Treat) to increase the outcome by 1, along with the relative risk metrics and associated confidence intervals:</p>
     <p style="text-align: center;">
       <a href="assets/images/screenshots/Effect - Screenshot 4.png" target="_blank" rel="noopener noreferrer">
         <img src="assets/images/screenshots/Effect - Screenshot 4.png" alt="Effect - Screenshot 4" style="max-width:50%; height:auto; display:block; margin:0 auto; box-shadow: none;">
