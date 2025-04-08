@@ -131,20 +131,21 @@
 <div class="faq-item">
   <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> Effect Calculator</div>
   <div class="faq-answer">
-    <p>Choose to input data as event rates or as the numbers of participants in each arm of the study.</p>
+    <p>First, choose how you would like to input data, either as the "Event Rates" or as the "Counts" (i.e., the numbers of participants in each arm of the study). Depending on how the authors present their study results, one may be easier to find than the other.</p>
     <!-- Screenshots 2a and 2b with centered "or" -->
+    <p style="text-align: center;">Event Rates:</p>
     <p style="text-align: center;">
       <a href="assets/images/screenshots/Effect - Screenshot 2a.png" target="_blank" rel="noopener noreferrer">
         <img src="assets/images/screenshots/Effect - Screenshot 2a.png" alt="Effect - Screenshot 2a" style="max-width:50%; height:auto; display:block; margin:0 auto; box-shadow: none;">
       </a>
     </p>
     <p style="text-align: center;">or</p>
-    <p style="text-align: center;">
+    <p style="text-align: center;">Counts:
       <a href="assets/images/screenshots/Effect - Screenshot 2b.png" target="_blank" rel="noopener noreferrer">
         <img src="assets/images/screenshots/Effect - Screenshot 2b.png" alt="Effect - Screenshot 2b" style="max-width:50%; height:auto; display:block; margin:0 auto; box-shadow: none;">
       </a>
     </p>
-    <p>The way the study results are presented below<sup><a href="#ref1" style="text-decoration: none;">[1]</a></sup>, you could choose either. I chose to enter the event rates:</p>
+    <p>Based on how the authors of this study<sup><a href="#ref1" style="text-decoration: none;">[1]</a></sup> presented their results, you could choose either. I chose to enter the event rates (EER 90.0%, CER 63.3%):</p>
     <p style="text-align: center;">
       <a href="assets/images/screenshots/Effect - Example Study.png" target="_blank" rel="noopener noreferrer">
         <img src="assets/images/screenshots/Effect - Example Study.png" alt="Effect - Example Study" style="max-width:90%; height:auto; display:block; margin:0 auto; box-shadow: none;">
@@ -156,7 +157,8 @@
         <img src="assets/images/screenshots/Effect - Screenshot 3.png" alt="Effect - Screenshot 3" style="max-width:50%; height:auto; display:block; margin:0 auto; box-shadow: none;">
       </a>
     </p>
-    <p style="text-align: center;">&#x2193;</p>
+    <p>Press the "Calculate" button to see the relevant effect estimates and their confidence intervals.<br>
+      In this study, the authors had already presented the OR; however, it is often beneficial to use the ARR and NNT to better understand the magnitude of effect the experimental treatment has on the outcome.</p>
     <p style="text-align: center;">
       <a href="assets/images/screenshots/Effect - Screenshot 4.png" target="_blank" rel="noopener noreferrer">
         <img src="assets/images/screenshots/Effect - Screenshot 4.png" alt="Effect - Screenshot 4" style="max-width:50%; height:auto; display:block; margin:0 auto; box-shadow: none;">
