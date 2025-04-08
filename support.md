@@ -150,7 +150,7 @@
         <img src="assets/images/screenshots/Effect - Example Study.png" alt="Effect - Example Study" style="max-width:90%; height:auto; display:block; margin:0 auto; box-shadow: none;">
       </a>
     </p>
-    <!-- Screenshot 3 repeated with downward arrow -->
+    <!-- Screenshots 3 and 4 -->
     <p style="text-align: center;">I chose to enter the event rates (EER 90.0%, CER 63.3%):
       <a href="assets/images/screenshots/Effect - Screenshot 3.png" target="_blank" rel="noopener noreferrer">
         <img src="assets/images/screenshots/Effect - Screenshot 3.png" alt="Effect - Screenshot 3" style="max-width:50%; height:auto; display:block; margin:0 auto; box-shadow: none;">
@@ -173,10 +173,8 @@
   </div>
 </div>
       <!-- Diagnostic Test Calculator How-To-Guide -->
-      <div class="faq-item">
-        <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> Diagnostic Test Calculator</div>
 <div class="faq-item">
-  <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> Effect Calculator</div>
+  <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> Diagnostic Test Calculator</div>
   <div class="faq-answer">
     <p>First, select how you would like to input the study data. You can choose from "Sens/Spec" (sensitivity and specificity), "PPV/NPV" (positive and negative predictive values), or "Counts" (the number of participants in each arm of the study).</p>
     <!-- Screenshots 2a and 2b with centered "or" -->
@@ -201,7 +199,7 @@
         <img src="assets/images/screenshots/Diagnostic Test - Example Study.png" alt="Effect - Example Study" style="max-width:90%; height:auto; display:block; margin:0 auto; box-shadow: none;">
       </a>
     </p>
-    <!-- Screenshot 3 -->
+    <!-- Screenshot 3 and 4 -->
     <p style="text-align: center;">I entered the sensitivity (94.1%), specificity (79.2%), prevalence (20.6%), and total sample size (248):
       <a href="assets/images/screenshots/Diagnostic Test - Screenshot 3.png" target="_blank" rel="noopener noreferrer">
         <img src="assets/images/screenshots/Diagnostic Test - Screenshot 3.png" alt="Diagnostic Test - Screenshot 3" style="max-width:50%; height:auto; display:block; margin:0 auto; box-shadow: none;">
@@ -209,7 +207,7 @@
     </p>
     <p>Press the "Calculate" button to see the relevant diagnostic test metrics and their confidence intervals.
       <br><br>
-      The authors provided us the OR (Odds Ratio) in the table above; however, the absolute risk metrics would help us to better understand the magnitude of the treatment effect. In this example, EBM Calculator displays the ARI (Absolute Risk Increase) and NNT (Number Needed to Treat) to increase the outcome by 1, along with the relative risk metrics and associated confidence intervals.</p>
+      The authors provided us with the sensitivity and specificity in the table above. Many authors will also report the positive and negative predictive values (PPV and NPV). However, the PPV and NPV are only relevant to the prevalence of the outcome found in that specific study population. If the prevalence of the outcome is different in your patient population, the PPV and NPV of the test will be different. We can better understand the impact a test result can have on post-test probability by examining the positive and negative likelihood ratios (LR). In this example, EBM Calculator displays the LR(+) and LR(-) along with an option to calculate post-test probability.</p>
     <p style="text-align: center;">
       <a href="assets/images/screenshots/Effect - Screenshot 4.png" target="_blank" rel="noopener noreferrer">
         <img src="assets/images/screenshots/Effect - Screenshot 4.png" alt="Effect - Screenshot 4" style="max-width:50%; height:auto; display:block; margin:0 auto; box-shadow: none;">
@@ -223,7 +221,6 @@
     </p>
   </div>
 </div>
-      </div>
        <!-- Post-Test Probability Calculator How-To-Guide -->
       <div class="faq-item">
         <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> Post-Test Probability Calculator</div>
