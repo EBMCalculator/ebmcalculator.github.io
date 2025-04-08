@@ -128,6 +128,7 @@
     <div class="faq-question" id="how-to-guide" onclick="toggleAnswer(this)"><span>&#9654;</span> How-To Guide</div>
     <div class="faq-answer">
       <!-- Individual How-To items -->
+      <!-- Effect Calculator How-To-Guide -->
 <div class="faq-item">
   <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> Effect Calculator</div>
   <div class="faq-answer">
@@ -171,12 +172,59 @@
     </p>
   </div>
 </div>
+      <!-- Diagnostic Test Calculator How-To-Guide -->
       <div class="faq-item">
         <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> Diagnostic Test Calculator</div>
-        <div class="faq-answer">
-          Placeholder text: a step-by-step guide for using the Diagnostic Test Calculator will be available soon.
-        </div>
+<div class="faq-item">
+  <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> Effect Calculator</div>
+  <div class="faq-answer">
+    <p>First, select how you would like to input the study data. You can choose from "Sens/Spec" (sensitivity and specificity), "PPV/NPV" (positive and negative predictive values), or "Counts" (the number of participants in each arm of the study).</p>
+    <!-- Screenshots 2a and 2b with centered "or" -->
+    <p style="text-align: center;">Sens/Spec:
+      <a href="assets/images/screenshots/Diagnostic Test - Screenshot 2a.png" target="_blank" rel="noopener noreferrer">
+        <img src="assets/images/screenshots/Diagnostic Test - Screenshot 2a.png" alt="Diagnostic Test - Screenshot 2a" style="max-width:50%; height:auto; display:block; margin:0 auto; box-shadow: none;">
+      </a>
+    </p>
+    <p style="text-align: center;">PPV/NPV:
+      <a href="assets/images/screenshots/Diagnostic Test - Screenshot 2b.png" target="_blank" rel="noopener noreferrer">
+        <img src="assets/images/screenshots/Diagnostic Test - Screenshot 2b.png" alt="Diagnostic Test - Screenshot 2b" style="max-width:50%; height:auto; display:block; margin:0 auto; box-shadow: none;">
+      </a>
+    </p>
+        <p style="text-align: center;">or Counts:
+      <a href="assets/images/screenshots/Diagnostic Test - Screenshot 2c.png" target="_blank" rel="noopener noreferrer">
+        <img src="assets/images/screenshots/Diagnostic Test - Screenshot 2c.png" alt="Diagnostic Test - Screenshot 2c" style="max-width:50%; height:auto; display:block; margin:0 auto; box-shadow: none;">
+      </a>
+    </p>
+    <p>Based on how the authors of this study<sup><a href="#ref1" style="text-decoration: none;">[1]</a></sup> presented their results in the table below, it would be easiest to use the "Sens/Spec" input method.</p>
+    <p style="text-align: center;">
+      <a href="assets/images/screenshots/Diagnostic Test - Example Study.png" target="_blank" rel="noopener noreferrer">
+        <img src="assets/images/screenshots/Diagnostic Test - Example Study.png" alt="Effect - Example Study" style="max-width:90%; height:auto; display:block; margin:0 auto; box-shadow: none;">
+      </a>
+    </p>
+    <!-- Screenshot 3 -->
+    <p style="text-align: center;">I entered the sensitivity (94.1%), specificity (79.2%), prevalence (20.6%), and total sample size (248):
+      <a href="assets/images/screenshots/Diagnostic Test - Screenshot 3.png" target="_blank" rel="noopener noreferrer">
+        <img src="assets/images/screenshots/Diagnostic Test - Screenshot 3.png" alt="Diagnostic Test - Screenshot 3" style="max-width:50%; height:auto; display:block; margin:0 auto; box-shadow: none;">
+      </a>
+    </p>
+    <p>Press the "Calculate" button to see the relevant diagnostic test metrics and their confidence intervals.
+      <br><br>
+      The authors provided us the OR (Odds Ratio) in the table above; however, the absolute risk metrics would help us to better understand the magnitude of the treatment effect. In this example, EBM Calculator displays the ARI (Absolute Risk Increase) and NNT (Number Needed to Treat) to increase the outcome by 1, along with the relative risk metrics and associated confidence intervals.</p>
+    <p style="text-align: center;">
+      <a href="assets/images/screenshots/Effect - Screenshot 4.png" target="_blank" rel="noopener noreferrer">
+        <img src="assets/images/screenshots/Effect - Screenshot 4.png" alt="Effect - Screenshot 4" style="max-width:50%; height:auto; display:block; margin:0 auto; box-shadow: none;">
+      </a>
+    </p>
+    <!-- Reference in smaller text -->
+    <p id="ref1" style="font-size:0.8em; text-align:left; margin-top:20px;">
+      <a href="https://pubmed.ncbi.nlm.nih.gov/29913001/" target="_blank" rel="noopener noreferrer">
+        <sup>[1]</sup>Basu B, Sander A, Roy B, Preussler S, Barua S, Mahapatra TKS, Schaefer F. Efficacy of Rituximab vs Tacrolimus in Pediatric Corticosteroid-Dependent Nephrotic Syndrome: A Randomized Clinical Trial. JAMA Pediatr. 2018 Aug 1;172(8):757-764. doi: 10.1001/jamapediatrics.2018.1323. Erratum in: JAMA Pediatr. 2018 Dec 1;172(12):1205. doi: 10.1001/jamapediatrics.2018.3632. PMID: 29913001; PMCID: PMC6142920.
+      </a>
+    </p>
+  </div>
+</div>
       </div>
+       <!-- Post-Test Probability Calculator How-To-Guide -->
       <div class="faq-item">
         <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> Post-Test Probability Calculator</div>
         <div class="faq-answer">
