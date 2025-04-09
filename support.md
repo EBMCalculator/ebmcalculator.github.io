@@ -128,8 +128,8 @@
           <span>&#9654;</span> Why do the calculators have different input options?
         </div>
         <div class="faq-answer">
-          Different input methods are available to fit various ways authors report their results. Choose the one that makes the most sense for the study you are appraising.<br><br>
-          For example, if you are assessing the performance of a Diagnostic Test and the authors report only the Predictive Values (and not sensitivity or specificity), choose PPV/NPV for your input fields.
+          Each calculator offers different input options to match how authors report their results. Choose the one that fits your study.<br><br>
+          For example, if the study only provides PPV and NPV (and not sensitivity or specificity), select PPV/NPV as your input method.
                         <!-- Back toTop Link -->
         <p style="text-align: right; margin: 0.5em 0;">
           <a href="#top" class="back-to-top">⬆ Back to top</a>
@@ -155,9 +155,9 @@
           <span>&#9654;</span> Why did you create this app?
         </div>
         <div class="faq-answer">
-          I was tired of looking for various online calculators to interpreting study results. I built the EBM Calculator app to streamline this process and to simplify evidence appraisal.<br><br>
-          My first version was coded in Python for use on my laptop. I decided to make it an official iOS app to share it easily with colleagues who were also evaluating the medical literature!<br><br>
-          It’s come a long way since I started, but it’s still a purposefully simple app: input data from a study to see the strength of association (for studies on a new therapy or exposure), the performance of a diagnostic test, or to calculate the post-test probability.
+          I got tired of jumping between different online calculators just to interpret study results, so I built the EBM Calculator to streamline the process and make evidence appraisal simpler.<br><br>
+          The first version was a Python script I used on my laptop. I later turned it into an iOS app to make it easier to share with colleagues who were also digging into the medical literature.<br><br>
+          It’s come a long way since then, but the goal remains the same: a purposefully simple app that helps you assess the strength of an association (for therapies or exposures), evaluate diagnostic test performance, or calculate post-test probability.
                         <!-- Back toTop Link -->
         <p style="text-align: right; margin: 0.5em 0;">
           <a href="#top" class="back-to-top">⬆ Back to top</a>
@@ -169,8 +169,8 @@
           <span>&#9654;</span> Are you planning to add more features?
         </div>
         <div class="faq-answer">
-          Yes! The more I learn, the more features I want to build into the app. But I also wanted to get it out there ASAP to start helping clinicians.<br><br>
-          If you have a suggestion of what would be helpful, please let me know at <a href="mailto:support@ebmcalculator.com">support@ebmcalculator.com</a>!
+          Yes! The more I learn, the more features I want to build. But I also wanted to release the app quickly to start helping clinicians.<br><br>
+          If you have suggestions for new features or improvements, feel free to email me at <a href="mailto:support@ebmcalculator.com">support@ebmcalculator.com</a>!
                         <!-- Back toTop Link -->
         <p style="text-align: right; margin: 0.5em 0;">
           <a href="#top" class="back-to-top">⬆ Back to top</a>
@@ -398,7 +398,7 @@
       </div>
       <div class="faq-answer">
         <p>
-          Click on the Results tab to view up to 50 of your saved results. Here you can drag to rearrange, or click on a result to view it individually.
+          Click on the Results tab to view up to 50 of your saved results. You can drag to rearrange, or click a result to view it individually.
         </p>
         <p style="text-align: center;">
           <a href="assets/images/screenshots/Results - Screenshot 3.png" target="_blank" rel="noopener noreferrer">
@@ -418,7 +418,7 @@
             <img src="assets/images/screenshots/Results - Screenshot 6.png" alt="Results - Screenshot 6" style="max-width:50%; height:auto; display:block; margin:0 auto; box-shadow: none;">
           </a>
         </p>
-        <p>Press the menu button to see an option to Delete All results.</p>
+        <p>Press the menu button to see more options.</p>
         <p style="text-align: center;">
           <a href="assets/images/screenshots/Results - Screenshot 7.png" target="_blank" rel="noopener noreferrer">
             <img src="assets/images/screenshots/Results - Screenshot 7.png" alt="Results - Screenshot 7" style="max-width:50%; height:auto; display:block; margin:0 auto; box-shadow: none;">
@@ -451,8 +451,8 @@
             <li>Drag and drop results to rearrange in Results section</li>
             <li>Calculate Post-Test Probability from any diagnostic test result</li>
             <li>New Library section with various Lessons in EBM</li>
-            <li>Add Interactive Fagan Nomogram</li>
-            <li>Debug and refine UI</li>
+            <li>New Interactive Fagan Nomogram</li>
+            <li>Bug fixes and UI refinements</li>
           </ul>
                         <!-- Back toTop Link -->
         <p style="text-align: right; margin: 0.5em 0;">
@@ -466,10 +466,11 @@
         </div>
         <div class="faq-answer">
           <ul>
-            <li>Add feature to save, delete, and share results</li>
-            <li>Add formula pages</li>
-            <li>Update icons and logos</li>
-            <li>Debug and refine UI</li>
+            <li>New feature to save, delete, and share results</li>
+            <li>New formula pages</li>
+            <li>Updates for icons and logos</li>
+            <li>Works in light and dark mode</li>
+            <li>Bug fixes and UI refinements</li>
           </ul>
                         <!-- Back toTop Link -->
         <p style="text-align: right; margin: 0.5em 0;">
@@ -483,8 +484,8 @@
         </div>
         <div class="faq-answer">
           <ul>
-            <li>Add icons and logos</li>
-            <li>Debug and refine UI</li>
+            <li>New icons and logos</li>
+            <li>Bug fixes and UI refinements</li>
           </ul>
                         <!-- Back toTop Link -->
         <p style="text-align: right; margin: 0.5em 0;">
