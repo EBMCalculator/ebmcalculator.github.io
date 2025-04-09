@@ -158,7 +158,7 @@
         <img src="assets/images/screenshots/Effect - Screenshot 3.png" alt="Effect - Screenshot 3" style="max-width:50%; height:auto; display:block; margin:0 auto; box-shadow: none;">
       </a>
     </p>
-    <p style="text-align: center;">Press the "Calculate" button to see the relevant effect estimates and their confidence intervals.</p>
+    <p>Press the "Calculate" button to see the relevant effect estimates and their confidence intervals.</p>
       <br>
       The table above provides the odds ratio (OR), but absolute risk measures offer a clearer understanding of the treatment effect’s magnitude. In this example, EBM Calculator displays the absolute risk increase (ARI) and number needed to treat (NNT) to cause one additional outcome, along with relative risk metrics and their confidence intervals.</p>
     <p style="text-align: center;">
@@ -204,13 +204,14 @@
     </p>
     <br>
     <!-- Screenshot 3 and 4 -->
-    <p style="text-align: center;">Enter the sensitivity (94.1%), specificity (79.2%), prevalence (20.6%), and total sample size (248):
+    <p>Enter the sensitivity (94.1%), specificity (79.2%), prevalence (20.6%), and total sample size (248).
+      <p style="text-align: center;">
       <a href="assets/images/screenshots/Diagnostic Test - Screenshot 3.png" target="_blank" rel="noopener noreferrer">
         <img src="assets/images/screenshots/Diagnostic Test - Screenshot 3.png" alt="Diagnostic Test - Screenshot 3" style="max-width:50%; height:auto; display:block; margin:0 auto; box-shadow: none;">
       </a>
     </p>
-    <p style="text-align: center;">Press the "Calculate" button to see the relevant diagnostic test metrics and their confidence intervals.</p>
-      <br>
+    <p>Press the "Calculate" button to see the relevant diagnostic test metrics and their confidence intervals.
+      <br><br>
       The table above provides sensitivity and specificity. Some authors also report positive and negative predictive values (PPV and NPV). However, because predictive values depend on disease prevalence, they may not apply to your patients if the study population's prevalence differs from your own.
       <br><br>
       For this reason, we prefer using positive and negative likelihood ratios (LRs) to better understand post-test probability. In this example, EBM Calculator displays LR(+) and LR(–) with confidence intervals, along with an option to calculate post-test probability using a different prevalence.</p>
@@ -252,25 +253,28 @@
     </p>
     <br>
     <!-- Screenshot 3 and 4 -->
-    <p style="text-align: center;">Enter the sensitivity (94.1%) and specificity (79.2%) of the diagnostic test. Next, choose your pre-test probability (often the prevalence of disease or condition in your patient population).</p>
+    <p>Enter the sensitivity (94.1%) and specificity (79.2%) of the diagnostic test. Next, choose your pre-test probability (often the prevalence of disease or condition in your patient population).</p>
     <br>
     <p style="text-align: center;">In this example, I chose a pre-test probability of 35%:
       <a href="assets/images/screenshots/PostTest Prob - Screenshot 3.png" target="_blank" rel="noopener noreferrer">
         <img src="assets/images/screenshots/PostTest Prob - Screenshot 3.png" alt="PostTest Prob - Screenshot 3" style="max-width:50%; height:auto; display:block; margin:0 auto; box-shadow: none;">
       </a>
     </p>
-    <p style="text-align: center;">Press the "Calculate" button to see the post-test probabilities for a positive or negative test result.
+    <p>Press the "Calculate" button to see the post-test probabilities for a positive or negative test result.</p>
+    <p style="text-align: center;">
       <a href="assets/images/screenshots/PostTest Prob - Screenshot 4.png" target="_blank" rel="noopener noreferrer">
         <img src="assets/images/screenshots/PostTest Prob - Screenshot 4.png" alt="PostTest Prob - Screenshot 4" style="max-width:50%; height:auto; display:block; margin:0 auto; box-shadow: none;">
       </a>
     </p>
         <!-- Interactive Fagan Nomogram Screenshots -->
-    <p style="text-align: center;">You can also access an Interactive Fagan Nomogram through the menu button at the top right.
+    <p>You can also access an Interactive Fagan Nomogram through the menu button at the top right.</p>
+    <p style="text-align: center;">
       <a href="assets/images/screenshots/PostTest Prob - Screenshot 5.png" target="_blank" rel="noopener noreferrer">
         <img src="assets/images/screenshots/PostTest Prob - Screenshot 5.png" alt="PostTest Prob - Screenshot 5" style="max-width:50%; height:auto; display:block; margin:0 auto; box-shadow: none;">
       </a>
     </p>
-    <p style="text-align: center;">Use the sliders to explore how changes in Pre-Test Probability and Likelihood Ratio influence the Post-Test Probability.
+    <p>>Use the sliders to explore how changes in Pre-Test Probability and Likelihood Ratio influence the Post-Test Probability.</p>
+    <p style="text-align: center;">
       <a href="assets/images/screenshots/PostTest Prob - Screenshot 6.png" target="_blank" rel="noopener noreferrer">
         <img src="assets/images/screenshots/PostTest Prob - Screenshot 6.png" alt="PostTest Prob - Screenshot 6" style="max-width:50%; height:auto; display:block; margin:0 auto; box-shadow: none;">
       </a>
