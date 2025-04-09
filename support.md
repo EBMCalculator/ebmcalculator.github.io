@@ -128,6 +128,7 @@
     <div class="faq-question" id="how-to-guide" onclick="toggleAnswer(this)"><span>&#9654;</span> How-To Guide</div>
     <div class="faq-answer">
       <!-- Individual How-To items -->
+      
       <!-- Effect Calculator How-To-Guide -->
 <div class="faq-item">
   <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> Effect Calculator</div>
@@ -152,13 +153,13 @@
     </p>
     <br>
     <!-- Screenshots 3 and 4 -->
-    <p>Here, I chose to enter the event rates (EER 90.0%, CER 63.3%):
+    <p style="text-align: center;">Here, I chose to enter the event rates (EER 90.0%, CER 63.3%):
       <a href="assets/images/screenshots/Effect - Screenshot 3.png" target="_blank" rel="noopener noreferrer">
         <img src="assets/images/screenshots/Effect - Screenshot 3.png" alt="Effect - Screenshot 3" style="max-width:50%; height:auto; display:block; margin:0 auto; box-shadow: none;">
       </a>
     </p>
-    <p>Press the "Calculate" button to see the relevant effect estimates and their confidence intervals.
-      <br><br>
+    <p style="text-align: center;">Press the "Calculate" button to see the relevant effect estimates and their confidence intervals.</p>
+      <br>
       The table above provides the odds ratio (OR), but absolute risk measures offer a clearer understanding of the treatment effect’s magnitude. In this example, EBM Calculator displays the absolute risk increase (ARI) and number needed to treat (NNT) to cause one additional outcome, along with relative risk metrics and their confidence intervals.</p>
     <p style="text-align: center;">
       <a href="assets/images/screenshots/Effect - Screenshot 4.png" target="_blank" rel="noopener noreferrer">
@@ -173,6 +174,7 @@
     </p>
   </div>
 </div>
+
       <!-- Diagnostic Test Calculator How-To-Guide -->
 <div class="faq-item">
   <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> Diagnostic Test Calculator</div>
@@ -207,8 +209,8 @@
         <img src="assets/images/screenshots/Diagnostic Test - Screenshot 3.png" alt="Diagnostic Test - Screenshot 3" style="max-width:50%; height:auto; display:block; margin:0 auto; box-shadow: none;">
       </a>
     </p>
-    <p>Press the "Calculate" button to see the relevant diagnostic test metrics and their confidence intervals.
-      <br><br>
+    <p style="text-align: center;">Press the "Calculate" button to see the relevant diagnostic test metrics and their confidence intervals.</p>
+      <br>
       The table above provides sensitivity and specificity. Some authors also report positive and negative predictive values (PPV and NPV). However, because predictive values depend on disease prevalence, they may not apply to your patients if the study population's prevalence differs from your own.
       <br><br>
       For this reason, we prefer using positive and negative likelihood ratios (LRs) to better understand post-test probability. In this example, EBM Calculator displays LR(+) and LR(–) with confidence intervals, along with an option to calculate post-test probability using a different prevalence.</p>
@@ -225,6 +227,7 @@
     </p>
   </div>
 </div>
+
        <!-- Post-Test Probability Calculator How-To-Guide -->
 <div class="faq-item">
   <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> Post-Test Probability Calculator</div>
@@ -249,35 +252,33 @@
     </p>
     <br>
     <!-- Screenshot 3 and 4 -->
-    <p>Enter the sensitivity (94.1%), specificity (79.2%) for the diagnostic test. Next, choose your pre-test probability (often the prevalence of disease in your patient population).</p>
-    <p style="text-align: center;"> In this example, I chose a pre-test probability of 35%:
+    <p style="text-align: center;">Enter the sensitivity (94.1%) and specificity (79.2%) of the diagnostic test. Next, choose your pre-test probability (often the prevalence of disease or condition in your patient population).</p>
+    <br>
+    <p style="text-align: center;">In this example, I chose a pre-test probability of 35%:
       <a href="assets/images/screenshots/PostTest Prob - Screenshot 3.png" target="_blank" rel="noopener noreferrer">
         <img src="assets/images/screenshots/PostTest Prob - Screenshot 3.png" alt="PostTest Prob - Screenshot 3" style="max-width:50%; height:auto; display:block; margin:0 auto; box-shadow: none;">
       </a>
     </p>
-    <p>Press the "Calculate" button to see the post-test probabilities for a positive or negative test result.</p>
-    <p style="text-align: center;">
+    <p style="text-align: center;">Press the "Calculate" button to see the post-test probabilities for a positive or negative test result.
       <a href="assets/images/screenshots/PostTest Prob - Screenshot 4.png" target="_blank" rel="noopener noreferrer">
         <img src="assets/images/screenshots/PostTest Prob - Screenshot 4.png" alt="PostTest Prob - Screenshot 4" style="max-width:50%; height:auto; display:block; margin:0 auto; box-shadow: none;">
       </a>
     </p>
         <!-- Interactive Fagan Nomogram Screenshots -->
-    <p>Access the Interactive Fagan Nomogram through the menu.</p>
-    <p style="text-align: center;">
+    <p style="text-align: center;">You can also access an Interactive Fagan Nomogram through the menu button at the top right.
       <a href="assets/images/screenshots/PostTest Prob - Screenshot 5.png" target="_blank" rel="noopener noreferrer">
         <img src="assets/images/screenshots/PostTest Prob - Screenshot 5.png" alt="PostTest Prob - Screenshot 5" style="max-width:50%; height:auto; display:block; margin:0 auto; box-shadow: none;">
       </a>
     </p>
-    <p>Use the sliders to explore how changes in Pre-Test Probability and Likelihood Ratio influence the Post-Test Probability..</p>
-    <p style="text-align: center;">
+    <p style="text-align: center;">Use the sliders to explore how changes in Pre-Test Probability and Likelihood Ratio influence the Post-Test Probability.
       <a href="assets/images/screenshots/PostTest Prob - Screenshot 6.png" target="_blank" rel="noopener noreferrer">
         <img src="assets/images/screenshots/PostTest Prob - Screenshot 6.png" alt="PostTest Prob - Screenshot 6" style="max-width:50%; height:auto; display:block; margin:0 auto; box-shadow: none;">
       </a>
     </p>
     <!-- Reference in smaller text -->
-    <p id="ref2" style="font-size:0.8em; text-align:left; margin-top:20px;">
+    <p id="ref3" style="font-size:0.8em; text-align:left; margin-top:20px;">
       <a href="https://pubmed.ncbi.nlm.nih.gov/24145848/" target="_blank" rel="noopener noreferrer">
-        <sup>[3]</sup>Traube C, Silver G, Kearney J, Patel A, Atkinson TM, Yoon MJ, Halpert S, Augenstein J, Sickles LE, Li C, Greenwald B. Cornell Assessment of Pediatric Delirium: a valid, rapid, observational tool for screening delirium in the PICU*. Crit Care Med. 2014 Mar;42(3):656-63. doi: 10.1097/CCM.0b013e3182a66b76. PMID: 24145848; PMCID: PMC5527829.
+        <sup>[2]</sup>Traube C, Silver G, Kearney J, Patel A, Atkinson TM, Yoon MJ, Halpert S, Augenstein J, Sickles LE, Li C, Greenwald B. Cornell Assessment of Pediatric Delirium: a valid, rapid, observational tool for screening delirium in the PICU*. Crit Care Med. 2014 Mar;42(3):656-63. doi: 10.1097/CCM.0b013e3182a66b76. PMID: 24145848; PMCID: PMC5527829.
       </a>
     </p>
   </div>
