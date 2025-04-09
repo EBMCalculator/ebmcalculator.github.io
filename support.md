@@ -339,10 +339,20 @@
           </a>
         </p>
       </div>
-      <!-- ^top link -->
-      <p style="text-align: right; font-size: 0.8em; margin: 0;">
-        <a href="#top">^top</a>
-      </p>
+      <!-- Top Link -->
+<p style="text-align: right; margin: 0.5em 0; font-size: 0.8em;">
+  <a href="#top" style="
+    background-color: #e9e9e9;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 4px 8px;
+    color: #073472;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  " onmouseover="this.style.backgroundColor='#dcdcdc'" onmouseout="this.style.backgroundColor='#e9e9e9'">
+    ⬆ Back to top
+  </a>
+</p>
     </div>
     <!-- Viewing Results How-To-Guide -->
     <div class="faq-item">
