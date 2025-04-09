@@ -1,3 +1,5 @@
+<a id="top"></a>
+
 <div style="text-align: center;">
   <img src="/assets/images/EBM Calculator Logo Any 3x.png" alt="EBM Calculator Logo" width="200">
   <h1>EBM Calculator</h1>
@@ -337,6 +339,10 @@
           </a>
         </p>
       </div>
+      <!-- ^top link -->
+      <p style="text-align: right; font-size: 0.8em; margin: 0;">
+        <a href="#top">^top</a>
+      </p>
     </div>
     <!-- Viewing Results How-To-Guide -->
     <div class="faq-item">
