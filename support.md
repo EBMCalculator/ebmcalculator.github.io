@@ -59,6 +59,21 @@
     border: 1px solid #ccc;
     border-top: none;
   }
+  .back-to-top {
+  display: inline-block;
+  background-color: #e9e9e9;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 4px 8px;
+  color: #073472;
+  text-decoration: none;
+  font-size: 0.8em;
+  transition: background-color 0.3s ease;
+}
+.back-to-top:hover {
+  background-color: #dcdcdc;
+}
+
 </style>
 
 <div class="tab-bar">
@@ -124,9 +139,13 @@
           <span>&#9654;</span> Why did you create this app?
         </div>
         <div class="faq-answer">
-          I was frustrated by constantly having to switch between various websites to find online calculators for interpreting study results. I built the EBM Calculator app to streamline this process and to simplify evidence appraisal.<br><br>
+          I was tired of looking for various online calculators to interpreting study results. I built the EBM Calculator app to streamline this process and to simplify evidence appraisal.<br><br>
           My first version was coded in Python for use on my laptop. I decided to make it an official iOS app to share it easily with colleagues who were also evaluating the medical literature!<br><br>
           It’s come a long way since I started, but it’s still a purposefully simple app: input data from a study to see the strength of association (for studies on a new therapy or exposure), the performance of a diagnostic test, or to calculate the post-test probability.
+                        <!-- Back toTop Link -->
+        <p style="text-align: right; margin: 0.5em 0;">
+          <a href="#top" class="back-to-top">⬆ Back to top</a>
+        </p>
         </div>
       </div>
       <div class="faq-item">
@@ -201,6 +220,10 @@
             <sup>[1]</sup>Basu B, Sander A, Roy B, Preussler S, Barua S, Mahapatra TKS, Schaefer F. Efficacy of Rituximab vs Tacrolimus in Pediatric Corticosteroid-Dependent Nephrotic Syndrome: A Randomized Clinical Trial. JAMA Pediatr. 2018 Aug 1;172(8):757-764. doi: 10.1001/jamapediatrics.2018.1323. Erratum in: JAMA Pediatr. 2018 Dec 1;172(12):1205. doi: 10.1001/jamapediatrics.2018.3632. PMID: 29913001; PMCID: PMC6142920.
           </a>
         </p>
+                      <!-- Back toTop Link -->
+        <p style="text-align: right; margin: 0.5em 0;">
+          <a href="#top" class="back-to-top">⬆ Back to top</a>
+        </p>
       </div>
     </div>
     <!-- Diagnostic Test Calculator How-To-Guide -->
@@ -263,6 +286,10 @@
           <a href="https://pubmed.ncbi.nlm.nih.gov/24145848/" target="_blank" rel="noopener noreferrer">
             <sup>[2]</sup>Traube C, Silver G, Kearney J, Patel A, Atkinson TM, Yoon MJ, Halpert S, Augenstein J, Sickles LE, Li C, Greenwald B. Cornell Assessment of Pediatric Delirium: a valid, rapid, observational tool for screening delirium in the PICU*. Crit Care Med. 2014 Mar;42(3):656-63. doi: 10.1097/CCM.0b013e3182a66b76. PMID: 24145848; PMCID: PMC5527829.
           </a>
+        </p>
+                      <!-- Back toTop Link -->
+        <p style="text-align: right; margin: 0.5em 0;">
+          <a href="#top" class="back-to-top">⬆ Back to top</a>
         </p>
       </div>
     </div>
@@ -338,21 +365,11 @@
             <sup>[2]</sup>Traube C, Silver G, Kearney J, Patel A, Atkinson TM, Yoon MJ, Halpert S, Augenstein J, Sickles LE, Li C, Greenwald B. Cornell Assessment of Pediatric Delirium: a valid, rapid, observational tool for screening delirium in the PICU*. Crit Care Med. 2014 Mar;42(3):656-63. doi: 10.1097/CCM.0b013e3182a66b76. PMID: 24145848; PMCID: PMC5527829.
           </a>
         </p>
+              <!-- Back toTop Link -->
+        <p style="text-align: right; margin: 0.5em 0;">
+          <a href="#top" class="back-to-top">⬆ Back to top</a>
+        </p>
       </div>
-      <!-- Top Link -->
-<p style="text-align: right; margin: 0.5em 0; font-size: 0.8em;">
-  <a href="#top" style="
-    background-color: #e9e9e9;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-    padding: 4px 8px;
-    color: #073472;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-  " onmouseover="this.style.backgroundColor='#dcdcdc'" onmouseout="this.style.backgroundColor='#e9e9e9'">
-    ⬆ Back to top
-  </a>
-</p>
     </div>
     <!-- Viewing Results How-To-Guide -->
     <div class="faq-item">
@@ -386,6 +403,10 @@
           <a href="assets/images/screenshots/Results - Screenshot 7.png" target="_blank" rel="noopener noreferrer">
             <img src="assets/images/screenshots/Results - Screenshot 7.png" alt="Results - Screenshot 7" style="max-width:50%; height:auto; display:block; margin:0 auto; box-shadow: none;">
           </a>
+        </p>
+                      <!-- Back toTop Link -->
+        <p style="text-align: right; margin: 0.5em 0;">
+          <a href="#top" class="back-to-top">⬆ Back to top</a>
         </p>
       </div>
     </div>
