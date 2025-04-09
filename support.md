@@ -197,7 +197,7 @@
     <p>Based on how the authors of this study<sup><a href="#ref2" style="text-decoration: none;">[2]</a></sup> presented their results in the table below, it would be easiest to use the "Sens/Spec" input method.</p>
     <p style="text-align: center;">(click to enlarge)
       <a href="assets/images/screenshots/Diagnostic Test - Example Study.png" target="_blank" rel="noopener noreferrer">
-        <img src="assets/images/screenshots/Diagnostic Test - Example Study.png" alt="Effect - Example Study" style="max-width:90%; height:auto; display:block; margin:0 auto; box-shadow: none;">
+        <img src="assets/images/screenshots/Diagnostic Test - Example Study.png" alt="Diagnostic Test - Example Study" style="max-width:90%; height:auto; display:block; margin:0 auto; box-shadow: none;">
       </a>
     </p>
     <br>
@@ -214,7 +214,7 @@
       For this reason, we prefer using positive and negative likelihood ratios (LRs) to better understand post-test probability. In this example, EBM Calculator displays LR(+) and LR(–) with confidence intervals, along with an option to calculate post-test probability using a different prevalence.</p>
     <p style="text-align: center;">
       <a href="assets/images/screenshots/Diagnostic Test - Screenshot 4.png" target="_blank" rel="noopener noreferrer">
-        <img src="assets/images/screenshots/Diagnostic Test - Screenshot 4.png" alt="Effect - Screenshot 4" style="max-width:50%; height:auto; display:block; margin:0 auto; box-shadow: none;">
+        <img src="assets/images/screenshots/Diagnostic Test - Screenshot 4.png" alt="Diagnostic Test - Screenshot 4" style="max-width:50%; height:auto; display:block; margin:0 auto; box-shadow: none;">
       </a>
     </p>
     <!-- Reference in smaller text -->
@@ -226,12 +226,63 @@
   </div>
 </div>
        <!-- Post-Test Probability Calculator How-To-Guide -->
-      <div class="faq-item">
-        <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> Post-Test Probability Calculator</div>
-        <div class="faq-answer">
-          Placeholder text: details on how to use the Post-Test Probability Calculator will be added here shortly.
-        </div>
-      </div>
+<div class="faq-item">
+  <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> Post-Test Probability Calculator</div>
+  <div class="faq-answer">
+    <p>First, select how you would like to input the study data. You can choose from either "Sensitivity & Specificity" or "Likelihood Ratios".</p>
+    <!-- Screenshots 2a and 2b with centered "or" -->
+    <p style="text-align: center;">Sensitivity & Specificity:
+      <a href="assets/images/screenshots/PostTest Prob - Screenshot 2a.png" target="_blank" rel="noopener noreferrer">
+        <img src="assets/images/screenshots/PostTest Prob - Screenshot 2a.png" alt="PostTest Prob - Screenshot 2a" style="max-width:50%; height:auto; display:block; margin:0 auto; box-shadow: none;">
+      </a>
+    </p>
+    <p style="text-align: center;">or Likelihood Ratios:
+      <a href="assets/images/screenshots/PostTest Prob - Screenshot 2b.png" target="_blank" rel="noopener noreferrer">
+        <img src="assets/images/screenshots/PostTest Prob - Screenshot 2b.png" alt="PostTest Prob - Screenshot 2b" style="max-width:50%; height:auto; display:block; margin:0 auto; box-shadow: none;">
+      </a>
+    </p>
+    <p>Based on how the authors of this study<sup><a href="#ref3" style="text-decoration: none;">[2]</a></sup> presented their results in the table below, it would be easiest to use the "Sensitivity & Specificity" input method.</p>
+    <p style="text-align: center;">(click to enlarge)
+      <a href="assets/images/screenshots/PostTest Prob - Example Study.png" target="_blank" rel="noopener noreferrer">
+        <img src="assets/images/screenshots/PostTest Prob - Example Study.png" alt="PostTest Prob - Example Study" style="max-width:90%; height:auto; display:block; margin:0 auto; box-shadow: none;">
+      </a>
+    </p>
+    <br>
+    <!-- Screenshot 3 and 4 -->
+    <p>Enter the sensitivity (94.1%), specificity (79.2%) for the diagnostic test. Next, choose your pre-test probability (often the prevalence of disease in your patient population).</p>
+    <p style="text-align: center;"> In this example, I chose a pre-test probability of 35%:
+      <a href="assets/images/screenshots/PostTest Prob - Screenshot 3.png" target="_blank" rel="noopener noreferrer">
+        <img src="assets/images/screenshots/PostTest Prob - Screenshot 3.png" alt="PostTest Prob - Screenshot 3" style="max-width:50%; height:auto; display:block; margin:0 auto; box-shadow: none;">
+      </a>
+    </p>
+    <p>Press the "Calculate" button to see the post-test probabilities for a positive or negative test result.</p>
+    <p style="text-align: center;">
+      <a href="assets/images/screenshots/PostTest Prob - Screenshot 4.png" target="_blank" rel="noopener noreferrer">
+        <img src="assets/images/screenshots/PostTest Prob - Screenshot 4.png" alt="PostTest Prob - Screenshot 4" style="max-width:50%; height:auto; display:block; margin:0 auto; box-shadow: none;">
+      </a>
+    </p>
+        <!-- Interactive Fagan Nomogram Screenshots -->
+    <p>Access the Interactive Fagan Nomogram through the menu.</p>
+    <p style="text-align: center;">
+      <a href="assets/images/screenshots/PostTest Prob - Screenshot 5.png" target="_blank" rel="noopener noreferrer">
+        <img src="assets/images/screenshots/PostTest Prob - Screenshot 5.png" alt="PostTest Prob - Screenshot 5" style="max-width:50%; height:auto; display:block; margin:0 auto; box-shadow: none;">
+      </a>
+    </p>
+    <p>Use the sliders to explore how changes in Pre-Test Probability and Likelihood Ratio influence the Post-Test Probability..</p>
+    <p style="text-align: center;">
+      <a href="assets/images/screenshots/PostTest Prob - Screenshot 6.png" target="_blank" rel="noopener noreferrer">
+        <img src="assets/images/screenshots/PostTest Prob - Screenshot 6.png" alt="PostTest Prob - Screenshot 6" style="max-width:50%; height:auto; display:block; margin:0 auto; box-shadow: none;">
+      </a>
+    </p>
+    <!-- Reference in smaller text -->
+    <p id="ref2" style="font-size:0.8em; text-align:left; margin-top:20px;">
+      <a href="https://pubmed.ncbi.nlm.nih.gov/24145848/" target="_blank" rel="noopener noreferrer">
+        <sup>[3]</sup>Traube C, Silver G, Kearney J, Patel A, Atkinson TM, Yoon MJ, Halpert S, Augenstein J, Sickles LE, Li C, Greenwald B. Cornell Assessment of Pediatric Delirium: a valid, rapid, observational tool for screening delirium in the PICU*. Crit Care Med. 2014 Mar;42(3):656-63. doi: 10.1097/CCM.0b013e3182a66b76. PMID: 24145848; PMCID: PMC5527829.
+      </a>
+    </p>
+  </div>
+</div>
+       <!-- Viewing Results How-To-Guide -->
       <div class="faq-item">
         <div class="faq-question" onclick="toggleAnswer(this)"><span>&#9654;</span> Viewing Results</div>
         <div class="faq-answer">
