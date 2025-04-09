@@ -104,6 +104,10 @@
         </div>
         <div class="faq-answer">
           EBM Calculator is available on iOS devices running iOS 18.1 or later. It is optimized for iPhones, but will also run on iPads and Apple Silicon Macs.
+                        <!-- Back toTop Link -->
+        <p style="text-align: right; margin: 0.5em 0;">
+          <a href="#top" class="back-to-top">⬆ Back to top</a>
+        </p>
         </div>
       </div>
       <div class="faq-item">
@@ -113,6 +117,10 @@
         <div class="faq-answer">
           You can save up to 50 results.<br><br>
           From the Results tab, you can also reorder results (press and drag), delete individual results (swipe left), share results (swipe right), or delete all saved results (from the menu button).
+                        <!-- Back toTop Link -->
+        <p style="text-align: right; margin: 0.5em 0;">
+          <a href="#top" class="back-to-top">⬆ Back to top</a>
+        </p>
         </div>
       </div>
       <div class="faq-item">
@@ -122,6 +130,10 @@
         <div class="faq-answer">
           Different input methods are available to fit various ways authors report their results. Choose the one that makes the most sense for the study you are appraising.<br><br>
           For example, if you are assessing the performance of a Diagnostic Test and the authors report only the Predictive Values (and not sensitivity or specificity), choose PPV/NPV for your input fields.
+                        <!-- Back toTop Link -->
+        <p style="text-align: right; margin: 0.5em 0;">
+          <a href="#top" class="back-to-top">⬆ Back to top</a>
+        </p>
         </div>
       </div>      
       <div class="faq-item">
@@ -132,6 +144,10 @@
           <p>
             <a href="/assets/pdf/Formulas.pdf" target="_blank" rel="noopener noreferrer">Click here to review the formulas</a> used for calculating all metrics and confidence intervals in the app.
           </p>
+                        <!-- Back toTop Link -->
+        <p style="text-align: right; margin: 0.5em 0;">
+          <a href="#top" class="back-to-top">⬆ Back to top</a>
+        </p>
         </div>
       </div>        
       <div class="faq-item">
@@ -155,6 +171,10 @@
         <div class="faq-answer">
           Yes! The more I learn, the more features I want to build into the app. But I also wanted to get it out there ASAP to start helping clinicians.<br><br>
           If you have a suggestion of what would be helpful, please let me know at <a href="mailto:support@ebmcalculator.com">support@ebmcalculator.com</a>!
+                        <!-- Back toTop Link -->
+        <p style="text-align: right; margin: 0.5em 0;">
+          <a href="#top" class="back-to-top">⬆ Back to top</a>
+        </p>
         </div>
       </div>
     </div>
@@ -434,6 +454,10 @@
             <li>Add Interactive Fagan Nomogram</li>
             <li>Debug and refine UI</li>
           </ul>
+                        <!-- Back toTop Link -->
+        <p style="text-align: right; margin: 0.5em 0;">
+          <a href="#top" class="back-to-top">⬆ Back to top</a>
+        </p>
         </div>
       </div>
       <div class="faq-item">
@@ -447,6 +471,10 @@
             <li>Update icons and logos</li>
             <li>Debug and refine UI</li>
           </ul>
+                        <!-- Back toTop Link -->
+        <p style="text-align: right; margin: 0.5em 0;">
+          <a href="#top" class="back-to-top">⬆ Back to top</a>
+        </p>
         </div>
       </div>
       <div class="faq-item">
@@ -458,6 +486,10 @@
             <li>Add icons and logos</li>
             <li>Debug and refine UI</li>
           </ul>
+                        <!-- Back toTop Link -->
+        <p style="text-align: right; margin: 0.5em 0;">
+          <a href="#top" class="back-to-top">⬆ Back to top</a>
+        </p>
         </div>
       </div>
       <div class="faq-item">
@@ -470,6 +502,10 @@
             <li>Diagnostic Test Calculator</li>
             <li>Post-Test Probability Calculator</li>
           </ul>
+                        <!-- Back toTop Link -->
+        <p style="text-align: right; margin: 0.5em 0;">
+          <a href="#top" class="back-to-top">⬆ Back to top</a>
+        </p>
         </div>
       </div>
     </div>
