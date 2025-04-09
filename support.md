@@ -159,7 +159,7 @@
     </p>
     <p>Press the "Calculate" button to see the relevant effect estimates and their confidence intervals.
       <br><br>
-      The authors provided us the OR (Odds Ratio) in the table above; however, the absolute risk metrics would help us to better understand the magnitude of the treatment effect. In this example, EBM Calculator displays the ARI (Absolute Risk Increase) and NNT (Number Needed to Treat) to increase the outcome by 1, along with the relative risk metrics and associated confidence intervals.</p>
+      The table above provides the odds ratio (OR), but absolute risk measures offer a clearer understanding of the treatment effect’s magnitude. In this example, EBM Calculator displays the absolute risk increase (ARI) and number needed to treat (NNT) to cause one additional outcome, along with relative risk metrics and their confidence intervals.</p>
     <p style="text-align: center;">
       <a href="assets/images/screenshots/Effect - Screenshot 4.png" target="_blank" rel="noopener noreferrer">
         <img src="assets/images/screenshots/Effect - Screenshot 4.png" alt="Effect - Screenshot 4" style="max-width:50%; height:auto; display:block; margin:0 auto; box-shadow: none;">
@@ -209,9 +209,9 @@
     </p>
     <p>Press the "Calculate" button to see the relevant diagnostic test metrics and their confidence intervals.
       <br><br>
-      The authors provided us with the sensitivity and specificity in the table above. Many authors will also report the positive and negative predictive values (PPV and NPV). However, the PPV and NPV are only relevant to the prevalence of the disease or condition found in that specific study population. If the prevalence of the disease is different in your patient population, the PPV and NPV of the test will be different.
+      The table above provides sensitivity and specificity. Some authors also report positive and negative predictive values (PPV and NPV). However, because predictive values depend on disease prevalence, they may not apply to your patients if the study population's prevalence differs from your own.
       <br><br>
-      We can better understand the impact a test result will have on post-test probability by examining the positive and negative likelihood ratios (LR). In this example, EBM Calculator displays the LR(+) and LR(-), their confidence intervals, and  an option to calculate post-test probability should you want to change the prevalence.</p>
+      For this reason, we prefer using positive and negative likelihood ratios (LRs) to better understand post-test probability. In this example, EBM Calculator displays LR(+) and LR(–) with confidence intervals, along with an option to calculate post-test probability using a different prevalence.</p>
     <p style="text-align: center;">
       <a href="assets/images/screenshots/Diagnostic Test - Screenshot 4.png" target="_blank" rel="noopener noreferrer">
         <img src="assets/images/screenshots/Diagnostic Test - Screenshot 4.png" alt="Effect - Screenshot 4" style="max-width:50%; height:auto; display:block; margin:0 auto; box-shadow: none;">
