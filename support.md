@@ -90,7 +90,7 @@
 
   .section-links-wrapper {
   position: sticky;
-  top: 56px; /* adjust based on height of nav bar */
+  top: 30px; /* adjust based on height of nav bar */
   z-index: 99;
   background-color: #ffffff;
   padding: 12px 0;
@@ -98,12 +98,12 @@
 }
 
   .section-links a {
-    padding: 8px 12px;
+    padding: 4px 8px;
     border-radius: 6px;
     background-color: #ffffff;
     border: 1px solid #ccc;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
-    font-size: 16px;
+    font-size: 14px;
     transition: background-color 0.3s ease;
   }
 
@@ -111,7 +111,7 @@
     background-color: #f2f6fc;
   }
 
-  /* ✅ FAQ Styling */
+  /* FAQ Styling */
   .faq-item {
     margin-bottom: 24px;
   }
@@ -143,7 +143,7 @@
     transition: all 0.3s ease;
   }
 
-  /* ✅ Versions section */
+  /* Versions section */
   #versions {
     margin-top: 40px;
   }
@@ -196,6 +196,7 @@
 </div>
 
 <div class="section-links-wrapper">
+  <h2 style="text-align: center; margin-bottom: 12px;">Support</h2>
   <div class="section-links">
     <a href="#faq">FAQ</a>
     <a href="#how-to-guide">How-To</a>
