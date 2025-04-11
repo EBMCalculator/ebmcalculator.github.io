@@ -65,6 +65,7 @@
 
   .tab-bar a:hover {
     background-color: #f2f6fc;
+    text-decoration: none;
   }
 
   @media (max-width: 480px) {
@@ -82,6 +83,7 @@
     background-color: #ffffff;
     padding: 8px 0;
     box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+    margin-top: 5px;
   }
 
   .section-links {
@@ -105,6 +107,7 @@
 
   .section-links a:hover {
     background-color: #f2f6fc;
+    text-decoration: none;
   }
 
   /* FAQ Styling */
