@@ -347,6 +347,20 @@ title: Support
     </div>
   </div>
 
+<!-- 
+  The following style makes the Contact section always open:
+  - Ensures that .faq-answer elements are always displayed.
+  - Changes the pointer style on .faq-question so they're not clickable.
+-->
+<style>
+  .static-contact .faq-answer { 
+    display: block !important; 
+  }
+  .static-contact .faq-question { 
+    cursor: default; 
+  }
+</style>
+
   <!-- Contact Section Box -->
   <div class="faq-item">
     <div class="faq-question" id="contact">
