@@ -1,63 +1,9 @@
-<div style="text-align: center;">
-  <img src="/assets/images/EBM Calculator Logo Any 3x.png" alt="EBM Calculator Logo" width="200">
-  <h1>EBM Calculator</h1>
-</div>
+---
+layout: default
+title: Home
+---
 
-<style>
-
-      a {
-    color: #073472;
-    text-decoration: none;
-  }
-  
-    a:hover {
-    text-decoration: none;
-  }
-  
-  .tab-bar {
-    display: flex;
-    justify-content: center;
-    border-bottom: 2px solid #ccc;
-    padding-bottom: 10px;
-    margin-top: 20px;
-  }
-  .tab-bar a {
-    padding: 10px 20px;
-    text-decoration: none;
-    white-space: nowrap;
-    transition: padding 0.3s ease;
-  }
-  @media (max-width: 480px) {
-    .tab-bar a {
-      padding: 10px 10px;
-    }
-  }
-  /* Box styling for non-collapsible sections */
-  .faq-item {
-    margin-bottom: 20px;
-  }
-  .faq-question {
-    font-weight: bold;
-    padding: 10px;
-    background: #f7f7f7;
-    border: 1px solid #ccc;
-  }
-  .faq-answer {
-    display: block; /* Always visible */
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-top: none;
-  }
-</style>
-
-<div class="tab-bar">
-  <a href="/">Home</a>
-  <a href="/about">About</a>
-  <a href="/support">Support</a>
-  <a href="/privacy-policy">Privacy</a>
-</div>
-
-<!-- TestFlight Button replacing the header -->
+<!-- TestFlight Button -->
 <div style="max-width: 600px; margin: 20px auto; text-align: center;">
   <a href="https://testflight.apple.com/join/9FZgaZyd" style="background-color: #073472; color: white; padding: 12px 24px; font-size: 16px; border-radius: 8px; text-decoration: none; display: inline-block;">
     Join the EBM Calculator Beta on Apple's TestFlight
@@ -77,7 +23,8 @@
     <div class="faq-answer">
       <ul>
         <li>Used for studies that examine the effect of a therapy or exposure.</li>
-        <li>Calculate key effect estimates for <strong>dichotomous outcomes</strong>, including:
+        <li>
+          Calculate key effect estimates for <strong>dichotomous outcomes</strong>, including:
           <ul>
             <li><strong>Absolute Risk Reduction (ARR)</strong></li>
             <li><strong>Number Needed to Treat (NNT)</strong></li>
@@ -90,12 +37,14 @@
       </ul>
     </div>
   </div>
+  
   <!-- Diagnostic Test Calculator -->
   <div class="faq-item">
     <div class="faq-question">Diagnostic Test Calculator</div>
     <div class="faq-answer">
       <ul>
-        <li>Evaluate the utility of diagnostic tests using metrics like:
+        <li>
+          Evaluate the utility of diagnostic tests using metrics like:
           <ul>
             <li><strong>Sensitivity</strong></li>
             <li><strong>Specificity</strong></li>
@@ -108,6 +57,7 @@
       </ul>
     </div>
   </div>
+  
   <!-- Post-Test Probability Calculator -->
   <div class="faq-item">
     <div class="faq-question">Post-Test Probability Calculator</div>
@@ -119,6 +69,7 @@
       </ul>
     </div>
   </div>
+  
   <!-- Save & Share -->
   <div class="faq-item">
     <div class="faq-question">Save &amp; Share</div>
@@ -129,6 +80,7 @@
       </ul>
     </div>
   </div>
+  
   <!-- Library -->
   <div class="faq-item">
     <div class="faq-question">Library</div>
@@ -139,8 +91,4 @@
       </ul>
     </div>
   </div>
-</div>
-
-<div style="text-align: center; margin-top: 40px;">
-  &copy; 2024 David A. Stewart, MD
 </div>
