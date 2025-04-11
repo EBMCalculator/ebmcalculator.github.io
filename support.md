@@ -16,7 +16,7 @@
 
   @media (max-width: 480px) {
     html {
-      scroll-padding-top: 80px;
+      scroll-padding-top: 100px;
     }
   }
 
@@ -77,7 +77,7 @@
   /* Section Link Bar (FAQ / How-To / Versions) */
   .section-links-wrapper {
     position: sticky;
-    top: 42px; /* adjust based on height of nav bar */
+    top: 50px; /* adjust based on height of nav bar */
     z-index: 99;
     background-color: #ffffff;
     padding: 8px 0;
