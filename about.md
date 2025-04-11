@@ -49,6 +49,7 @@ title: About
   </a>
 </div>
 
+<br>
 
 <!-- Versions Section (moved to bottom) -->
 <div style="max-width: 600px; margin: 20px auto;">
