@@ -1,6 +1,6 @@
 <a id="top"></a>
 
-<div style="text-align: center;">
+<div class="header-section">
   <img src="/assets/images/EBM Calculator Logo Any 3x.png" alt="EBM Calculator Logo" width="200">
   <h1>EBM Calculator</h1>
 </div>
@@ -8,6 +8,13 @@
 <style>
   html {
     scroll-behavior: smooth;
+  }
+
+  .header-section {
+    background-color: #ffffff;
+    padding: 24px 16px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
   }
 
   body {
@@ -55,11 +62,10 @@
   }
 
   @media (max-width: 480px) {
-    .tab-bar {
-      flex-wrap: wrap;
-    }
     .tab-bar a {
-      margin: 6px;
+      padding: 6px 10px;
+      font-size: 14px;
+      margin: 4px 6px;
     }
   }
 
