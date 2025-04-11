@@ -1,67 +1,26 @@
-<div style="text-align: center;">
-  <img src="/assets/images/EBM Calculator Logo Any 3x.png" alt="EBM Calculator Logo" width="200">
-  <h1>EBM Calculator</h1>
-</div>
-
-<style>
-
-    a {
-    color: #073472;
-    text-decoration: none;
-  }
-  
-    a:hover {
-    text-decoration: none;
-  }
-  
-  .tab-bar {
-    display: flex;
-    justify-content: center;
-    border-bottom: 2px solid #ccc;
-    padding-bottom: 10px;
-    margin-top: 20px;
-  }
-  .tab-bar a {
-    padding: 10px 20px;
-    text-decoration: none;
-    white-space: nowrap;
-    transition: padding 0.3s ease;
-  }
-  @media (max-width: 480px) {
-    .tab-bar a {
-      padding: 10px 10px;
-    }
-  }
-  
-  /* Box styling for privacy policy sections */
-  .faq-item {
-    margin-bottom: 20px;
-  }
-  .faq-question {
-    font-weight: bold;
-    padding: 10px;
-    background: #f7f7f7;
-    border: 1px solid #ccc;
-  }
-  .faq-answer {
-    display: block; /* Always visible */
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-top: none;
-  }
-</style>
-
-<div class="tab-bar">
-  <a href="/">Home</a>
-  <a href="/about">About</a>
-  <a href="/support">Support</a>
-  <a href="/privacy-policy">Privacy</a>
-</div>
+---
+layout: default
+title: Privacy Policy
+---
 
 <h2 style="text-align: center;">Privacy Policy</h2>
 <p style="text-align: center;"><strong>Effective Date:</strong> November 4, 2024</p>
 
-<div style="max-width: 600px; margin: 20px auto;">
+<!-- 
+  The following style makes the privacy policy sections always open:
+  - Ensures that .faq-answer elements are always displayed.
+  - Changes the pointer style on .faq-question so they're not clickable.
+-->
+<style>
+  .static-policy .faq-answer { 
+    display: block !important; 
+  }
+  .static-policy .faq-question { 
+    cursor: default; 
+  }
+</style>
+
+<div class="static-policy" style="max-width: 600px; margin: 20px auto;">
   <!-- 1. Introduction -->
   <div class="faq-item">
     <div class="faq-question">
@@ -128,8 +87,4 @@
       <p>If you have any questions about this privacy policy, please contact: <a href="mailto:support@ebmcalculator.com">support@ebmcalculator.com</a></p>
     </div>
   </div>
-</div>
-
-<div style="text-align: center; margin-top: 40px;">
-  &copy; 2024 David A. Stewart, MD
 </div>
