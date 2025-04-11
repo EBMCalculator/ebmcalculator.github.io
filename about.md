@@ -54,13 +54,14 @@ title: About
 
 <!-- Versions Section (moved to bottom) -->
 <div style="max-width: 600px; margin: 20px auto;">
-  <!-- Outer Versions container: no onclick so it remains static -->
+  <!-- Outer Versions container: always expanded -->
   <div class="faq-item">
-    <div class="faq-question" id="versions">
+    <div class="faq-question" id="versions" style="cursor: default;">
       Versions
     </div>
-    <div class="faq-answer">
-      <!-- Most recent version: v1.3.0 -- expanded by default -->
+    <!-- Force the outer faq-answer to always display -->
+    <div class="faq-answer" style="display: block;">
+      <!-- Most recent version: v1.3.0 (expanded by default) -->
       <div class="faq-item">
         <div class="faq-question" onclick="toggleAnswer(this)">
           <span>&#9660;</span> v1.3.0
@@ -119,6 +120,7 @@ title: About
     </div>
   </div>
 </div>
+
 
 <script>
 function toggleAnswer(element) {
