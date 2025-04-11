@@ -1,9 +1,9 @@
 <a id="top"></a>
 
-<div style="text-align: center;">
-  <picture>
-    <source srcset="assets/images/EBM-Calculator-Logo-Dark-3x.png" media="(prefers-color-scheme: dark)">
-    <img src="/assets/images/EBM Calculator Logo Any 3x.png" alt="EBM Calculator Logo" width="200">
+<div style="text-align: center; background-color: transparent;">
+  <picture style="background-color: transparent;">
+    <source srcset="/assets/images/EBM-Calculator-Logo-Dark-3x.png" media="(prefers-color-scheme: dark)">
+    <img src="/assets/images/EBM Calculator Logo Any 3x.png" alt="EBM Calculator Logo" width="200" style="background-color: transparent;">
   </picture>
   <h1>EBM Calculator</h1>
 </div>
@@ -212,12 +212,12 @@
   }
 
   a {
-    color: #8ab4f8;
+    color: #073472;
   }
 
   .back-to-top {
     background-color: #121212;
-    color: #8ab4f8;
+    color: #073472;
     border-color: #444;
   }
 
