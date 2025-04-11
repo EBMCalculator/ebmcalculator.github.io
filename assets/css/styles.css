@@ -133,8 +133,8 @@ a:hover {
 
 .faq-answer {
   display: none;
-  padding: 12px 16px;
-  margin-top: 6px;
+  padding: 8px 16px 12px;
+  margin-top: 4px;
   border: 1px solid #ccc;
   border-top: none;
   border-radius: 0 0 8px 8px;
