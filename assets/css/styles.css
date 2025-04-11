@@ -37,7 +37,6 @@ a:hover {
   justify-content: center;
   background-color: #ffffff;
   padding: 6px 0;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
   position: sticky;
   top: 0;
   z-index: 100;
@@ -53,6 +52,7 @@ a:hover {
   gap: 8px;
   padding: 0 16px;
   border-bottom: 1px solid #ccc;  /* constrain the line */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
 }
 
 
