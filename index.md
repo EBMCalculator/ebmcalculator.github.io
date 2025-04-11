@@ -16,7 +16,7 @@ title: Home
 <style>
   /* Reduce the top offset on the home page so the button sits only 5px below the tab bar */
   .index-sticky {
-    top: 45px !important;
+    top: 50px !important;
   }
 </style>
 
