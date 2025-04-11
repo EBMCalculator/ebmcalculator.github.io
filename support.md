@@ -6,6 +6,10 @@
 </div>
 
 <style>
+  html {
+  scroll-behavior: smooth;
+}
+
   a {
     color: #073472;
     text-decoration: none;
@@ -529,4 +533,29 @@ function toggleAnswer(element) {
     element.querySelector("span").innerHTML = "&#9660;";
   }
 }
+// Automatically expand relevant section on load based on hash
+window.addEventListener("DOMContentLoaded", () => {
+  const hash = window.location.hash;
+  if (hash) {
+    const target = document.querySelector(hash);
+    if (target && target.classList.contains("faq-question")) {
+      // Collapse all first
+      document.querySelectorAll(".faq-answer").forEach(answer => {
+        answer.style.display = "none";
+      });
+      document.querySelectorAll(".faq-question span").forEach(icon => {
+        icon.innerHTML = "&#9654;";
+      });
+
+      // Expand target
+      const answer = target.nextElementSibling;
+      if (answer && answer.classList.contains("faq-answer")) {
+        answer.style.display = "block";
+        target.querySelector("span").innerHTML = "&#9660;";
+        // Scroll into view smoothly
+        target.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    }
+  }
+});
 </script>
