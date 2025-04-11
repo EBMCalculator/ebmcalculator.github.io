@@ -90,7 +90,7 @@
 
   .section-links {
     text-align: center;
-    margin: 0;
+    margin: -10px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
