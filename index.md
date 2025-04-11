@@ -3,6 +3,16 @@ layout: default
 title: Home
 ---
 
+<!-- Force feature boxes to be always expanded -->
+<style>
+  .static-feature .faq-answer { 
+    display: block !important;
+  }
+  .static-feature .faq-question { 
+    cursor: default;
+  }
+</style>
+
 <!-- TestFlight Button -->
 <div style="max-width: 600px; margin: 20px auto; text-align: center;">
   <a href="https://testflight.apple.com/join/9FZgaZyd" style="background-color: #073472; color: white; padding: 12px 24px; font-size: 16px; border-radius: 8px; text-decoration: none; display: inline-block;">
@@ -15,8 +25,8 @@ title: Home
   The goal of **EBM Calculator** is to help with your appraisal of the medical literature!
 </div>
 
-<!-- Individual Feature Boxes -->
-<div style="max-width: 600px; margin: 20px auto;">
+<!-- Individual Feature Boxes (Always Expanded) -->
+<div class="static-feature" style="max-width: 600px; margin: 20px auto;">
   <!-- Effect Calculator -->
   <div class="faq-item">
     <div class="faq-question">Effect Calculator</div>
