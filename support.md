@@ -5,7 +5,6 @@
     <img src="/assets/images/EBM Calculator Logo Any 3x.png" alt="EBM Calculator Logo" width="200">
     <h1>EBM Calculator</h1>
   </div>
-  <hr class="header-divider">
 </div>
 
 <style>
@@ -18,7 +17,7 @@
     font-size: 16px;
     line-height: 1.6;
     color: #333;
-    background-color: #f9f9f9;
+    background-color: #ffffff;
     margin: 0;
     padding: 0;
   }
@@ -45,12 +44,6 @@
     margin: 0 auto;
   }
 
-  .header-divider {
-    border: none;
-    border-top: 1px solid #e0e0e0;
-    margin: 16px 0 0;
-    width: 100%;
-  }
 
   /* ✅ Navigation Tabs */
   .tab-bar {
@@ -119,7 +112,7 @@
     font-weight: bold;
     cursor: pointer;
     padding: 12px 16px;
-    background: #f2f6fc;
+    background: #f9f9f9;
     border: 1px solid #ccc;
     border-radius: 8px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
