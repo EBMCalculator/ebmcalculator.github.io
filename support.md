@@ -139,11 +139,6 @@
     transition: all 0.3s ease;
   }
 
-  /* Versions section */
-  #versions {
-    margin-top: 40px;
-  }
-
   /* Back to Top Button */
   .back-to-top {
     display: inline-block;
