@@ -43,13 +43,11 @@ title: About
   **Enjoying the app?** <br>
   <a href="https://buymeacoffee.com/davidstewart" target="_blank" rel="noopener noreferrer">
     <picture>
-      <source srcset="/assets/images/EBMCalculator-dark-bmc-logo 3x.png" media="(prefers-color-scheme: dark)">
+      <source srcset="/assets/images/EBMCalculator-dark-bmc-logo-3x.png" media="(prefers-color-scheme: dark)">
       <img src="/assets/images/EBMCalculator-any-bmc-logo 3x.png" alt="Buy Me a Coffee" style="height: 25px; object-fit: contain; margin-top: 5px">
     </picture>
   </a>
 </div>
-
-<br>
 
 
 <!-- Versions Section (moved to bottom) -->
