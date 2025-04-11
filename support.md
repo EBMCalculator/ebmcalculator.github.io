@@ -10,6 +10,17 @@
     scroll-behavior: smooth;
   }
 
+  html {
+  scroll-padding-top: 100px;
+  }
+
+  @media (max-width: 480px) {
+    html {
+      scroll-padding-top: 80px;
+    }
+  }
+
+
   body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
     font-size: 16px;
@@ -191,8 +202,8 @@
 
 <div style="max-width: 600px; margin: 20px auto;">
   <!-- FAQ Section Box -->
-  <div class="faq-item" id="faq">
-    <div class="faq-question" onclick="toggleAnswer(this)">
+  <div class="faq-item">
+    <div class="faq-question" id="faq" onclick="toggleAnswer(this)">
       <span>&#9654;</span> Frequently Asked Questions
     </div>
     <div class="faq-answer">
@@ -280,8 +291,8 @@
   </div>
 
 <!-- How-To Guide Section Box -->
-<div class="faq-item" id="how-to-guide">
-  <div class="faq-question" onclick="toggleAnswer(this)">
+<div class="faq-item">
+  <div class="faq-question" id="how-to-guide" onclick="toggleAnswer(this)">
     <span>&#9654;</span> How-To Guide
   </div>
   <div class="faq-answer">
@@ -533,8 +544,8 @@
 </div>
 
   <!-- Versions Section Box -->
-  <div class="faq-item" id="versions">
-    <div class="faq-question" onclick="toggleAnswer(this)">
+  <div class="faq-item">
+    <div class="faq-question" id="versions" onclick="toggleAnswer(this)">
       <span>&#9654;</span> Versions
     </div>
     <div class="faq-answer">
