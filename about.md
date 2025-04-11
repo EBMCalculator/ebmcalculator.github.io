@@ -1,73 +1,12 @@
-<div style="text-align: center;">
-  <img src="/assets/images/EBM Calculator Logo Any 3x.png" alt="EBM Calculator Logo" width="200">
-  <h1>EBM Calculator</h1>
-</div>
-
-<style>
-  
-    a {
-    color: #073472;
-    text-decoration: none;
-  }
-  
-    a:hover {
-    text-decoration: none;
-  }
-  
-  .tab-bar {
-    display: flex;
-    justify-content: center;
-    border-bottom: 2px solid #ccc;
-    padding-bottom: 10px;
-    margin-top: 20px;
-  }
-  .tab-bar a {
-    padding: 10px 20px;
-    text-decoration: none;
-    white-space: nowrap;
-    transition: padding 0.3s ease;
-  }
-  @media (max-width: 480px) {
-    .tab-bar a {
-      padding: 10px 10px;
-    }
-  }
-  /* Box styling for non-collapsible sections */
-  .faq-item {
-    margin-bottom: 20px;
-  }
-  .faq-question {
-    font-weight: bold;
-    padding: 10px;
-    background: #f7f7f7;
-    border: 1px solid #ccc;
-  }
- 
-  .faq-block {
-    display: block; /* Always visible */
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-top: none;
-  } 
-  .faq-answer {
-    display: none; /* Collapsible */
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-top: none;
-  }
-</style>
-
-<div class="tab-bar">
-  <a href="/">Home</a>
-  <a href="/about">About</a>
-  <a href="/support">Support</a>
-  <a href="/privacy-policy">Privacy</a>
-</div>
+---
+layout: default
+title: About
+---
 
 <h2 style="text-align: center;">About</h2>
 
 <div style="max-width: 600px; margin: 20px auto;">
-  <!-- Disclaimer Box -->
+  <!-- Disclaimer Box (non-collapsible) -->
   <div class="faq-item">
     <div class="faq-question">Disclaimer</div>
     <div class="faq-block">
@@ -92,18 +31,15 @@
 </div>
 
 <br>
+
 <div style="max-width: 600px; margin: 20px auto;">
-  <!-- How-To Guide Section Box -->
+  <!-- How-To Guide Section for Formulas (collapsible) -->
   <div class="faq-item">
     <div class="faq-question" id="Formulas" onclick="toggleAnswer(this)"><span>&#9654;</span> Formulas</div>
     <div class="faq-answer">
       <p><a href="/assets/pdf/Formulas.pdf" target="_blank" rel="noopener noreferrer">Click here to review the formulas</a> used for calculating metrics and confidence intervals in the app.</p>
     </div>
   </div>
-</div>
-  
-<div style="text-align: center; margin-top: 40px;">
-  &copy; 2024 David A. Stewart, MD
 </div>
 
 <script>
