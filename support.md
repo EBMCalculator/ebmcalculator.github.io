@@ -69,8 +69,8 @@
 
   @media (max-width: 480px) {
     .tab-bar a {
-      padding: 6px 10px;
-      font-size: 15px;
+      padding: 8px 12px;
+      font-size: 16px;
     }
   }
 
