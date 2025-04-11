@@ -1,10 +1,8 @@
 <a id="top"></a>
 
-<div class="header-section">
-  <div class="header-content">
-    <img src="/assets/images/EBM Calculator Logo Any 3x.png" alt="EBM Calculator Logo" width="200">
-    <h1>EBM Calculator</h1>
-  </div>
+<div style="text-align: center;">
+  <img src="/assets/images/EBM Calculator Logo Any 3x.png" alt="EBM Calculator Logo" width="200">
+  <h1>EBM Calculator</h1>
 </div>
 
 <style>
@@ -29,13 +27,6 @@
 
   a:hover {
     text-decoration: underline;
-  }
-
-  /* Header section (full width) */
-  .header-section {
-    background-color: #ffffff;
-    width: 100%;
-    padding: 16px 0 12px;
   }
 
   .header-content {
