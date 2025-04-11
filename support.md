@@ -212,7 +212,7 @@
   }
 
   a {
-    color: #3973b5;
+    color: #5b9bd5;
   }
 
   .back-to-top {
