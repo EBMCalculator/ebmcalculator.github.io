@@ -9,7 +9,7 @@ title: Support
   <div class="section-links">
     <a href="#faq">FAQ</a>
     <a href="#how-to-guide">How-To</a>
-    <a href="#versions">Versions</a>
+    <a href="#contact">Contact</a>
   </div>
 </div>
 
@@ -93,7 +93,7 @@ title: Support
         </div>
         <div class="faq-answer">
           Yes! The more I learn, the more features I want to build. But I also wanted to release the app quickly to start helping clinicians.<br><br>
-          If you have suggestions for new features or improvements, feel free to email me at <a href="mailto:support@ebmcalculator.com">support@ebmcalculator.com</a>!
+          If you have suggestions for new features or improvements, please email me at <a href="mailto:support@ebmcalculator.com">support@ebmcalculator.com</a>.
           <p style="text-align: right; margin: 0.5em 0;">
             <a href="#top" class="back-to-top">⬆ Back to top</a>
           </p>
@@ -347,82 +347,13 @@ title: Support
     </div>
   </div>
 
-  <!-- Versions Section Box -->
+  <!-- Contact Section Box -->
   <div class="faq-item">
-    <div class="faq-question" id="versions" onclick="toggleAnswer(this)">
-      <span>&#9654;</span> Versions
+    <div class="faq-question" id="contact">
+      <span>&#9654;</span> Contact
     </div>
     <div class="faq-answer">
-      <!-- Version v1.3.0 -->
-      <div class="faq-item">
-        <div class="faq-question" onclick="toggleAnswer(this)">
-          <span>&#9654;</span> v1.3.0
-        </div>
-        <div class="faq-answer">
-          <ul>
-            <li>All new UI with navigation bar and cleaner appearance</li>
-            <li>Swipe on results to Share, Edit, Save, or Delete</li>
-            <li>Save up to 50 results</li>
-            <li>Drag and drop results to rearrange in Results section</li>
-            <li>Calculate Post-Test Probability from any diagnostic test result</li>
-            <li>New Library section with various Lessons in EBM</li>
-            <li>New Interactive Fagan Nomogram</li>
-            <li>Bug fixes and UI refinements</li>
-          </ul>
-          <p style="text-align: right; margin: 0.5em 0;">
-            <a href="#top" class="back-to-top">⬆ Back to top</a>
-          </p>
-        </div>
-      </div>
-      <!-- Version v1.2.0 -->
-      <div class="faq-item">
-        <div class="faq-question" onclick="toggleAnswer(this)">
-          <span>&#9654;</span> v1.2.0
-        </div>
-        <div class="faq-answer">
-          <ul>
-            <li>New feature to save, delete, and share results</li>
-            <li>New formula pages</li>
-            <li>Updates for icons and logos</li>
-            <li>Works in light and dark mode</li>
-            <li>Bug fixes and UI refinements</li>
-          </ul>
-          <p style="text-align: right; margin: 0.5em 0;">
-            <a href="#top" class="back-to-top">⬆ Back to top</a>
-          </p>
-        </div>
-      </div>
-      <!-- Version v1.1.0 -->
-      <div class="faq-item">
-        <div class="faq-question" onclick="toggleAnswer(this)">
-          <span>&#9654;</span> v1.1.0
-        </div>
-        <div class="faq-answer">
-          <ul>
-            <li>New icons and logos</li>
-            <li>Bug fixes and UI refinements</li>
-          </ul>
-          <p style="text-align: right; margin: 0.5em 0;">
-            <a href="#top" class="back-to-top">⬆ Back to top</a>
-          </p>
-        </div>
-      </div>
-      <!-- Version v1.0.0 -->
-      <div class="faq-item">
-        <div class="faq-question" onclick="toggleAnswer(this)">
-          <span>&#9654;</span> v1.0.0
-        </div>
-        <div class="faq-answer">
-          <ul>
-            <li>Effect Calculator</li>
-            <li>Diagnostic Test Calculator</li>
-            <li>Post-Test Probability Calculator</li>
-          </ul>
-          <p style="text-align: right; margin: 0.5em 0;">
-            <a href="#top" class="back-to-top">⬆ Back to top</a>
-          </p>
-        </div>
-      </div>
+      Please email <a href="mailto:support@ebmcalculator.com">support@ebmcalculator.com</a> with any questions, comments, or suggestions!
     </div>
   </div>
 </div>
