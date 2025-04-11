@@ -90,7 +90,7 @@
 
   .section-links {
     text-align: center;
-    margin: -10px;
+    margin: 0;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -195,8 +195,8 @@
   <a href="/privacy-policy">Privacy</a>
 </div>
 
+<h2 style="text-align: center; margin-bottom: 12px;">Support</h2>
 <div class="section-links-wrapper">
-  <h2 style="text-align: center; margin-bottom: 12px;">Support</h2>
   <div class="section-links">
     <a href="#faq">FAQ</a>
     <a href="#how-to-guide">How-To</a>
