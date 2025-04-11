@@ -13,10 +13,9 @@ title: Home
   }
 </style>
 
-  /* Reduce the top offset on the home page so the button sits only 5px below the tab bar */
 <style>
   .index-sticky {
-    top: 50px !important;
+    top: 50px !important; /* Reduce the top offset on the home page so the button sits only 5px below the tab bar */
     margin-top: 0 !important; /* Remove the negative margin so the button isn't pushed upward */
   }
 </style>
