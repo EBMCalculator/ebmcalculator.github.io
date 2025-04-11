@@ -1,7 +1,10 @@
 <a id="top"></a>
 
 <div style="text-align: center;">
-  <img src="/assets/images/EBM Calculator Logo Any 3x.png" alt="EBM Calculator Logo" width="200">
+  <picture>
+    <source srcset="/assets/images/EBM Calculator Logo Dark 3x.png" media="(prefers-color-scheme: dark)">
+    <img src="/assets/images/EBM Calculator Logo Any 3x.png" alt="EBM Calculator Logo" width="200">
+  </picture>
   <h1>EBM Calculator</h1>
 </div>
 
@@ -192,7 +195,7 @@
   .faq-question,
   .faq-answer,
   .section-links a {
-    background-color: #1e1e1e;
+    background-color: #121212;
     color: #e0e0e0;
     border-color: #444;
   }
@@ -211,7 +214,7 @@
   }
 
   .back-to-top {
-    background-color: #1e1e1e;
+    background-color: #121212;
     color: #8ab4f8;
     border-color: #444;
   }
