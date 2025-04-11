@@ -1,20 +1,16 @@
 <a id="top"></a>
 
 <div class="header-section">
-  <img src="/assets/images/EBM Calculator Logo Any 3x.png" alt="EBM Calculator Logo" width="200">
-  <h1>EBM Calculator</h1>
+  <div class="header-content">
+    <img src="/assets/images/EBM Calculator Logo Any 3x.png" alt="EBM Calculator Logo" width="200">
+    <h1>EBM Calculator</h1>
+  </div>
+  <hr class="header-divider">
 </div>
 
 <style>
   html {
     scroll-behavior: smooth;
-  }
-
-  .header-section {
-    background-color: #ffffff;
-    padding: 24px 16px;
-    text-align: center;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
   }
 
   body {
@@ -36,24 +32,46 @@
     text-decoration: underline;
   }
 
-  /* Navigation Tabs */
+  /* ✅ Header section (full width) */
+  .header-section {
+    background-color: #ffffff;
+    width: 100%;
+    padding: 24px 0;
+  }
+
+  .header-content {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .header-divider {
+    border: none;
+    border-top: 1px solid #e0e0e0;
+    margin: 16px 0 0;
+    width: 100%;
+  }
+
+  /* ✅ Navigation Tabs */
   .tab-bar {
     display: flex;
     justify-content: center;
     background-color: #ffffff;
     border-bottom: 1px solid #ccc;
-    padding: 12px 0;
+    padding: 10px 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
     position: sticky;
     top: 0;
     z-index: 100;
+    gap: 8px;
+    flex-wrap: wrap;
   }
 
   .tab-bar a {
-    margin: 0 12px;
-    padding: 8px 16px;
+    padding: 8px 12px;
     border-radius: 6px;
     font-weight: 500;
+    font-size: 16px;
     transition: background-color 0.3s ease;
   }
 
@@ -64,33 +82,35 @@
   @media (max-width: 480px) {
     .tab-bar a {
       padding: 6px 10px;
-      font-size: 14px;
-      margin: 4px 6px;
+      font-size: 15px;
     }
   }
 
-  /* Section Link Bar */
+  /* ✅ Section Link Bar (FAQ / How-To / Versions) */
   .section-links {
     text-align: center;
     margin: 24px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
   }
 
   .section-links a {
-    margin: 0 16px;
     padding: 8px 12px;
     border-radius: 6px;
     background-color: #ffffff;
     border: 1px solid #ccc;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+    font-size: 16px;
     transition: background-color 0.3s ease;
-    display: inline-block;
   }
 
   .section-links a:hover {
     background-color: #f2f6fc;
   }
 
-  /* FAQ Styling */
+  /* ✅ FAQ Styling */
   .faq-item {
     margin-bottom: 24px;
   }
@@ -122,7 +142,7 @@
     transition: all 0.3s ease;
   }
 
-  /* Versions section (inherits FAQ styles) */
+  /* ✅ Versions section */
   #versions {
     margin-top: 40px;
   }
@@ -165,6 +185,7 @@
     color: #666;
   }
 </style>
+
 
 <div class="tab-bar">
   <a href="/">Home</a>
