@@ -31,7 +31,7 @@
     text-decoration: underline;
   }
 
-  /* ✅ Header section (full width) */
+  /* Header section (full width) */
   .header-section {
     background-color: #ffffff;
     width: 100%;
@@ -44,8 +44,7 @@
     margin: 0 auto;
   }
 
-
-  /* ✅ Navigation Tabs */
+  /* Navigation Tabs */
   .tab-bar {
     display: flex;
     justify-content: center;
@@ -79,7 +78,7 @@
     }
   }
 
-  /* ✅ Section Link Bar (FAQ / How-To / Versions) */
+  /* Section Link Bar (FAQ / How-To / Versions) */
   .section-links {
     text-align: center;
     margin: 24px 0;
@@ -88,6 +87,15 @@
     flex-wrap: wrap;
     gap: 12px;
   }
+
+  .section-links-wrapper {
+  position: sticky;
+  top: 56px; /* adjust based on height of nav bar */
+  z-index: 99;
+  background-color: #ffffff;
+  padding: 12px 0;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+}
 
   .section-links a {
     padding: 8px 12px;
@@ -187,11 +195,12 @@
   <a href="/privacy-policy">Privacy</a>
 </div>
 
-<h2 style="text-align: center;">Support</h2>
-<div class="section-links">
-  <a href="#faq">FAQ</a>
-  <a href="#how-to-guide">How-To</a>
-  <a href="#versions">Versions</a>
+<div class="section-links-wrapper">
+  <div class="section-links">
+    <a href="#faq">FAQ</a>
+    <a href="#how-to-guide">How-To</a>
+    <a href="#versions">Versions</a>
+  </div>
 </div>
 
 <div style="max-width: 600px; margin: 20px auto;">
