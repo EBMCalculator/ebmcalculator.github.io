@@ -533,29 +533,45 @@ function toggleAnswer(element) {
     element.querySelector("span").innerHTML = "&#9660;";
   }
 }
-// Automatically expand relevant section on load based on hash
+
+// Expand section and collapse others
+function expandSectionById(id) {
+  const target = document.querySelector(id);
+  if (target && target.classList.contains("faq-question")) {
+    // Collapse all
+    document.querySelectorAll(".faq-answer").forEach(answer => {
+      answer.style.display = "none";
+    });
+    document.querySelectorAll(".faq-question span").forEach(icon => {
+      icon.innerHTML = "&#9654;";
+    });
+
+    // Expand target
+    const answer = target.nextElementSibling;
+    if (answer && answer.classList.contains("faq-answer")) {
+      answer.style.display = "block";
+      target.querySelector("span").innerHTML = "&#9660;";
+      target.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  }
+}
+
+// Expand based on URL hash on initial load
 window.addEventListener("DOMContentLoaded", () => {
   const hash = window.location.hash;
   if (hash) {
-    const target = document.querySelector(hash);
-    if (target && target.classList.contains("faq-question")) {
-      // Collapse all first
-      document.querySelectorAll(".faq-answer").forEach(answer => {
-        answer.style.display = "none";
-      });
-      document.querySelectorAll(".faq-question span").forEach(icon => {
-        icon.innerHTML = "&#9654;";
-      });
-
-      // Expand target
-      const answer = target.nextElementSibling;
-      if (answer && answer.classList.contains("faq-answer")) {
-        answer.style.display = "block";
-        target.querySelector("span").innerHTML = "&#9660;";
-        // Scroll into view smoothly
-        target.scrollIntoView({ behavior: "smooth", block: "start" });
-      }
-    }
+    expandSectionById(hash);
   }
 });
+
+// Add click handlers to toolbar section links
+document.querySelectorAll(".section-links a").forEach(link => {
+  link.addEventListener("click", event => {
+    const href = link.getAttribute("href");
+    if (href.startsWith("#")) {
+      expandSectionById(href);
+    }
+  });
+});
 </script>
+
