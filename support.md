@@ -538,7 +538,7 @@ function toggleAnswer(element) {
 function expandSectionById(id) {
   const target = document.querySelector(id);
   if (target && target.classList.contains("faq-question")) {
-    // Collapse all
+    // Collapse all sections
     document.querySelectorAll(".faq-answer").forEach(answer => {
       answer.style.display = "none";
     });
@@ -546,12 +546,24 @@ function expandSectionById(id) {
       icon.innerHTML = "&#9654;";
     });
 
-    // Expand target
+    // Expand main target
     const answer = target.nextElementSibling;
     if (answer && answer.classList.contains("faq-answer")) {
       answer.style.display = "block";
       target.querySelector("span").innerHTML = "&#9660;";
       target.scrollIntoView({ behavior: "smooth", block: "start" });
+
+      // Special case: if target is #versions, auto-expand its first child version
+      if (id === "#versions") {
+        const firstSubSection = answer.querySelector(".faq-question");
+        if (firstSubSection) {
+          const firstSubAnswer = firstSubSection.nextElementSibling;
+          if (firstSubAnswer && firstSubAnswer.classList.contains("faq-answer")) {
+            firstSubAnswer.style.display = "block";
+            firstSubSection.querySelector("span").innerHTML = "&#9660;";
+          }
+        }
+      }
     }
   }
 }
@@ -574,4 +586,3 @@ document.querySelectorAll(".section-links a").forEach(link => {
   });
 });
 </script>
-
