@@ -6,7 +6,7 @@ title: About
 <h2 style="text-align: center;">About</h2>
 
 <!-- 
-  The following style makes the privacy policy sections always open:
+  The following style makes the disclaimer section always open:
   - Ensures that .faq-answer elements are always displayed.
   - Changes the pointer style on .faq-question so they're not clickable.
 -->
