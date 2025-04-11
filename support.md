@@ -79,7 +79,6 @@
   .section-links-wrapper {
     position: sticky;
     top: 55px; /* adjust based on height of nav bar; determines where scrolling stops*/
-    margin-top: -10px; /* moves section links closer to nav bar*/
     z-index: 99;
     background-color: #ffffff;
     padding: 8px 0;
@@ -190,7 +189,7 @@
   <a href="/privacy-policy">Privacy</a>
 </div>
 
-<h2 style="text-align: center; margin-bottom: 12px;">Support</h2>
+<h2 style="text-align: center;">Support</h2>
 <div class="section-links-wrapper">
   <div class="section-links">
     <a href="#faq">FAQ</a>
