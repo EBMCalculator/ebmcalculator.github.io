@@ -180,6 +180,51 @@
     font-size: 0.85em;
     color: #666;
   }
+
+  @media (prefers-color-scheme: dark) {
+  body {
+    background-color: #121212;
+    color: #e0e0e0;
+  }
+
+  .tab-bar,
+  .section-links-wrapper,
+  .faq-question,
+  .faq-answer,
+  .section-links a {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    border-color: #444;
+  }
+
+  .tab-bar {
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.03);
+  }
+
+  .section-links a:hover,
+  .tab-bar a:hover {
+    background-color: #2c2c2c;
+  }
+
+  a {
+    color: #8ab4f8;
+  }
+
+  .back-to-top {
+    background-color: #1e1e1e;
+    color: #8ab4f8;
+    border-color: #444;
+  }
+
+  .site-footer {
+    color: #aaa;
+  }
+
+  img {
+    filter: brightness(0.9) contrast(1.1);
+  }
+}
+
 </style>
 
 
