@@ -217,7 +217,7 @@
 
   .back-to-top {
     background-color: #121212;
-    color: #3973b5;
+    color: #5b9bd5;
     border-color: #444;
   }
 
