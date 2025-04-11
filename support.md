@@ -65,7 +65,7 @@
     font-weight: bold;
     cursor: pointer;
     padding: 12px 16px;
-    background: #f2f6fc;
+    background: ##d9d9d9;
     border: 1px solid #ccc;
     border-radius: 8px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
@@ -73,7 +73,7 @@
   }
 
   .faq-question:hover {
-    background: #e9f1fd;
+    background: ##a6a6a6;
   }
 
   .faq-answer {
