@@ -2,7 +2,7 @@
 
 <div style="text-align: center;">
   <picture>
-    <source srcset="assets/images/EBM Calculator Logo Dark 3x.png" media="(prefers-color-scheme: dark)">
+    <source srcset="assets/images/EBM-Calculator-Logo-Dark-3x.png" media="(prefers-color-scheme: dark)">
     <img src="/assets/images/EBM Calculator Logo Any 3x.png" alt="EBM Calculator Logo" width="200">
   </picture>
   <h1>EBM Calculator</h1>
@@ -206,7 +206,8 @@
 
   .section-links a:hover,
   .tab-bar a:hover,
-  .faq-question:hover {
+  .faq-question:hover,
+  .back-to-top:hover {
     background-color: #2c2c2c;
   }
 
