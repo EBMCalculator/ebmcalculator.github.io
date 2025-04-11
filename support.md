@@ -79,6 +79,7 @@
   .section-links-wrapper {
     position: sticky;
     top: 55px; /* adjust based on height of nav bar; determines where scrolling stops*/
+    margin-top: -10px;
     z-index: 99;
     background-color: #ffffff;
     padding: 8px 0;
