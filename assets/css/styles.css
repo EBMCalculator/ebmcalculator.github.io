@@ -46,6 +46,15 @@ a:hover {
   flex-wrap: wrap;
 }
 
+.tab-bar-inner {
+  max-width: 700px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  padding: 0 16px;
+}
+
 .tab-bar a {
   padding: 8px 12px;
   border-radius: 6px;
@@ -66,33 +75,10 @@ a:hover {
   }
 }
 
-.tab-bar {
-  display: flex;
-  justify-content: center;
-  background-color: #ffffff;
-  border-bottom: 1px solid #ccc;
-  padding: 6px 0;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  gap: 8px;
-  flex-wrap: wrap;
-}
-
-.tab-bar-inner {
-  max-width: 700px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  gap: 8px;
-  padding: 0 16px;
-}
-
 /* Section Link Bar (FAQ / How-To / Versions) */
 .section-links-wrapper {
   position: sticky;
-  top:45px; /* adjust based on height of nav bar; determines where scrolling stops */
+  top:50px; /* adjust based on height of nav bar; determines where scrolling stops */
   margin-top: -10px;
   z-index: 99;
   background-color: #ffffff;
