@@ -51,12 +51,71 @@ title: About
 
 <br>
 
+
+<!-- Versions Section (moved to bottom) -->
 <div style="max-width: 600px; margin: 20px auto;">
-  <!-- How-To Guide Section for Formulas (collapsible) -->
+  <!-- Outer Versions container: no onclick so it remains static -->
   <div class="faq-item">
-    <div class="faq-question" id="Formulas" onclick="toggleAnswer(this)"><span>&#9654;</span> Formulas</div>
+    <div class="faq-question" id="versions">
+      Versions
+    </div>
     <div class="faq-answer">
-      <p><a href="/assets/pdf/Formulas.pdf" target="_blank" rel="noopener noreferrer">Click here to review the formulas</a> used for calculating metrics and confidence intervals in the app.</p>
+      <!-- Most recent version: v1.3.0 -- expanded by default -->
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(this)">
+          <span>&#9660;</span> v1.3.0
+        </div>
+        <div class="faq-answer" style="display: block;">
+          <ul>
+            <li>All new UI with navigation bar and cleaner appearance</li>
+            <li>Swipe on results to Share, Edit, Save, or Delete</li>
+            <li>Save up to 50 results</li>
+            <li>Drag and drop results to rearrange in Results section</li>
+            <li>Calculate Post-Test Probability from any diagnostic test result</li>
+            <li>New Library section with various Lessons in EBM</li>
+            <li>New Interactive Fagan Nomogram</li>
+            <li>Bug fixes and UI refinements</li>
+          </ul>
+        </div>
+      </div>
+      <!-- Other versions remain collapsible by default -->
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(this)">
+          <span>&#9654;</span> v1.2.0
+        </div>
+        <div class="faq-answer">
+          <ul>
+            <li>New feature to save, delete, and share results</li>
+            <li>New formula pages</li>
+            <li>Updates for icons and logos</li>
+            <li>Works in light and dark mode</li>
+            <li>Bug fixes and UI refinements</li>
+          </ul>
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(this)">
+          <span>&#9654;</span> v1.1.0
+        </div>
+        <div class="faq-answer">
+          <ul>
+            <li>New icons and logos</li>
+            <li>Bug fixes and UI refinements</li>
+          </ul>
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(this)">
+          <span>&#9654;</span> v1.0.0
+        </div>
+        <div class="faq-answer">
+          <ul>
+            <li>Effect Calculator</li>
+            <li>Diagnostic Test Calculator</li>
+            <li>Post-Test Probability Calculator</li>
+          </ul>
+        </div>
+      </div>
     </div>
   </div>
 </div>
