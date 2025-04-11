@@ -7,18 +7,25 @@
 
 <style>
   html {
-  scroll-behavior: smooth;
-}
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+  }
 
   a {
     color: #073472;
     text-decoration: none;
   }
-  
+
   a:hover {
-    text-decoration: none;
+    text-decoration: underline;
   }
-  
+
   .tab-bar {
     display: flex;
     justify-content: center;
@@ -26,58 +33,76 @@
     padding-bottom: 10px;
     margin-top: 20px;
   }
+
   .tab-bar a {
     padding: 10px 20px;
-    text-decoration: none;
     white-space: nowrap;
     transition: padding 0.3s ease;
   }
+
   @media (max-width: 480px) {
     .tab-bar a {
       padding: 10px 10px;
     }
   }
-  
+
   .section-links {
     text-align: center;
     margin-top: 20px;
   }
+
   .section-links a {
-    margin-right: 15px;
+    margin: 0 15px;
     text-decoration: none;
+    font-weight: 500;
   }
-  
+
   .faq-item {
-    margin-bottom: 20px;
+    margin-bottom: 24px;
   }
+
   .faq-question {
     font-weight: bold;
     cursor: pointer;
-    padding: 10px;
-    background: #f7f7f7;
+    padding: 12px 16px;
+    background: #f2f6fc;
     border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    transition: background 0.3s ease;
   }
+
+  .faq-question:hover {
+    background: #e9f1fd;
+  }
+
   .faq-answer {
     display: none;
-    padding: 10px;
+    padding: 12px 16px;
+    margin-top: 6px;
     border: 1px solid #ccc;
     border-top: none;
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    background-color: #fff;
+    transition: all 0.3s ease;
   }
-  .back-to-top {
-  display: inline-block;
-  background-color: #e9e9e9;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-  padding: 4px 8px;
-  color: #073472;
-  text-decoration: none;
-  font-size: 0.8em;
-  transition: background-color 0.3s ease;
-}
-.back-to-top:hover {
-  background-color: #dcdcdc;
-}
 
+  .back-to-top {
+    display: inline-block;
+    background-color: #f3f3f3;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 4px 10px;
+    color: #073472;
+    text-decoration: none;
+    font-size: 0.8em;
+    transition: background-color 0.3s ease;
+  }
+
+  .back-to-top:hover {
+    background-color: #e0e0e0;
+  }
 </style>
 
 <div class="tab-bar">
