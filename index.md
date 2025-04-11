@@ -13,12 +13,14 @@ title: Home
   }
 </style>
 
-<style>
   /* Reduce the top offset on the home page so the button sits only 5px below the tab bar */
+<style>
   .index-sticky {
     top: 50px !important;
+    margin-top: 0 !important; /* Remove the negative margin so the button isn't pushed upward */
   }
 </style>
+
 
 <!-- TestFlight Button -->
 <div class="section-links-wrapper index-sticky" style="padding-top: 5px;">
