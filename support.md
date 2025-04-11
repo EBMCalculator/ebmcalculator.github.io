@@ -77,7 +77,7 @@
   /* Section Link Bar (FAQ / How-To / Versions) */
   .section-links-wrapper {
     position: sticky;
-    top: 50px; /* adjust based on height of nav bar */
+    top: 45px; /* adjust based on height of nav bar */
     z-index: 99;
     background-color: #ffffff;
     padding: 8px 0;
