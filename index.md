@@ -15,7 +15,7 @@ title: Home
 
 <!-- TestFlight Button -->
 <div class="section-links-wrapper">
-  <div class="section-links" style="padding-top: 20px;">
+  <div class="section-links" style="padding-top: 5px;">
     <a href="https://testflight.apple.com/join/9FZgaZyd" style="background-color: #073472; color: white; padding: 12px 24px; font-size: 16px; border-radius: 8px; text-decoration: none;">
       Join the EBM Calculator Beta on Apple's TestFlight
     </a>
