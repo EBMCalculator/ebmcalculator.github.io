@@ -212,12 +212,12 @@
   }
 
   a {
-    color: #073472;
+    color: #3973b5;
   }
 
   .back-to-top {
     background-color: #121212;
-    color: #073472;
+    color: #3973b5;
     border-color: #444;
   }
 
