@@ -29,12 +29,6 @@
     text-decoration: underline;
   }
 
-  .header-content {
-    text-align: center;
-    max-width: 700px;
-    margin: 0 auto;
-  }
-
   /* Navigation Tabs */
   .tab-bar {
     display: flex;
@@ -72,7 +66,7 @@
   /* Section Link Bar (FAQ / How-To / Versions) */
   .section-links-wrapper {
     position: sticky;
-    top: 30px; /* adjust based on height of nav bar */
+    top: 42px; /* adjust based on height of nav bar */
     z-index: 99;
     background-color: #ffffff;
     padding: 8px 0;
@@ -197,8 +191,8 @@
 
 <div style="max-width: 600px; margin: 20px auto;">
   <!-- FAQ Section Box -->
-  <div class="faq-item">
-    <div class="faq-question" id="faq" onclick="toggleAnswer(this)">
+  <div class="faq-item" id="faq">
+    <div class="faq-question" onclick="toggleAnswer(this)">
       <span>&#9654;</span> Frequently Asked Questions
     </div>
     <div class="faq-answer">
@@ -286,8 +280,8 @@
   </div>
 
 <!-- How-To Guide Section Box -->
-<div class="faq-item">
-  <div class="faq-question" id="how-to-guide" onclick="toggleAnswer(this)">
+<div class="faq-item" id="how-to-guide">
+  <div class="faq-question" onclick="toggleAnswer(this)">
     <span>&#9654;</span> How-To Guide
   </div>
   <div class="faq-answer">
@@ -539,8 +533,8 @@
 </div>
 
   <!-- Versions Section Box -->
-  <div class="faq-item">
-    <div class="faq-question" id="versions" onclick="toggleAnswer(this)">
+  <div class="faq-item" id="versions">
+    <div class="faq-question" onclick="toggleAnswer(this)">
       <span>&#9654;</span> Versions
     </div>
     <div class="faq-answer">
