@@ -15,6 +15,9 @@
     font-size: 16px;
     line-height: 1.6;
     color: #333;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
   }
 
   a {
@@ -26,37 +29,62 @@
     text-decoration: underline;
   }
 
+  /* Navigation Tabs */
   .tab-bar {
     display: flex;
     justify-content: center;
-    border-bottom: 2px solid #ccc;
-    padding-bottom: 10px;
-    margin-top: 20px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ccc;
+    padding: 12px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
+    position: sticky;
+    top: 0;
+    z-index: 100;
   }
 
   .tab-bar a {
-    padding: 10px 20px;
-    white-space: nowrap;
-    transition: padding 0.3s ease;
+    margin: 0 12px;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+  }
+
+  .tab-bar a:hover {
+    background-color: #f2f6fc;
   }
 
   @media (max-width: 480px) {
+    .tab-bar {
+      flex-wrap: wrap;
+    }
     .tab-bar a {
-      padding: 10px 10px;
+      margin: 6px;
     }
   }
 
+  /* Section Link Bar */
   .section-links {
     text-align: center;
-    margin-top: 20px;
+    margin: 24px 0;
   }
 
   .section-links a {
-    margin: 0 15px;
-    text-decoration: none;
-    font-weight: 500;
+    margin: 0 16px;
+    padding: 8px 12px;
+    border-radius: 6px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+    transition: background-color 0.3s ease;
+    display: inline-block;
   }
 
+  .section-links a:hover {
+    background-color: #f2f6fc;
+  }
+
+  /* FAQ Styling */
   .faq-item {
     margin-bottom: 24px;
   }
@@ -84,10 +112,16 @@
     border-top: none;
     border-radius: 0 0 8px 8px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
-    background-color: #fff;
+    background-color: #ffffff;
     transition: all 0.3s ease;
   }
 
+  /* Versions section (inherits FAQ styles) */
+  #versions {
+    margin-top: 40px;
+  }
+
+  /* Back to Top Button */
   .back-to-top {
     display: inline-block;
     background-color: #f3f3f3;
@@ -102,6 +136,27 @@
 
   .back-to-top:hover {
     background-color: #e0e0e0;
+  }
+
+  /* Images inside how-to section */
+  .faq-answer img {
+    border-radius: 6px;
+  }
+
+  /* Page wrapper for max-width and spacing */
+  .content-wrapper {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 16px 40px;
+  }
+
+  /* Footer */
+  .site-footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 16px;
+    font-size: 0.85em;
+    color: #666;
   }
 </style>
 
