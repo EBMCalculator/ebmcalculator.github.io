@@ -10,8 +10,10 @@
     <!-- Include common header -->
     {% include header.html %}
 
-        <!-- Include the tab bar -->
-    {% include tab-bar.html %}
+    <!-- Include tab bar and wrap it inside the content-wrapper to constrain its width -->
+    <div class="content-wrapper">
+      {% include tab-bar.html %}
+    </div>
     
     <!-- Main content area -->
     <main class="content-wrapper">
