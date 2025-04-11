@@ -448,6 +448,7 @@
           <ul>
             <li>All new UI with navigation bar and cleaner appearance</li>
             <li>Swipe on results to Share, Edit, Save, or Delete</li>
+            <li>Save up to 50 results</li>
             <li>Drag and drop results to rearrange in Results section</li>
             <li>Calculate Post-Test Probability from any diagnostic test result</li>
             <li>New Library section with various Lessons in EBM</li>
