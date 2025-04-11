@@ -3,13 +3,6 @@ layout: default
 title: Support
 ---
 
-<div class="tab-bar">
-  <a href="/">Home</a>
-  <a href="/about">About</a>
-  <a href="/support">Support</a>
-  <a href="/privacy-policy">Privacy</a>
-</div>
-
 <h2 style="text-align: center;">Support</h2>
 
 <div class="section-links-wrapper">
