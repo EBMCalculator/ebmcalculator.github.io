@@ -30,16 +30,6 @@ title: About
     </div>
   </div>
 </div>
-  
-<div style="max-width: 600px; margin: 20px auto;">
-  <!-- Disclaimer Box (non-collapsible) -->
-  <div class="faq-item">
-    <div class="faq-question">Disclaimer</div>
-    <div class="faq-block">
-      <p>This app was created for educational use. The content provided should not replace clinical judgement and results should be interpreted within the context of statistical and study limitations. Medical decisions should <strong>NOT</strong> be based solely on results from this app.</p>
-    </div>
-  </div>
-</div>
 
 <div style="max-width: 600px; margin: 20px auto; text-align: center;" markdown="1">
   I hope my app helps your ongoing learning and appraisal of medical literature!
