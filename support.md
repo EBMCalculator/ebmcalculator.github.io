@@ -362,12 +362,14 @@ title: Support
 </style>
 
   <!-- Contact Section Box -->
-  <div class="faq-item">
-    <div class="faq-question" id="contact">
-      <span>&#9654;</span> Contact
-    </div>
-    <div class="faq-answer">
-      Please email <a href="mailto:support@ebmcalculator.com">support@ebmcalculator.com</a> with any questions, comments, or suggestions!
+  <div class="static-contact">
+    <div class="faq-item">
+      <div class="faq-question" id="contact">
+        <span>&#9654;</span> Contact
+      </div>
+      <div class="faq-answer">
+        Please email <a href="mailto:support@ebmcalculator.com">support@ebmcalculator.com</a> with any questions, comments, or suggestions!
+      </div>
     </div>
   </div>
 </div>
