@@ -78,9 +78,8 @@ title: Support
           <span>&#9654;</span> Why did you create this app?
         </div>
         <div class="faq-answer">
-          I got tired of jumping between different online calculators just to interpret study results, so I built the EBM Calculator to streamline the process and make evidence appraisal simpler.<br><br>
-          The first version was a Python script I used on my laptop. I later turned it into an iOS app to make it easier to share with colleagues who were also digging into the medical literature.<br><br>
-          It’s come a long way since then, but the goal remains the same: a purposefully simple app that helps you assess the strength of an association (for therapies or exposures), evaluate diagnostic test performance, or calculate post-test probability.
+          I got tired of jumping between different online calculators just to interpret study results, so I built the EBM Calculator to streamline the process and make evidence appraisal simpler for all of us.<br><br>
+          The app has come a long way since I first started developing it, but the goal remains the same: to provide a purposefully simple tool that helps you assess the strength of an association (for therapies or exposures), evaluate diagnostic test performance, and calculate post-test probability.
           <p style="text-align: right; margin: 0.5em 0;">
             <a href="#top" class="back-to-top">⬆ Back to top</a>
           </p>
