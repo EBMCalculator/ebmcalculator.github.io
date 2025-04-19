@@ -133,8 +133,9 @@ title: Support
             Based on how the authors of this study<sup><a href="#ref1" style="text-decoration: none;">[1]</a></sup> presented their results in the table below, you could choose either input method.
           </p>
           <p style="text-align: center;">
+            (click to enlarge)
             <a href="assets/images/screenshots/Effect - Example Study.png" target="_blank" rel="noopener noreferrer">
-              <img src="assets/images/screenshots/Effect - Example Study.png" alt="Effect - Example Study" style="max-width:50%; height:auto; display:block; margin:0 auto; border: 1px solid rgba(0, 0, 0, 0.2); box-shadow: 0 0 8px rgba(0, 0, 0, 0.15); border-radius: 10px;">
+              <img src="assets/images/screenshots/Effect - Example Study.png" alt="Effect - Example Study" style="max-width:100%; height:auto; display:block; margin:0 auto; border: 1px solid rgba(0, 0, 0, 0.2); box-shadow: 0 0 8px rgba(0, 0, 0, 0.15); border-radius: 10px;">
             </a>
           </p>
           <br>
@@ -148,7 +149,7 @@ title: Support
             Press the "Calculate" button to see the relevant effect estimates and their confidence intervals.
           </p>
           <p>
-            The table above provides the odds ratio (OR), but absolute risk measures offer a clearer understanding of the treatment effect’s magnitude. In this example, EBM Calculator displays the absolute risk increase (ARI) and number needed to treat (NNT) to cause one additional outcome, along with relative risk metrics and their confidence intervals.
+            The manuscript's table above provides the odds ratio (OR), but absolute risk measures offer a clearer understanding of the treatment effect’s magnitude. In this example, EBM Calculator displays the absolute risk increase (ARI) and number needed to treat (NNT) to cause one additional outcome, along with relative risk metrics and their confidence intervals.
           </p>
           <p style="text-align: center;">
             <a href="assets/images/screenshots/Effect - Screenshot 4.png" target="_blank" rel="noopener noreferrer">
@@ -198,7 +199,7 @@ title: Support
           <p style="text-align: center;">
             (click to enlarge)
             <a href="assets/images/screenshots/Diagnostic Test - Example Study.png" target="_blank" rel="noopener noreferrer">
-              <img src="assets/images/screenshots/Diagnostic Test - Example Study.png" alt="Diagnostic Test - Example Study" style="max-width:50%; height:auto; display:block; margin:0 auto; border: 1px solid rgba(0, 0, 0, 0.2); box-shadow: 0 0 8px rgba(0, 0, 0, 0.15); border-radius: 10px;">
+              <img src="assets/images/screenshots/Diagnostic Test - Example Study.png" alt="Diagnostic Test - Example Study" style="max-width:100%; height:auto; display:block; margin:0 auto; border: 1px solid rgba(0, 0, 0, 0.2); box-shadow: 0 0 8px rgba(0, 0, 0, 0.15); border-radius: 10px;">
             </a>
           </p>
           <br>
@@ -212,7 +213,7 @@ title: Support
           </p>
           <p>
             Press the "Calculate" button to see the relevant diagnostic test metrics and their confidence intervals.<br><br>
-            The table above provides sensitivity and specificity. Some authors also report positive and negative predictive values (PPV and NPV). However, because predictive values depend on disease prevalence, they may not apply to your patients if the study population's prevalence differs from your own.<br><br>
+            The manuscript's table above provides sensitivity and specificity. Some authors also report positive and negative predictive values (PPV and NPV). However, because predictive values depend on disease prevalence, they may not apply to your patients if the study population's prevalence differs from your own.<br><br>
             For this reason, we prefer using positive and negative likelihood ratios (LRs) to better understand post-test probability. In this example, EBM Calculator displays LR(+) and LR(–) with confidence intervals, along with an option to calculate post-test probability using a different prevalence.
           </p>
           <p style="text-align: center;">
@@ -235,6 +236,11 @@ title: Support
             <a href="assets/images/screenshots/Diagnostic Test - Screenshot 5c.png" target="_blank" rel="noopener noreferrer">
               <img src="assets/images/screenshots/Diagnostic Test - Screenshot 5c.png" alt="Diagnostic Test - Screenshot 5c" style="max-width:50%; height:auto; display:block; margin:0 auto; border: 1px solid rgba(0, 0, 0, 0.2); box-shadow: 0 0 8px rgba(0, 0, 0, 0.15); border-radius: 10px;">
             </a>
+          </p>
+          <p>
+            Use the sliders to explore how a change in Pre-Test Probability influences the Post-Test Probability.
+          </p>
+          <p>
             <a href="assets/images/screenshots/Diagnostic Test - Screenshot 6.png" target="_blank" rel="noopener noreferrer">
               <img src="assets/images/screenshots/Diagnostic Test - Screenshot 6.png" alt="Diagnostic Test - Screenshot 6" style="max-width:50%; height:auto; display:block; margin:0 auto; border: 1px solid rgba(0, 0, 0, 0.2); box-shadow: 0 0 8px rgba(0, 0, 0, 0.15); border-radius: 10px;">
             </a>            
@@ -276,14 +282,13 @@ title: Support
           <p style="text-align: center;">
             (click to enlarge)
             <a href="assets/images/screenshots/PostTest Prob - Example Study.png" target="_blank" rel="noopener noreferrer">
-              <img src="assets/images/screenshots/PostTest Prob - Example Study.png" alt="PostTest Prob - Example Study" style="max-width:50%; height:auto; display:block; margin:0 auto; border: 1px solid rgba(0, 0, 0, 0.2); box-shadow: 0 0 8px rgba(0, 0, 0, 0.15); border-radius: 10px;">
+              <img src="assets/images/screenshots/PostTest Prob - Example Study.png" alt="PostTest Prob - Example Study" style="max-width:100%; height:auto; display:block; margin:0 auto; border: 1px solid rgba(0, 0, 0, 0.2); box-shadow: 0 0 8px rgba(0, 0, 0, 0.15); border-radius: 10px;">
             </a>
           </p>
           <br>
           <p>
             Enter the sensitivity (94.1%) and specificity (79.2%) of the diagnostic test. Next, choose your pre-test probability (often the prevalence of disease or condition in your patient population).
           </p>
-          <br>
           <p style="text-align: center;">
             In this example, I chose a pre-test probability of 35%:
             <a href="assets/images/screenshots/PostTest Prob - Screenshot 3a.png" target="_blank" rel="noopener noreferrer">
@@ -339,7 +344,7 @@ title: Support
         </div>
         <div class="faq-answer">
           <p>
-            Click on the Results tab to view up to 50 of your saved results. You can drag to rearrange, or click a result to view it individually.
+            Click on the Results tab to view up to 50 of your saved results. You can press and drag to rearrange, or click a result to view it individually.
           </p>
           <p style="text-align: center;">
             <a href="assets/images/screenshots/Results - Screenshot 2.png" target="_blank" rel="noopener noreferrer">
@@ -355,7 +360,7 @@ title: Support
             </a>
           </p>
           <p>
-            Swipe left to edit the original inputs or delete the result.
+            Swipe left to edit the original inputs or to delete the result.
           </p>
           <p style="text-align: center;">
             <a href="assets/images/screenshots/Results - Screenshot 3b.png" target="_blank" rel="noopener noreferrer">
