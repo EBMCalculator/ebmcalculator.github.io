@@ -140,8 +140,8 @@ title: Support
           <br>
           <p style="text-align: center;">
             Here, I chose to enter the event rates (EER 90.0%, CER 63.3%):
-            <a href="assets/images/screenshots/Effect - Screenshot 3.png" target="_blank" rel="noopener noreferrer">
-              <img src="assets/images/screenshots/Effect - Screenshot 3.png" alt="Effect - Screenshot 3" style="max-width:50%; height:auto; display:block; margin:0 auto;">
+            <a href="assets/images/screenshots/Effect - Screenshot 3a.png" target="_blank" rel="noopener noreferrer">
+              <img src="assets/images/screenshots/Effect - Screenshot 3a.png" alt="Effect - Screenshot 3a" style="max-width:50%; height:auto; display:block; margin:0 auto;">
             </a>
           </p>
           <p>
@@ -221,6 +221,25 @@ title: Support
               <img src="assets/images/screenshots/Diagnostic Test - Screenshot 4.png" alt="Diagnostic Test - Screenshot 4" style="max-width:50%; height:auto; display:block; margin:0 auto;">
             </a>
           </p>
+          <p>
+            Press the menu button at the top right to see more options.
+          </p>
+          <p style="text-align: center;">
+            <a href="assets/images/screenshots/Diagnostic Test - Screenshot 5a.png" target="_blank" rel="noopener noreferrer">
+              <img src="assets/images/screenshots/Diagnostic Test - Screenshot 5a.png" alt="Diagnostic Test - Screenshot 5a" style="max-width:50%; height:auto; display:block; margin:0 auto;">
+            </a>
+          </p>  
+          <p>
+            You can see the results as an interactive Fagan Nomogram through the menu button or by pressing the nomogram button. Select either the LR(+) or LR(-) value.
+          </p>
+          <p style="text-align: center;">
+            <a href="assets/images/screenshots/Diagnostic Test - Screenshot 5c.png" target="_blank" rel="noopener noreferrer">
+              <img src="assets/images/screenshots/Diagnostic Test - Screenshot 5c.png" alt="Diagnostic Test - Screenshot 5c" style="max-width:50%; height:auto; display:block; margin:0 auto;">
+            </a>
+            <a href="assets/images/screenshots/Diagnostic Test - Screenshot 6.png" target="_blank" rel="noopener noreferrer">
+              <img src="assets/images/screenshots/Diagnostic Test - Screenshot 6.png" alt="Diagnostic Test - Screenshot 6" style="max-width:50%; height:auto; display:block; margin:0 auto;">
+            </a>            
+          </p>          
           <p id="ref2" style="font-size:0.8em; text-align:left; margin-top:20px;">
             <a href="https://pubmed.ncbi.nlm.nih.gov/24145848/" target="_blank" rel="noopener noreferrer">
               <sup>[2]</sup>Traube C, Silver G, Kearney J, Patel A, Atkinson TM, Yoon MJ, Halpert S, Augenstein J, Sickles LE, Li C, Greenwald B. Cornell Assessment of Pediatric Delirium: a valid, rapid, observational tool for screening delirium in the PICU*. Crit Care Med. 2014 Mar;42(3):656-63. doi: 10.1097/CCM.0b013e3182a66b76. PMID: 24145848; PMCID: PMC5527829.
@@ -268,8 +287,8 @@ title: Support
           <br>
           <p style="text-align: center;">
             In this example, I chose a pre-test probability of 35%:
-            <a href="assets/images/screenshots/PostTest Prob - Screenshot 3.png" target="_blank" rel="noopener noreferrer">
-              <img src="assets/images/screenshots/PostTest Prob - Screenshot 3.png" alt="PostTest Prob - Screenshot 3" style="max-width:50%; height:auto; display:block; margin:0 auto;">
+            <a href="assets/images/screenshots/PostTest Prob - Screenshot 3a.png" target="_blank" rel="noopener noreferrer">
+              <img src="assets/images/screenshots/PostTest Prob - Screenshot 3a.png" alt="PostTest Prob - Screenshot 3a" style="max-width:50%; height:auto; display:block; margin:0 auto;">
             </a>
           </p>
           <p>
@@ -281,13 +300,21 @@ title: Support
             </a>
           </p>
           <p>
-            You can also access an Interactive Fagan Nomogram through the menu button at the top right.
+            You can also access an interactive Fagan Nomogram through the menu button at the top right...
           </p>
           <p style="text-align: center;">
-            <a href="assets/images/screenshots/PostTest Prob - Screenshot 5.png" target="_blank" rel="noopener noreferrer">
-              <img src="assets/images/screenshots/PostTest Prob - Screenshot 5.png" alt="PostTest Prob - Screenshot 5" style="max-width:50%; height:auto; display:block; margin:0 auto;">
+            <a href="assets/images/screenshots/PostTest Prob - Screenshot 5a.png" target="_blank" rel="noopener noreferrer">
+              <img src="assets/images/screenshots/PostTest Prob - Screenshot 5a.png" alt="PostTest Prob - Screenshot 5a" style="max-width:50%; height:auto; display:block; margin:0 auto;">
             </a>
           </p>
+          <p>
+            ...or by pressing the nomogram button and selecting either the LR(+) or LR(-) value.
+          </p>
+          <p style="text-align: center;">
+            <a href="assets/images/screenshots/PostTest Prob - Screenshot 5b.png" target="_blank" rel="noopener noreferrer">
+              <img src="assets/images/screenshots/PostTest Prob - Screenshot 5b.png" alt="PostTest Prob - Screenshot 5b" style="max-width:50%; height:auto; display:block; margin:0 auto;">
+            </a>
+          </p>          
           <p>
             Use the sliders to explore how changes in Pre-Test Probability and Likelihood Ratio influence the Post-Test Probability.
           </p>
@@ -316,27 +343,27 @@ title: Support
             Click on the Results tab to view up to 50 of your saved results. You can drag to rearrange, or click a result to view it individually.
           </p>
           <p style="text-align: center;">
-            <a href="assets/images/screenshots/Results - Screenshot 3.png" target="_blank" rel="noopener noreferrer">
-              <img src="assets/images/screenshots/Results - Screenshot 3.png" alt="Results - Screenshot 3" style="max-width:50%; height:auto; display:block; margin:0 auto;">
+            <a href="assets/images/screenshots/Results - Screenshot 2.png" target="_blank" rel="noopener noreferrer">
+              <img src="assets/images/screenshots/Results - Screenshot 2.png" alt="Results - Screenshot 2" style="max-width:50%; height:auto; display:block; margin:0 auto;">
             </a>
           </p>
           <p>Swipe right on a result to share, print, or export.</p>
           <p style="text-align: center;">
-            <a href="assets/images/screenshots/Results - Screenshot 5.png" target="_blank" rel="noopener noreferrer">
-              <img src="assets/images/screenshots/Results - Screenshot 5.png" alt="Results - Screenshot 5" style="max-width:50%; height:auto; display:block; margin:0 auto;">
+            <a href="assets/images/screenshots/Results - Screenshot 3a.png" target="_blank" rel="noopener noreferrer">
+              <img src="assets/images/screenshots/Results - Screenshot 3a.png" alt="Results - Screenshot 3a" style="max-width:50%; height:auto; display:block; margin:0 auto;">
             </a>
           </p>
           <p>Swipe left to edit the original inputs or delete the result.</p>
           <br>
           <p style="text-align: center;">
-            <a href="assets/images/screenshots/Results - Screenshot 6.png" target="_blank" rel="noopener noreferrer">
-              <img src="assets/images/screenshots/Results - Screenshot 6.png" alt="Results - Screenshot 6" style="max-width:50%; height:auto; display:block; margin:0 auto;">
+            <a href="assets/images/screenshots/Results - Screenshot 3b.png" target="_blank" rel="noopener noreferrer">
+              <img src="assets/images/screenshots/Results - Screenshot 3b.png" alt="Results - Screenshot 3b" style="max-width:50%; height:auto; display:block; margin:0 auto;">
             </a>
           </p>
           <p>Press the menu button to see more options.</p>
           <p style="text-align: center;">
-            <a href="assets/images/screenshots/Results - Screenshot 7.png" target="_blank" rel="noopener noreferrer">
-              <img src="assets/images/screenshots/Results - Screenshot 7.png" alt="Results - Screenshot 7" style="max-width:50%; height:auto; display:block; margin:0 auto;">
+            <a href="assets/images/screenshots/Results - Screenshot 4.png" target="_blank" rel="noopener noreferrer">
+              <img src="assets/images/screenshots/Results - Screenshot 4.png" alt="Results - Screenshot 4" style="max-width:50%; height:auto; display:block; margin:0 auto;">
             </a>
           </p>
           <p style="text-align: right; margin: 0.5em 0;">
