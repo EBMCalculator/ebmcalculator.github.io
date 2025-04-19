@@ -350,7 +350,7 @@ title: Support
           <p>Swipe right on a result to share, print, or export.</p>
           <p style="text-align: center;">
             <a href="assets/images/screenshots/Results - Screenshot 3a.png" target="_blank" rel="noopener noreferrer">
-              <img src="assets/images/screenshots/Results - Screenshot 3a.png" alt="Results - Screenshot 3a" style="max-width:50%; height:auto; display:block; margin:0 auto; border: 1px solid black; border-radius: 8px;">
+              <img src="assets/images/screenshots/Results - Screenshot 3a.png" alt="Results - Screenshot 3a" style="max-width:50%; height:auto; display:block; margin:0 auto; border: 1px solid black; border-radius: 10px;">
             </a>
           </p>
           <p>Swipe left to edit the original inputs or delete the result.</p>
