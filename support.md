@@ -134,7 +134,7 @@ title: Support
           <p style="text-align: center;">
             (click to enlarge)
             <a href="assets/images/screenshots/Effect - Example Study.png" target="_blank" rel="noopener noreferrer">
-              <img src="assets/images/screenshots/Effect - Example Study.png" alt="Effect - Example Study" style="max-width:100%; height:auto; display:block; margin:0 auto; border: 1px solid rgba(0, 0, 0, 0.2); box-shadow: 0 0 8px rgba(0, 0, 0, 0.15); border-radius: 10px;">
+              <img src="assets/images/screenshots/Effect - Example Study.png" alt="Effect - Example Study" style="max-width:100%; height:auto; display:block; margin:0 auto; border: 1px solid rgba(0, 0, 0, 0.2);">
             </a>
           </p>
           <br>
@@ -198,7 +198,7 @@ title: Support
           <p style="text-align: center;">
             (click to enlarge)
             <a href="assets/images/screenshots/Diagnostic Test - Example Study.png" target="_blank" rel="noopener noreferrer">
-              <img src="assets/images/screenshots/Diagnostic Test - Example Study.png" alt="Diagnostic Test - Example Study" style="max-width:100%; height:auto; display:block; margin:0 auto; border: 1px solid rgba(0, 0, 0, 0.2); box-shadow: 0 0 8px rgba(0, 0, 0, 0.15); border-radius: 10px;">
+              <img src="assets/images/screenshots/Diagnostic Test - Example Study.png" alt="Diagnostic Test - Example Study" style="max-width:100%; height:auto; display:block; margin:0 auto; border: 1px solid rgba(0, 0, 0, 0.2); box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);">
             </a>
           </p>
           <br>
