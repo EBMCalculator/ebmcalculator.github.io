@@ -120,13 +120,13 @@ title: Support
           <p style="text-align: center;">
             Event Rates:
             <a href="assets/images/screenshots/Effect - Screenshot 2a.png" target="_blank" rel="noopener noreferrer">
-              <img src="assets/images/screenshots/Effect - Screenshot 2a.png" alt="Effect - Screenshot 2a" style="max-width:50%; height:auto; display:block; margin:0 auto;">
+              <img src="assets/images/screenshots/Effect - Screenshot 2a.png" alt="Effect - Screenshot 2a" style="max-width:50%; height:auto; display:block; margin:0 auto; border: 1px solid rgba(0, 0, 0, 0.2); box-shadow: 0 0 8px rgba(0, 0, 0, 0.15); border-radius: 10px;">
             </a>
           </p>
           <p style="text-align: center;">
             or Counts:
             <a href="assets/images/screenshots/Effect - Screenshot 2b.png" target="_blank" rel="noopener noreferrer">
-              <img src="assets/images/screenshots/Effect - Screenshot 2b.png" alt="Effect - Screenshot 2b" style="max-width:50%; height:auto; display:block; margin:0 auto;">
+              <img src="assets/images/screenshots/Effect - Screenshot 2b.png" alt="Effect - Screenshot 2b" style="max-width:50%; height:auto; display:block; margin:0 auto; border: 1px solid rgba(0, 0, 0, 0.2); box-shadow: 0 0 8px rgba(0, 0, 0, 0.15); border-radius: 10px;">
             </a>
           </p>
           <p>
@@ -134,26 +134,25 @@ title: Support
           </p>
           <p style="text-align: center;">
             <a href="assets/images/screenshots/Effect - Example Study.png" target="_blank" rel="noopener noreferrer">
-              <img src="assets/images/screenshots/Effect - Example Study.png" alt="Effect - Example Study" style="max-width:90%; height:auto; display:block; margin:0 auto;">
+              <img src="assets/images/screenshots/Effect - Example Study.png" alt="Effect - Example Study" style="max-width:50%; height:auto; display:block; margin:0 auto; border: 1px solid rgba(0, 0, 0, 0.2); box-shadow: 0 0 8px rgba(0, 0, 0, 0.15); border-radius: 10px;">
             </a>
           </p>
           <br>
           <p style="text-align: center;">
             Here, I chose to enter the event rates (EER 90.0%, CER 63.3%):
             <a href="assets/images/screenshots/Effect - Screenshot 3a.png" target="_blank" rel="noopener noreferrer">
-              <img src="assets/images/screenshots/Effect - Screenshot 3a.png" alt="Effect - Screenshot 3a" style="max-width:50%; height:auto; display:block; margin:0 auto;">
+              <img src="assets/images/screenshots/Effect - Screenshot 3a.png" alt="Effect - Screenshot 3a" style="max-width:50%; height:auto; display:block; margin:0 auto; border: 1px solid rgba(0, 0, 0, 0.2); box-shadow: 0 0 8px rgba(0, 0, 0, 0.15); border-radius: 10px;">
             </a>
           </p>
           <p>
             Press the "Calculate" button to see the relevant effect estimates and their confidence intervals.
           </p>
-          <br>
           <p>
             The table above provides the odds ratio (OR), but absolute risk measures offer a clearer understanding of the treatment effect’s magnitude. In this example, EBM Calculator displays the absolute risk increase (ARI) and number needed to treat (NNT) to cause one additional outcome, along with relative risk metrics and their confidence intervals.
           </p>
           <p style="text-align: center;">
             <a href="assets/images/screenshots/Effect - Screenshot 4.png" target="_blank" rel="noopener noreferrer">
-              <img src="assets/images/screenshots/Effect - Screenshot 4.png" alt="Effect - Screenshot 4" style="max-width:50%; height:auto; display:block; margin:0 auto;">
+              <img src="assets/images/screenshots/Effect - Screenshot 4.png" alt="Effect - Screenshot 4" style="max-width:50%; height:auto; display:block; margin:0 auto; border: 1px solid rgba(0, 0, 0, 0.2); box-shadow: 0 0 8px rgba(0, 0, 0, 0.15); border-radius: 10px;">
             </a>
           </p>
           <p id="ref1" style="font-size:0.8em; text-align:left; margin-top:20px;">
@@ -178,19 +177,19 @@ title: Support
           <p style="text-align: center;">
             Sens/Spec:
             <a href="assets/images/screenshots/Diagnostic Test - Screenshot 2a.png" target="_blank" rel="noopener noreferrer">
-              <img src="assets/images/screenshots/Diagnostic Test - Screenshot 2a.png" alt="Diagnostic Test - Screenshot 2a" style="max-width:50%; height:auto; display:block; margin:0 auto;">
+              <img src="assets/images/screenshots/Diagnostic Test - Screenshot 2a.png" alt="Diagnostic Test - Screenshot 2a" style="max-width:50%; height:auto; display:block; margin:0 auto; border: 1px solid rgba(0, 0, 0, 0.2); box-shadow: 0 0 8px rgba(0, 0, 0, 0.15); border-radius: 10px;">
             </a>
           </p>
           <p style="text-align: center;">
             PPV/NPV:
             <a href="assets/images/screenshots/Diagnostic Test - Screenshot 2b.png" target="_blank" rel="noopener noreferrer">
-              <img src="assets/images/screenshots/Diagnostic Test - Screenshot 2b.png" alt="Diagnostic Test - Screenshot 2b" style="max-width:50%; height:auto; display:block; margin:0 auto;">
+              <img src="assets/images/screenshots/Diagnostic Test - Screenshot 2b.png" alt="Diagnostic Test - Screenshot 2b" style="max-width:50%; height:auto; display:block; margin:0 auto; border: 1px solid rgba(0, 0, 0, 0.2); box-shadow: 0 0 8px rgba(0, 0, 0, 0.15); border-radius: 10px;">
             </a>
           </p>
           <p style="text-align: center;">
             or Counts:
             <a href="assets/images/screenshots/Diagnostic Test - Screenshot 2c.png" target="_blank" rel="noopener noreferrer">
-              <img src="assets/images/screenshots/Diagnostic Test - Screenshot 2c.png" alt="Diagnostic Test - Screenshot 2c" style="max-width:50%; height:auto; display:block; margin:0 auto;">
+              <img src="assets/images/screenshots/Diagnostic Test - Screenshot 2c.png" alt="Diagnostic Test - Screenshot 2c" style="max-width:50%; height:auto; display:block; margin:0 auto; border: 1px solid rgba(0, 0, 0, 0.2); box-shadow: 0 0 8px rgba(0, 0, 0, 0.15); border-radius: 10px;">
             </a>
           </p>
           <p>
@@ -199,7 +198,7 @@ title: Support
           <p style="text-align: center;">
             (click to enlarge)
             <a href="assets/images/screenshots/Diagnostic Test - Example Study.png" target="_blank" rel="noopener noreferrer">
-              <img src="assets/images/screenshots/Diagnostic Test - Example Study.png" alt="Diagnostic Test - Example Study" style="max-width:90%; height:auto; display:block; margin:0 auto;">
+              <img src="assets/images/screenshots/Diagnostic Test - Example Study.png" alt="Diagnostic Test - Example Study" style="max-width:50%; height:auto; display:block; margin:0 auto; border: 1px solid rgba(0, 0, 0, 0.2); box-shadow: 0 0 8px rgba(0, 0, 0, 0.15); border-radius: 10px;">
             </a>
           </p>
           <br>
@@ -208,7 +207,7 @@ title: Support
           </p>
           <p style="text-align: center;">
             <a href="assets/images/screenshots/Diagnostic Test - Screenshot 3.png" target="_blank" rel="noopener noreferrer">
-              <img src="assets/images/screenshots/Diagnostic Test - Screenshot 3.png" alt="Diagnostic Test - Screenshot 3" style="max-width:50%; height:auto; display:block; margin:0 auto;">
+              <img src="assets/images/screenshots/Diagnostic Test - Screenshot 3.png" alt="Diagnostic Test - Screenshot 3" style="max-width:50%; height:auto; display:block; margin:0 auto; border: 1px solid rgba(0, 0, 0, 0.2); box-shadow: 0 0 8px rgba(0, 0, 0, 0.15); border-radius: 10px;">
             </a>
           </p>
           <p>
@@ -218,7 +217,7 @@ title: Support
           </p>
           <p style="text-align: center;">
             <a href="assets/images/screenshots/Diagnostic Test - Screenshot 4.png" target="_blank" rel="noopener noreferrer">
-              <img src="assets/images/screenshots/Diagnostic Test - Screenshot 4.png" alt="Diagnostic Test - Screenshot 4" style="max-width:50%; height:auto; display:block; margin:0 auto;">
+              <img src="assets/images/screenshots/Diagnostic Test - Screenshot 4.png" alt="Diagnostic Test - Screenshot 4" style="max-width:50%; height:auto; display:block; margin:0 auto; border: 1px solid rgba(0, 0, 0, 0.2); box-shadow: 0 0 8px rgba(0, 0, 0, 0.15); border-radius: 10px;">
             </a>
           </p>
           <p>
@@ -226,7 +225,7 @@ title: Support
           </p>
           <p style="text-align: center;">
             <a href="assets/images/screenshots/Diagnostic Test - Screenshot 5a.png" target="_blank" rel="noopener noreferrer">
-              <img src="assets/images/screenshots/Diagnostic Test - Screenshot 5a.png" alt="Diagnostic Test - Screenshot 5a" style="max-width:50%; height:auto; display:block; margin:0 auto;">
+              <img src="assets/images/screenshots/Diagnostic Test - Screenshot 5a.png" alt="Diagnostic Test - Screenshot 5a" style="max-width:50%; height:auto; display:block; margin:0 auto; border: 1px solid rgba(0, 0, 0, 0.2); box-shadow: 0 0 8px rgba(0, 0, 0, 0.15); border-radius: 10px;">
             </a>
           </p>  
           <p>
@@ -234,10 +233,10 @@ title: Support
           </p>
           <p style="text-align: center;">
             <a href="assets/images/screenshots/Diagnostic Test - Screenshot 5c.png" target="_blank" rel="noopener noreferrer">
-              <img src="assets/images/screenshots/Diagnostic Test - Screenshot 5c.png" alt="Diagnostic Test - Screenshot 5c" style="max-width:50%; height:auto; display:block; margin:0 auto;">
+              <img src="assets/images/screenshots/Diagnostic Test - Screenshot 5c.png" alt="Diagnostic Test - Screenshot 5c" style="max-width:50%; height:auto; display:block; margin:0 auto; border: 1px solid rgba(0, 0, 0, 0.2); box-shadow: 0 0 8px rgba(0, 0, 0, 0.15); border-radius: 10px;">
             </a>
             <a href="assets/images/screenshots/Diagnostic Test - Screenshot 6.png" target="_blank" rel="noopener noreferrer">
-              <img src="assets/images/screenshots/Diagnostic Test - Screenshot 6.png" alt="Diagnostic Test - Screenshot 6" style="max-width:50%; height:auto; display:block; margin:0 auto;">
+              <img src="assets/images/screenshots/Diagnostic Test - Screenshot 6.png" alt="Diagnostic Test - Screenshot 6" style="max-width:50%; height:auto; display:block; margin:0 auto; border: 1px solid rgba(0, 0, 0, 0.2); box-shadow: 0 0 8px rgba(0, 0, 0, 0.15); border-radius: 10px;">
             </a>            
           </p>          
           <p id="ref2" style="font-size:0.8em; text-align:left; margin-top:20px;">
@@ -262,13 +261,13 @@ title: Support
           <p style="text-align: center;">
             Sensitivity &amp; Specificity:
             <a href="assets/images/screenshots/PostTest Prob - Screenshot 2a.png" target="_blank" rel="noopener noreferrer">
-              <img src="assets/images/screenshots/PostTest Prob - Screenshot 2a.png" alt="PostTest Prob - Screenshot 2a" style="max-width:50%; height:auto; display:block; margin:0 auto;">
+              <img src="assets/images/screenshots/PostTest Prob - Screenshot 2a.png" alt="PostTest Prob - Screenshot 2a" style="max-width:50%; height:auto; display:block; margin:0 auto; border: 1px solid rgba(0, 0, 0, 0.2); box-shadow: 0 0 8px rgba(0, 0, 0, 0.15); border-radius: 10px;">
             </a>
           </p>
           <p style="text-align: center;">
             or Likelihood Ratios:
             <a href="assets/images/screenshots/PostTest Prob - Screenshot 2b.png" target="_blank" rel="noopener noreferrer">
-              <img src="assets/images/screenshots/PostTest Prob - Screenshot 2b.png" alt="PostTest Prob - Screenshot 2b" style="max-width:50%; height:auto; display:block; margin:0 auto;">
+              <img src="assets/images/screenshots/PostTest Prob - Screenshot 2b.png" alt="PostTest Prob - Screenshot 2b" style="max-width:50%; height:auto; display:block; margin:0 auto; border: 1px solid rgba(0, 0, 0, 0.2); box-shadow: 0 0 8px rgba(0, 0, 0, 0.15); border-radius: 10px;">
             </a>
           </p>
           <p>
@@ -277,7 +276,7 @@ title: Support
           <p style="text-align: center;">
             (click to enlarge)
             <a href="assets/images/screenshots/PostTest Prob - Example Study.png" target="_blank" rel="noopener noreferrer">
-              <img src="assets/images/screenshots/PostTest Prob - Example Study.png" alt="PostTest Prob - Example Study" style="max-width:90%; height:auto; display:block; margin:0 auto;">
+              <img src="assets/images/screenshots/PostTest Prob - Example Study.png" alt="PostTest Prob - Example Study" style="max-width:50%; height:auto; display:block; margin:0 auto; border: 1px solid rgba(0, 0, 0, 0.2); box-shadow: 0 0 8px rgba(0, 0, 0, 0.15); border-radius: 10px;">
             </a>
           </p>
           <br>
@@ -288,7 +287,7 @@ title: Support
           <p style="text-align: center;">
             In this example, I chose a pre-test probability of 35%:
             <a href="assets/images/screenshots/PostTest Prob - Screenshot 3a.png" target="_blank" rel="noopener noreferrer">
-              <img src="assets/images/screenshots/PostTest Prob - Screenshot 3a.png" alt="PostTest Prob - Screenshot 3a" style="max-width:50%; height:auto; display:block; margin:0 auto;">
+              <img src="assets/images/screenshots/PostTest Prob - Screenshot 3a.png" alt="PostTest Prob - Screenshot 3a" style="max-width:50%; height:auto; display:block; margin:0 auto; border: 1px solid rgba(0, 0, 0, 0.2); box-shadow: 0 0 8px rgba(0, 0, 0, 0.15); border-radius: 10px;">
             </a>
           </p>
           <p>
@@ -296,7 +295,7 @@ title: Support
           </p>
           <p style="text-align: center;">
             <a href="assets/images/screenshots/PostTest Prob - Screenshot 4.png" target="_blank" rel="noopener noreferrer">
-              <img src="assets/images/screenshots/PostTest Prob - Screenshot 4.png" alt="PostTest Prob - Screenshot 4" style="max-width:50%; height:auto; display:block; margin:0 auto;">
+              <img src="assets/images/screenshots/PostTest Prob - Screenshot 4.png" alt="PostTest Prob - Screenshot 4" style="max-width:50%; height:auto; display:block; margin:0 auto; border: 1px solid rgba(0, 0, 0, 0.2); box-shadow: 0 0 8px rgba(0, 0, 0, 0.15); border-radius: 10px;">
             </a>
           </p>
           <p>
@@ -304,7 +303,7 @@ title: Support
           </p>
           <p style="text-align: center;">
             <a href="assets/images/screenshots/PostTest Prob - Screenshot 5a.png" target="_blank" rel="noopener noreferrer">
-              <img src="assets/images/screenshots/PostTest Prob - Screenshot 5a.png" alt="PostTest Prob - Screenshot 5a" style="max-width:50%; height:auto; display:block; margin:0 auto;">
+              <img src="assets/images/screenshots/PostTest Prob - Screenshot 5a.png" alt="PostTest Prob - Screenshot 5a" style="max-width:50%; height:auto; display:block; margin:0 auto; border: 1px solid rgba(0, 0, 0, 0.2); box-shadow: 0 0 8px rgba(0, 0, 0, 0.15); border-radius: 10px;">
             </a>
           </p>
           <p>
@@ -312,7 +311,7 @@ title: Support
           </p>
           <p style="text-align: center;">
             <a href="assets/images/screenshots/PostTest Prob - Screenshot 5b.png" target="_blank" rel="noopener noreferrer">
-              <img src="assets/images/screenshots/PostTest Prob - Screenshot 5b.png" alt="PostTest Prob - Screenshot 5b" style="max-width:50%; height:auto; display:block; margin:0 auto;">
+              <img src="assets/images/screenshots/PostTest Prob - Screenshot 5b.png" alt="PostTest Prob - Screenshot 5b" style="max-width:50%; height:auto; display:block; margin:0 auto; border: 1px solid rgba(0, 0, 0, 0.2); box-shadow: 0 0 8px rgba(0, 0, 0, 0.15); border-radius: 10px;">
             </a>
           </p>          
           <p>
@@ -320,7 +319,7 @@ title: Support
           </p>
           <p style="text-align: center;">
             <a href="assets/images/screenshots/PostTest Prob - Screenshot 6.png" target="_blank" rel="noopener noreferrer">
-              <img src="assets/images/screenshots/PostTest Prob - Screenshot 6.png" alt="PostTest Prob - Screenshot 6" style="max-width:50%; height:auto; display:block; margin:0 auto;">
+              <img src="assets/images/screenshots/PostTest Prob - Screenshot 6.png" alt="PostTest Prob - Screenshot 6" style="max-width:50%; height:auto; display:block; margin:0 auto; border: 1px solid rgba(0, 0, 0, 0.2); box-shadow: 0 0 8px rgba(0, 0, 0, 0.15); border-radius: 10px;">
             </a>
           </p>
           <p id="ref3" style="font-size:0.8em; text-align:left; margin-top:20px;">
@@ -344,26 +343,31 @@ title: Support
           </p>
           <p style="text-align: center;">
             <a href="assets/images/screenshots/Results - Screenshot 2.png" target="_blank" rel="noopener noreferrer">
-              <img src="assets/images/screenshots/Results - Screenshot 2.png" alt="Results - Screenshot 2" style="max-width:50%; height:auto; display:block; margin:0 auto;">
+              <img src="assets/images/screenshots/Results - Screenshot 2.png" alt="Results - Screenshot 2" style="max-width:50%; height:auto; display:block; margin:0 auto; border: 1px solid rgba(0, 0, 0, 0.2); box-shadow: 0 0 8px rgba(0, 0, 0, 0.15); border-radius: 10px;">
             </a>
           </p>
-          <p>Swipe right on a result to share, print, or export.</p>
+          <p>
+            Swipe right on a result to share, print, or export.
+          </p>
           <p style="text-align: center;">
             <a href="assets/images/screenshots/Results - Screenshot 3a.png" target="_blank" rel="noopener noreferrer">
               <img src="assets/images/screenshots/Results - Screenshot 3a.png" alt="Results - Screenshot 3a" style="max-width:50%; height:auto; display:block; margin:0 auto; border: 1px solid rgba(0, 0, 0, 0.2); box-shadow: 0 0 8px rgba(0, 0, 0, 0.15); border-radius: 10px;">
             </a>
           </p>
-          <p>Swipe left to edit the original inputs or delete the result.</p>
-          <br>
+          <p>
+            Swipe left to edit the original inputs or delete the result.
+          </p>
           <p style="text-align: center;">
             <a href="assets/images/screenshots/Results - Screenshot 3b.png" target="_blank" rel="noopener noreferrer">
               <img src="assets/images/screenshots/Results - Screenshot 3b.png" alt="Results - Screenshot 3b" style="max-width:50%; height:auto; display:block; margin:0 auto;">
             </a>
           </p>
-          <p>Press the menu button to see more options.</p>
+          <p>
+            Press the menu button to see more options.
+          </p>
           <p style="text-align: center;">
             <a href="assets/images/screenshots/Results - Screenshot 4.png" target="_blank" rel="noopener noreferrer">
-              <img src="assets/images/screenshots/Results - Screenshot 4.png" alt="Results - Screenshot 4" style="max-width:50%; height:auto; display:block; margin:0 auto;">
+              <img src="assets/images/screenshots/Results - Screenshot 4.png" alt="Results - Screenshot 4" style="max-width:50%; height:auto; display:block; margin:0 auto; border: 1px solid rgba(0, 0, 0, 0.2); box-shadow: 0 0 8px rgba(0, 0, 0, 0.15); border-radius: 10px;">
             </a>
           </p>
           <p style="text-align: right; margin: 0.5em 0;">
