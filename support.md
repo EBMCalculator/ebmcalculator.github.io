@@ -374,6 +374,14 @@ title: Support
               <img src="assets/images/screenshots/Results - Screenshot 4.png" alt="Results - Screenshot 4" style="max-width:50%; height:auto; display:block; margin:0 auto; border: 1px solid rgba(0, 0, 0, 0.2); box-shadow: 0 0 8px rgba(0, 0, 0, 0.15); border-radius: 10px;">
             </a>
           </p>
+          <p>
+            Use the Search function to filter results.
+          </p>
+          <p style="text-align: center;">
+            <a href="assets/images/screenshots/Results - Screenshot 5.png" target="_blank" rel="noopener noreferrer">
+              <img src="assets/images/screenshots/Results - Screenshot 5.png" alt="Results - Screenshot 5" style="max-width:50%; height:auto; display:block; margin:0 auto; border: 1px solid rgba(0, 0, 0, 0.2); box-shadow: 0 0 8px rgba(0, 0, 0, 0.15); border-radius: 10px;">
+            </a>
+          </p>          
           <p style="text-align: right; margin: 0.5em 0;">
             <a href="#top" class="back-to-top">⬆ Back to top</a>
           </p>
