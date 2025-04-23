@@ -107,23 +107,17 @@ title: Support
               <form action="https://api.web3forms.com/submit" method="POST" id="beta-signup-form" style="max-width: 500px; margin: 0 auto; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">
                 <input type="hidden" name="access_key" value="64dff39e-917c-4a85-a79e-1bdc5fc5342a">
                 <input type="hidden" name="subject" value="New Beta Signup from ebmcalculator.com">
-                <input type="hidden" name="redirect" value="https://ebmcalculator.com/support?submitted=true">
-        
+                <input type="hidden" name="redirect" value="https://ebmcalculator.com/support?beta=thanks#faq">
                 <h2 style="text-align: center;">Join the Beta Program</h2>
                 <p style="text-align: center;">Be the first to try out new features in EBM Calculator.</p>
-        
                 <label for="email" style="display: block; margin-bottom: 6px; font-weight: 500;">Email address<span style="color: red;">*</span></label>
                 <input type="email" name="email" id="email" required placeholder="your@email.com" style="width: 100%; padding: 10px; margin-bottom: 16px; border: 1px solid #ccc; border-radius: 6px;">
-        
                 <label for="name" style="display: block; margin-bottom: 6px; font-weight: 500;">Name (optional)</label>
                 <input type="text" name="name" id="name" placeholder="Jane Smith" style="width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 6px;">
-        
                 <input type="text" name="botcheck" style="display: none;">
-        
                 <button type="submit" style="background-color: #073472; color: white; padding: 12px 24px; border: none; border-radius: 8px; font-size: 16px; cursor: pointer; width: 100%;">
                   Sign Up
                 </button>
-        
                 <p style="text-align: center; font-size: 0.85em; color: #555; margin-top: 1em;">
                   Your email will only be used for beta program updates—no spam, ever.
                 </p>
@@ -134,11 +128,32 @@ title: Support
               <p>You’ll be contacted with the next beta release.</p>
             </div>
             <script>
-              if (window.location.search.includes("submitted=true")) {
-                document.getElementById("form-wrapper").style.display = "none";
-                document.getElementById("thank-you").style.display = "block";
-                history.replaceState(null, null, window.location.pathname);
-              }
+              document.addEventListener("DOMContentLoaded", function () {
+                const urlParams = new URLSearchParams(window.location.search);
+                const isBetaThanks = urlParams.get("beta") === "thanks";
+                if (isBetaThanks) {
+                  // Show thank-you, hide form
+                  const formWrapper = document.getElementById("form-wrapper");
+                  const thankYou = document.getElementById("thank-you");
+                  if (formWrapper && thankYou) {
+                    formWrapper.style.display = "none";
+                    thankYou.style.display = "block";
+                  }
+                  // Expand the correct FAQ
+                  document.querySelectorAll(".faq-question").forEach(q => {
+                    if (q.textContent.includes("Are you planning to add more features?")) {
+                      const answer = q.nextElementSibling;
+                      if (answer && answer.classList.contains("faq-answer")) {
+                        answer.style.display = "block";
+                        q.querySelector("span").innerHTML = "▼";
+                        q.scrollIntoView({ behavior: "smooth", block: "start" });
+                      }
+                    }
+                  });
+                  // Clean the URL
+                  history.replaceState(null, null, window.location.pathname + "#faq");
+                }
+              });
             </script>
           </div>
           <p style="text-align: right; margin: 0.5em 0;">
