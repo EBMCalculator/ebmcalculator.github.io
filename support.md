@@ -105,7 +105,10 @@ title: Support
             <a href="https://testflight.apple.com/join/YOUR-BETA-LINK" style="display: inline-block; background-color: #007AFF; color: white; padding: 10px 16px; text-decoration: none; border-radius: 8px; font-weight: bold;">
               Join the Beta on TestFlight
             </a>
-          </p>          
+          </p>
+    <a href="https://testflight.apple.com/join/9FZgaZyd" style="background-color: #073472; color: white; padding: 12px 24px; font-size: 16px; border-radius: 8px; text-decoration: none;">
+      Join the EBM Calculator Beta on TestFlight
+    </a>          
           <p style="text-align: right; margin: 0.5em 0;">
             <a href="#top" class="back-to-top">⬆ Back to top</a>
           </p>
