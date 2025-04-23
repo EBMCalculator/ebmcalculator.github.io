@@ -126,30 +126,42 @@ title: Support
               <h2>Thank you!</h2>
               <p>You’ll be contacted with the next beta release.</p>
             </div>
-            <script>
-              document.addEventListener("DOMContentLoaded", function () {
-                const urlParams = new URLSearchParams(window.location.search);
-                const isBetaThanks = urlParams.get("beta") === "thanks";
-                if (isBetaThanks) {
-                  const formWrapper = document.getElementById("form-wrapper");
-                  const thankYou = document.getElementById("thank-you");
-                  if (formWrapper && thankYou) {
-                    formWrapper.style.display = "none";
-                    thankYou.style.display = "block";
-                  }
-                  const q = document.getElementById("beta");
-                  if (q) {
-                    const answer = q.nextElementSibling;
-                    if (answer && answer.classList.contains("faq-answer")) {
-                      answer.style.display = "block";
-                      q.querySelector("span").innerHTML = "&#9660;";
-                      q.scrollIntoView({ behavior: "smooth", block: "start" });
-                    }
-                  }
-                  history.replaceState(null, null, window.location.pathname + "#beta");
-                }
-              });
-            </script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const urlParams = new URLSearchParams(window.location.search);
+    const isBetaThanks = urlParams.get("beta") === "thanks";
+    if (isBetaThanks) {
+      const formWrapper = document.getElementById("form-wrapper");
+      const thankYou = document.getElementById("thank-you");
+      // Hide the form and show the thank-you message
+      if (formWrapper && thankYou) {
+        formWrapper.querySelector("form").style.display = "none";
+        thankYou.style.display = "block";
+      }
+      // Expand the outer FAQ section if it's collapsed
+      const faqMain = document.querySelector('#faq');
+      if (faqMain && faqMain.classList.contains("faq-question")) {
+        const answer = faqMain.nextElementSibling;
+        if (answer && answer.classList.contains("faq-answer")) {
+          answer.style.display = "block";
+          faqMain.querySelector("span").innerHTML = "&#9660;";
+        }
+      }
+      // Expand the specific beta section and scroll to it
+      const betaQuestion = document.getElementById("beta");
+      if (betaQuestion) {
+        const answer = betaQuestion.nextElementSibling;
+        if (answer && answer.classList.contains("faq-answer")) {
+          answer.style.display = "block";
+          betaQuestion.querySelector("span").innerHTML = "&#9660;";
+          betaQuestion.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
+      }
+      // Clean the URL after expansion
+      history.replaceState(null, null, window.location.pathname + "#beta");
+    }
+  });
+</script>
           </div>
           <p style="text-align: right; margin: 0.5em 0;">
             <a href="#top" class="back-to-top">⬆ Back to top</a>
