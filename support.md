@@ -128,44 +128,33 @@ title: Support
             </div>
             <script>
               document.addEventListener("DOMContentLoaded", function () {
-        const urlParams = new URLSearchParams(window.location.search);
-        const isBetaThanks = urlParams.get("beta") === "thanks";
-        if (isBetaThanks) {
-          const formWrapper = document.getElementById("form-wrapper");
-          const thankYou = document.getElementById("thank-you");
-          if (formWrapper && thankYou) {
-            formWrapper.querySelector("form").style.display = "none";
-            thankYou.style.display = "block";
-          }
-          const faqMain = document.getElementById("faq");
-          if (faqMain && faqMain.classList.contains("faq-question")) {
-            const faqAnswer = faqMain.nextElementSibling;
-            if (faqAnswer && faqAnswer.classList.contains("faq-answer")) {
-              faqAnswer.style.display = "block";
-              faqMain.querySelector("span").innerHTML = "&#9660;";
-            }
-          }
-          const betaQuestion = document.getElementById("beta");
-          if (betaQuestion) {
-            const answer = betaQuestion.nextElementSibling;
-            if (answer && answer.classList.contains("faq-answer")) {
-              answer.style.display = "block";
-              betaQuestion.querySelector("span").innerHTML = "&#9660;";
-              const betaContainer = betaQuestion.closest(".faq-answer");
-              if (betaContainer) {
-                betaContainer.style.display = "block";
-              }
-              // Delay scroll to ensure visibility
-              setTimeout(() => {
-                betaQuestion.scrollIntoView({ behavior: "smooth", block: "start" });
-              }, 150);
-            }
-          }
-          setTimeout(() => {
-            history.replaceState(null, null, window.location.pathname + "#beta");
-          }, 300);
-        }
-      });
+                const urlParams = new URLSearchParams(window.location.search);
+                const isBetaThanks = urlParams.get("beta") === "thanks";
+                if (isBetaThanks) {
+                  const formWrapper = document.getElementById("form-wrapper");
+                  const thankYou = document.getElementById("thank-you");
+                  if (formWrapper && thankYou) {
+                    formWrapper.querySelector("form").style.display = "none";
+                    thankYou.style.display = "block";
+                  }
+                  const betaQuestion = document.getElementById("beta");
+                  if (betaQuestion) {
+                    const answer = betaQuestion.nextElementSibling;
+                    if (answer && answer.classList.contains("faq-answer")) {
+                      answer.style.display = "block";
+                      betaQuestion.querySelector("span").innerHTML = "&#9660;";
+                      const betaContainer = betaQuestion.closest(".faq-answer");
+                      if (betaContainer) {
+                        betaContainer.style.display = "block";
+                        const faqQuestion = betaContainer.previousElementSibling;
+                        if (faqQuestion && faqQuestion.classList.contains("faq-question")) {
+                          faqQuestion.querySelector("span").innerHTML = "&#9660;";
+                        }
+                      }
+                      betaQuestion.scrollIntoView({ behavior: "smooth", block: "start" });
+                    }
+                  }
+                  history.replaceState(null, null, window.location.pathname + "#beta");
                 }
               });
             </script>
