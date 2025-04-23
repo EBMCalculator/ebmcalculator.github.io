@@ -231,3 +231,14 @@ a:hover {
     filter: brightness(0.9) contrast(1.1);
   }
 }
+
+/* Beta Signup Form Field Styling */
+#beta-signup-form input,
+#beta-signup-form button {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
