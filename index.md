@@ -42,9 +42,9 @@ title: Home
     <div class="faq-question">Effect Calculator</div>
     <div class="faq-answer">
       <ul>
-        <li>Used for studies that examine the effect of a therapy or exposure.</li>
+        <li>Used for studies that examine the effect of a therapy or exposure</li>
         <li>
-          Calculate key effect estimates for <strong>dichotomous outcomes</strong>, including:
+          Calculate key effect estimates for <strong>dichotomous outcomes</strong>:
           <ul>
             <li><strong>Absolute Risk Reduction (ARR)</strong></li>
             <li><strong>Number Needed to Treat (NNT)</strong></li>
@@ -53,7 +53,7 @@ title: Home
             <li><strong>Odds Ratio (OR)</strong></li>
           </ul>
         </li>
-        <li>Each measure is accompanied by a <strong>95% Confidence Interval</strong> to assess the precision of the effect.</li>
+        <li>Includes <strong>95% Confidence Intervals</strong> for every metric</li>
       </ul>
     </div>
   </div>
@@ -63,17 +63,16 @@ title: Home
     <div class="faq-question">Diagnostic Test Calculator</div>
     <div class="faq-answer">
       <ul>
+        <li>Used for studies that evaluate the accuracy of a diagnostic test</li>
         <li>
-          Evaluate the utility of diagnostic tests using metrics like:
+          Calculate core statistics:
           <ul>
-            <li><strong>Sensitivity</strong></li>
-            <li><strong>Specificity</strong></li>
-            <li><strong>Likelihood Ratios (LR+ and LR-)</strong></li>
-            <li><strong>Positive Predictive Value (PPV)</strong></li>
-            <li><strong>Negative Predictive Value (NPV)</strong></li>
+            <li><strong>Sensitivity & Specificity</strong></li>
+            <li><strong>Likelihood Ratios (LR+, LR-)</strong></li>
+            <li><strong>Positive & Negative Predictive Values (PPV, NPV)</strong></li>
           </ul>
         </li>
-        <li>Each measure includes a <strong>95% Confidence Interval</strong> to ensure accurate evaluation.</li>
+        <li>Includes <strong>95% Confidence Intervals</strong> for all measures</li>
       </ul>
     </div>
   </div>
@@ -83,20 +82,21 @@ title: Home
     <div class="faq-question">Post-Test Probability Calculator</div>
     <div class="faq-answer">
       <ul>
-        <li>Estimate the likelihood of a condition or disease based on the result of a diagnostic test.</li>
-        <li>Calculate <strong>Post-Test Probability</strong> using Sensitivity, Specificity, or Likelihood Ratios.</li>
-        <li>Use an <strong>Interactive Fagan Nomogram</strong> to see how Post-Test Probability changes.</li>
+        <li>Used to estimate the likelihood of disease after a test result</li>
+        <li>Input Sensitivity & Specificity or Likelihood Ratios</li>
+        <li>Visualize probability changes with an <strong>interactive Fagan Nomogram</strong></li>
       </ul>
     </div>
   </div>
   
-  <!-- Save & Share -->
+  <!-- Save, Search & Share -->
   <div class="faq-item">
-    <div class="faq-question">Save &amp; Share</div>
+    <div class="faq-question">Save, Search &amp; Share</div>
     <div class="faq-answer">
       <ul>
-        <li>Up to 50 results can be <strong>saved</strong> within the app for future reference.</li>
-        <li>Easily <strong>share, export, or print</strong> results directly from the app.</li>
+        <li><strong>Save</strong> up to 50 results for future reference</li>
+        <li><strong>Search</strong> results to quickly find what matters</li>        
+        <li><strong>Share, print, or export</strong> directly from the app</li>
       </ul>
     </div>
   </div>
@@ -106,8 +106,8 @@ title: Home
     <div class="faq-question">Library</div>
     <div class="faq-answer">
       <ul>
-        <li>Access lessons in <strong>Evidence-Based Medicine (EBM)</strong>.</li>
-        <li>Reinforce concepts in biostatistics and study design.</li>
+        <li>Explore lessons in <strong>Evidence-Based Medicine (EBM)</strong></li>
+        <li>Reinforce core concepts in biostatistics and study design</li>
       </ul>
     </div>
   </div>
