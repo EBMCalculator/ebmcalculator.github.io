@@ -100,8 +100,7 @@ title: Support
         <div class="faq-answer">
           Yes! The more I learn, the more features I want to build. But I also wanted to release the app quickly to start helping clinicians.<br><br>
           If you have suggestions for new features or improvements, please email me at <a href="mailto:support@ebmcalculator.com">support@ebmcalculator.com</a>.<br><br>
-          If you're interested in testing new features before they’re released, I'd love your help!<br>
-          Sign up below to be included in future beta versions of EBM Calculator.
+          If you're interested in testing new features before they’re released, I'd love your help! You can sign up below to be included in future beta versions of EBM Calculator — or, if you prefer, just send an email to <a href="mailto:beta@ebmcalculator.com">beta@ebmcalculator.com</a>.
           <div id="form-wrapper">
             <div style="text-align: center; margin-top: 10px;">
               <form action="https://api.web3forms.com/submit" method="POST" id="beta-signup-form" style="max-width: 500px; margin: 0 auto; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">
