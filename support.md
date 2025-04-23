@@ -114,11 +114,11 @@ title: Support
         <div class="faq-answer">
           If you're interested in testing new features before they’re released, I'd love your help! You can sign up below to be included in future beta versions of EBM Calculator — or, if you prefer, just send an email to <a href="mailto:beta@ebmcalculator.com">beta@ebmcalculator.com</a>.
           <div id="form-wrapper">
-            <div style="text-align: center; margin-top: 10px;">
-              <form action="https://api.web3forms.com/submit" method="POST" id="beta-signup-form" onsubmit="handleBetaSubmit(event)" style="max-width: 500px; margin: 0 auto; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">
+            <div style="margin-top: 10px; display: flex; justify-content: center;">
+              <form action="https://api.web3forms.com/submit" method="POST" id="beta-signup-form" onsubmit="handleBetaSubmit(event)" style="width: 100%; max-width: 500px; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">
                 <input type="hidden" name="access_key" value="64dff39e-917c-4a85-a79e-1bdc5fc5342a">
-                <input type="hidden" name="from_name" value="EBM Calculator Website">            
                 <input type="hidden" name="subject" value="New Beta Signup from ebmcalculator.com">
+                <input type="hidden" name="from_name" value="EBM Calculator Website">
                 <h2 style="text-align: center;">Join the Beta Program</h2>
                 <p style="text-align: center;">Be the first to try out new features in EBM Calculator.</p>
                 <label for="email" style="display: block; margin-bottom: 6px; font-weight: 500;">Email address<span style="color: red;">*</span></label>
@@ -126,7 +126,6 @@ title: Support
                 <label for="name" style="display: block; margin-bottom: 6px; font-weight: 500;">Name (optional)</label>
                 <input type="text" name="name" id="name" placeholder="Jane Smith" style="width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 6px;">
                 <input type="text" name="botcheck" style="display: none;">
-                <input type="hidden" name="message" value="A new beta signup was received from the EBM Calculator website.">                
                 <button type="submit" style="background-color: #073472; color: white; padding: 12px 24px; border: none; border-radius: 8px; font-size: 16px; cursor: pointer; width: 100%;">
                   Sign Up
                 </button>
