@@ -102,9 +102,25 @@ title: Support
           If you have suggestions for new features or improvements, please email me at <a href="mailto:support@ebmcalculator.com">support@ebmcalculator.com</a>.<br><br>
           If you're interested in trying new features before they’re released, you’re welcome to join the beta:
           <div style="text-align: center; margin-top: 10px;">
-            <a href="https://testflight.apple.com/join/9FZgaZyd" style="background-color: #073472; color: white; padding: 12px 24px; font-size: 16px; border-radius: 8px; text-decoration: none;">
-              Join the Beta on TestFlight
-            </a>
+            <form action="https://formspree.io/f/mldbepyn" method="POST" style="max-width: 500px; margin: 0 auto; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">
+              <h2 style="text-align: center;">Join the Beta</h2>
+              <p style="text-align: center;">Get early access to new features in EBM Calculator.</p>
+              
+              <label for="email" style="display: block; margin-bottom: 6px; font-weight: 500;">Email address<span style="color: red;">*</span></label>
+              <input type="email" name="email" id="email" required placeholder="your@email.com" style="width: 100%; padding: 10px; margin-bottom: 16px; border: 1px solid #ccc; border-radius: 6px;">
+              
+              <label for="name" style="display: block; margin-bottom: 6px; font-weight: 500;">Name (optional)</label>
+              <input type="text" name="name" id="name" placeholder="Jane Smith" style="width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 6px;">
+              
+              <input type="hidden" name="_subject" value="New Beta Signup from ebmcalculator.com">
+              <input type="hidden" name="_captcha" value="false">
+              <input type="hidden" name="_next" value="https://ebmcalculator.com/thanks.html">
+              
+              <button type="submit" style="background-color: #073472; color: white; padding: 12px 24px; border: none; border-radius: 8px; font-size: 16px; cursor: pointer; width: 100%;">
+                Sign Up
+              </button>
+            </form>
+
           </div>
           <p style="text-align: right; margin: 0.5em 0;">
             <a href="#top" class="back-to-top">⬆ Back to top</a>
