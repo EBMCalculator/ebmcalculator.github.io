@@ -101,6 +101,7 @@ title: Support
           Yes! The more I learn, the more features I want to build. But I also wanted to release the app quickly to start helping clinicians.<br><br>
           If you have suggestions for new features or improvements, please email me at <a href="mailto:support@ebmcalculator.com">support@ebmcalculator.com</a>.<br><br>
           If you're interested in trying new features before they’re released, you’re welcome to join the beta:
+          <div id="form-wrapper">
           <div style="text-align: center; margin-top: 10px;">
             <form action="https://formspree.io/f/mldbepyn" method="POST" style="max-width: 500px; margin: 0 auto; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">
               <h2 style="text-align: center;">Join the Beta</h2>
@@ -114,13 +115,28 @@ title: Support
               
               <input type="hidden" name="_subject" value="New Beta Signup from ebmcalculator.com">
               <input type="hidden" name="_captcha" value="false">
-              <input type="hidden" name="_next" value="https://ebmcalculator.com/thanks.html">
+              <input type="hidden" name="_next" value="https://ebmcalculator.com/#success">
               
               <button type="submit" style="background-color: #073472; color: white; padding: 12px 24px; border: none; border-radius: 8px; font-size: 16px; cursor: pointer; width: 100%;">
                 Sign Up
               </button>
             </form>
-
+          </div>
+          
+          <div id="thank-you" style="display: none; text-align: center; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">
+            <h2>Thank you!</h2>
+            <p>You’ll be contacted with the next beta release.</p>
+          </div>
+          
+          <script>
+            // Check URL hash for #success
+            if (window.location.hash === "#success") {
+              document.getElementById("form-wrapper").style.display = "none";
+              document.getElementById("thank-you").style.display = "block";
+              // Optionally remove the hash so refreshing doesn’t trigger it again
+              history.replaceState(null, null, ' ');
+            }
+          </script>
           </div>
           <p style="text-align: right; margin: 0.5em 0;">
             <a href="#top" class="back-to-top">⬆ Back to top</a>
