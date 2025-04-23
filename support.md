@@ -124,7 +124,7 @@ title: Support
             </div>
             <div id="thank-you" style="display: none; text-align: center; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">
               <h2>Thank you!</h2>
-              <p>You’ll be contacted with the next beta release.</p>
+              <p>Your email was received. You’ll be contacted with the next beta release!</p>
             </div>
 <script>
   document.addEventListener("DOMContentLoaded", function () {
@@ -147,15 +147,16 @@ title: Support
           faqMain.querySelector("span").innerHTML = "&#9660;";
         }
       }
-      // Expand the specific beta section and scroll to it
-      const betaQuestion = document.getElementById("beta");
-      if (betaQuestion) {
-        const answer = betaQuestion.nextElementSibling;
-        if (answer && answer.classList.contains("faq-answer")) {
-          answer.style.display = "block";
-          betaQuestion.querySelector("span").innerHTML = "&#9660;";
-          betaQuestion.scrollIntoView({ behavior: "smooth", block: "start" });
+      // Make sure the thank-you section's visible path is fully expanded
+      const betaAnswer = document.getElementById("beta")?.nextElementSibling;
+      if (betaAnswer && betaAnswer.classList.contains("faq-answer")) {
+        betaAnswer.style.display = "block";
+        document.getElementById("beta").querySelector("span").innerHTML = "&#9660;";
+        const betaContainer = betaAnswer.closest(".faq-answer");
+        if (betaContainer) {
+          betaContainer.style.display = "block";
         }
+        document.getElementById("beta").scrollIntoView({ behavior: "smooth", block: "start" });
       }
       // Clean the URL after expansion
       history.replaceState(null, null, window.location.pathname + "#beta");
