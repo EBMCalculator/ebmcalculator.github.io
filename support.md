@@ -101,14 +101,11 @@ title: Support
           Yes! The more I learn, the more features I want to build. But I also wanted to release the app quickly to start helping clinicians.<br><br>
           If you have suggestions for new features or improvements, please email me at <a href="mailto:support@ebmcalculator.com">support@ebmcalculator.com</a>.<br><br>
           If you're interested in trying new features before they’re released, you’re welcome to join the beta:
-          <p>
-            <a href="https://testflight.apple.com/join/YOUR-BETA-LINK" style="display: inline-block; background-color: #007AFF; color: white; padding: 10px 16px; text-decoration: none; border-radius: 8px; font-weight: bold;">
-              Join the Beta on TestFlight
+          <div style="text-align: center; margin-top: 10px;">
+            <a href="https://testflight.apple.com/join/9FZgaZyd" style="background-color: #073472; color: white; padding: 12px 24px; font-size: 16px; border-radius: 8px; text-decoration: none;">
+              Join the EBM Calculator Beta on TestFlight
             </a>
-          </p>
-    <a href="https://testflight.apple.com/join/9FZgaZyd" style="background-color: #073472; color: white; padding: 12px 24px; font-size: 16px; border-radius: 8px; text-decoration: none;">
-      Join the EBM Calculator Beta on TestFlight
-    </a>          
+          </div>
           <p style="text-align: right; margin: 0.5em 0;">
             <a href="#top" class="back-to-top">⬆ Back to top</a>
           </p>
