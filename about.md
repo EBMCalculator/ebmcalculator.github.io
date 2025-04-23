@@ -71,9 +71,12 @@ title: About
             <li>Swipe on results to Share, Edit, Save, or Delete</li>
             <li>Save up to 50 results</li>
             <li>Drag and drop results to rearrange in Results section</li>
+            <li>Search through saved results using keywords, test names, interventions, or outcomes</li>
             <li>Calculate Post-Test Probability from any diagnostic test result</li>
+            <li>See results in a new interactive Fagan Nomogram</li>
             <li>New Library section with various Lessons in EBM</li>
-            <li>New Interactive Fagan Nomogram</li>
+            <li>Links to Support email, How-To Guide, and FAQ added to About screen</li>
+            <li>Added statistical method and references for each CI on Formula pages</li>
             <li>Bug fixes and UI refinements</li>
           </ul>
         </div>
