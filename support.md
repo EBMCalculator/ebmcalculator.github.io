@@ -126,6 +126,7 @@ title: Support
                 <label for="name" style="display: block; margin-bottom: 6px; font-weight: 500;">Name (optional)</label>
                 <input type="text" name="name" id="name" placeholder="Jane Smith" style="width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 6px;">
                 <input type="text" name="botcheck" style="display: none;">
+                <input type="hidden" name="message" value="A new beta signup was received from the EBM Calculator website.">                
                 <button type="submit" style="background-color: #073472; color: white; padding: 12px 24px; border: none; border-radius: 8px; font-size: 16px; cursor: pointer; width: 100%;">
                   Sign Up
                 </button>
