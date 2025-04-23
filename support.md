@@ -103,41 +103,43 @@ title: Support
           If you're interested in testing new features before they’re released, I'd love your help!<br>
           Sign up below to be included in future beta versions of EBM Calculator.
           <div id="form-wrapper">
-          <div style="text-align: center; margin-top: 10px;">
-            <form action="https://formspree.io/f/mldbepyn" method="POST" style="max-width: 500px; margin: 0 auto; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">
-              <h2 style="text-align: center;">Join the Beta Program</h2>
-              <p style="text-align: center;">Be the first to try out new features in EBM Calculator.</p>
-              
-              <label for="email" style="display: block; margin-bottom: 6px; font-weight: 500;">Email address<span style="color: red;">*</span></label>
-              <input type="email" name="email" id="email" required placeholder="your@email.com" style="width: 100%; padding: 10px; margin-bottom: 16px; border: 1px solid #ccc; border-radius: 6px;">
-              
-              <label for="name" style="display: block; margin-bottom: 6px; font-weight: 500;">Name (optional)</label>
-              <input type="text" name="name" id="name" placeholder="Jane Smith" style="width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 6px;">
-              
-              <input type="hidden" name="_subject" value="New Beta Signup from ebmcalculator.com">
-              <input type="hidden" name="_captcha" value="false">
-              <input type="hidden" name="_next" value="https://ebmcalculator.com/support?submitted=true">
-              
-              <button type="submit" style="background-color: #073472; color: white; padding: 12px 24px; border: none; border-radius: 8px; font-size: 16px; cursor: pointer; width: 100%;">
-                Sign Up
-              </button>
-            </form>
-          </div>
-          
-          <div id="thank-you" style="display: none; text-align: center; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">
-            <h2>Thank you!</h2>
-            <p>You’ll be contacted with the next beta release.</p>
-          </div>
-          
-          <script>
-            // Check URL hash for submitted=true
-            if (window.location.search.includes("submitted=true")) {
-              document.getElementById("form-wrapper").style.display = "none";
-              document.getElementById("thank-you").style.display = "block";
-              history.replaceState(null, null, window.location.pathname);
-            }
-
-          </script>
+            <div style="text-align: center; margin-top: 10px;">
+              <form action="https://api.web3forms.com/submit" method="POST" id="beta-signup-form" style="max-width: 500px; margin: 0 auto; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">
+                <input type="hidden" name="access_key" value="64dff39e-917c-4a85-a79e-1bdc5fc5342a">
+                <input type="hidden" name="subject" value="New Beta Signup from ebmcalculator.com">
+                <input type="hidden" name="redirect" value="https://ebmcalculator.com/support?submitted=true">
+        
+                <h2 style="text-align: center;">Join the Beta Program</h2>
+                <p style="text-align: center;">Be the first to try out new features in EBM Calculator.</p>
+        
+                <label for="email" style="display: block; margin-bottom: 6px; font-weight: 500;">Email address<span style="color: red;">*</span></label>
+                <input type="email" name="email" id="email" required placeholder="your@email.com" style="width: 100%; padding: 10px; margin-bottom: 16px; border: 1px solid #ccc; border-radius: 6px;">
+        
+                <label for="name" style="display: block; margin-bottom: 6px; font-weight: 500;">Name (optional)</label>
+                <input type="text" name="name" id="name" placeholder="Jane Smith" style="width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 6px;">
+        
+                <input type="text" name="botcheck" style="display: none;">
+        
+                <button type="submit" style="background-color: #073472; color: white; padding: 12px 24px; border: none; border-radius: 8px; font-size: 16px; cursor: pointer; width: 100%;">
+                  Sign Up
+                </button>
+        
+                <p style="text-align: center; font-size: 0.85em; color: #555; margin-top: 1em;">
+                  Your email will only be used for beta program updates—no spam, ever.
+                </p>
+              </form>
+            </div>
+            <div id="thank-you" style="display: none; text-align: center; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">
+              <h2>Thank you!</h2>
+              <p>You’ll be contacted with the next beta release.</p>
+            </div>
+            <script>
+              if (window.location.search.includes("submitted=true")) {
+                document.getElementById("form-wrapper").style.display = "none";
+                document.getElementById("thank-you").style.display = "block";
+                history.replaceState(null, null, window.location.pathname);
+              }
+            </script>
           </div>
           <p style="text-align: right; margin: 0.5em 0;">
             <a href="#top" class="back-to-top">⬆ Back to top</a>
