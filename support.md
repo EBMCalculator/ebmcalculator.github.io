@@ -52,46 +52,6 @@ title: Support
           </p>
         </div>
       </div>
-      <!-- FAQ Item: Why do the calculators have different input options? -->
-      <div class="faq-item">
-        <div class="faq-question" onclick="toggleAnswer(this)">
-          <span>&#9654;</span> Why do the calculators have different input options?
-        </div>
-        <div class="faq-answer">
-          Each calculator offers different input options to match how authors report their results. Choose the one that fits your study.<br><br>
-          For example, if the study only provides PPV and NPV (and not sensitivity or specificity), select PPV/NPV as your input method.
-          <p style="text-align: right; margin: 0.5em 0;">
-            <a href="#top" class="back-to-top">⬆ Back to top</a>
-          </p>
-        </div>
-      </div>
-      <!-- FAQ Item: What formulas are used for calculating confidence intervals? -->
-      <div class="faq-item">
-        <div class="faq-question" onclick="toggleAnswer(this)">
-          <span>&#9654;</span> What formulas are used for calculating confidence intervals?
-        </div>
-        <div class="faq-answer">
-          <p>
-            <a href="/assets/pdf/Formulas.pdf" target="_blank" rel="noopener noreferrer">Click here to review the formulas</a> used for calculating all metrics and confidence intervals in the app.
-          </p>
-          <p style="text-align: right; margin: 0.5em 0;">
-            <a href="#top" class="back-to-top">⬆ Back to top</a>
-          </p>
-        </div>
-      </div>
-      <!-- FAQ Item: Why did you create this app? -->
-      <div class="faq-item">
-        <div class="faq-question" onclick="toggleAnswer(this)">
-          <span>&#9654;</span> Why did you create this app?
-        </div>
-        <div class="faq-answer">
-          I got tired of jumping between different online calculators just to interpret study results, so I built the EBM Calculator to streamline the process and make evidence appraisal simpler for all of us.<br><br>
-          The app has come a long way since I first started developing it, but the goal remains the same: to provide a purposefully simple tool that helps you assess the strength of an association (for therapies or exposures), evaluate diagnostic test performance, and calculate post-test probability.
-          <p style="text-align: right; margin: 0.5em 0;">
-            <a href="#top" class="back-to-top">⬆ Back to top</a>
-          </p>
-        </div>
-      </div>
       <!-- FAQ Item: Are you planning to add more features? -->
       <div class="faq-item">
         <div class="faq-question" id="beta" onclick="toggleAnswer(this)">
@@ -126,43 +86,42 @@ title: Support
               <h2>Thank you!</h2>
               <p>Your email was received. You’ll be contacted with the next beta release!</p>
             </div>
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const urlParams = new URLSearchParams(window.location.search);
-    const isBetaThanks = urlParams.get("beta") === "thanks";
-    if (isBetaThanks) {
-      const formWrapper = document.getElementById("form-wrapper");
-      const thankYou = document.getElementById("thank-you");
-      // Hide the form and show the thank-you message
-      if (formWrapper && thankYou) {
-        formWrapper.querySelector("form").style.display = "none";
-        thankYou.style.display = "block";
-      }
-      // Expand the outer FAQ section if it's collapsed
-      const faqMain = document.querySelector('#faq');
-      if (faqMain && faqMain.classList.contains("faq-question")) {
-        const answer = faqMain.nextElementSibling;
-        if (answer && answer.classList.contains("faq-answer")) {
-          answer.style.display = "block";
-          faqMain.querySelector("span").innerHTML = "&#9660;";
-        }
-      }
-      // Make sure the thank-you section's visible path is fully expanded
-      const betaAnswer = document.getElementById("beta")?.nextElementSibling;
-      if (betaAnswer && betaAnswer.classList.contains("faq-answer")) {
-        betaAnswer.style.display = "block";
-        document.getElementById("beta").querySelector("span").innerHTML = "&#9660;";
-        const betaContainer = betaAnswer.closest(".faq-answer");
-        if (betaContainer) {
-          betaContainer.style.display = "block";
-        }
-        document.getElementById("beta").scrollIntoView({ behavior: "smooth", block: "start" });
-      }
-      // Clean the URL after expansion
-      history.replaceState(null, null, window.location.pathname + "#beta");
-    }
-  });
-</script>
+            <script>
+              document.addEventListener("DOMContentLoaded", function () {
+                const urlParams = new URLSearchParams(window.location.search);
+                const isBetaThanks = urlParams.get("beta") === "thanks";
+                if (isBetaThanks) {
+                  const formWrapper = document.getElementById("form-wrapper");
+                  const thankYou = document.getElementById("thank-you");
+                  if (formWrapper && thankYou) {
+                    formWrapper.querySelector("form").style.display = "none";
+                    thankYou.style.display = "block";
+                  }
+                  const faqMain = document.getElementById("faq");
+                  if (faqMain && faqMain.classList.contains("faq-question")) {
+                    const faqAnswer = faqMain.nextElementSibling;
+                    if (faqAnswer && faqAnswer.classList.contains("faq-answer")) {
+                      faqAnswer.style.display = "block";
+                      faqMain.querySelector("span").innerHTML = "&#9660;";
+                    }
+                  }
+                  const betaQuestion = document.getElementById("beta");
+                  if (betaQuestion) {
+                    const answer = betaQuestion.nextElementSibling;
+                    if (answer && answer.classList.contains("faq-answer")) {
+                      answer.style.display = "block";
+                      betaQuestion.querySelector("span").innerHTML = "&#9660;";
+                      const betaContainer = betaQuestion.closest(".faq-answer");
+                      if (betaContainer) {
+                        betaContainer.style.display = "block";
+                      }
+                      betaQuestion.scrollIntoView({ behavior: "smooth", block: "start" });
+                    }
+                  }
+                  history.replaceState(null, null, window.location.pathname + "#beta");
+                }
+              });
+            </script>
           </div>
           <p style="text-align: right; margin: 0.5em 0;">
             <a href="#top" class="back-to-top">⬆ Back to top</a>
