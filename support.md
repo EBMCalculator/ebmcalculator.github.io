@@ -144,7 +144,7 @@ title: Support
                       const answer = q.nextElementSibling;
                       if (answer && answer.classList.contains("faq-answer")) {
                         answer.style.display = "block";
-                        q.querySelector("span").innerHTML = "▼";
+                        q.querySelector("span").innerHTML = "&#9660;"; // ▼ in HTML entity
                         q.scrollIntoView({ behavior: "smooth", block: "start" });
                       }
                     }
