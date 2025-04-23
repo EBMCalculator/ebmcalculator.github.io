@@ -20,16 +20,6 @@ title: Home
   }
 </style>
 
-
-<!-- TestFlight Button -->
-<div class="section-links-wrapper index-sticky" style="padding-top: 5px;">
-  <div class="section-links">
-    <a href="https://testflight.apple.com/join/9FZgaZyd" style="background-color: #073472; color: white; padding: 12px 24px; font-size: 16px; border-radius: 8px; text-decoration: none;">
-      Join the EBM Calculator Beta on Apple's TestFlight
-    </a>
-  </div>
-</div>
-
 <!-- Goal Statement -->
 <div style="max-width: 600px; margin: 20px auto;" markdown="1">
   The goal of **EBM Calculator** is to help with your appraisal of the medical literature!
