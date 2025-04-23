@@ -39,7 +39,14 @@ title: Support
         </div>
         <div class="faq-answer">
           You can save up to 50 results.<br><br>
-          From the Results tab, you can also reorder results (press and drag), delete individual results (swipe left), share results (swipe right), or delete all saved results (from the menu button).
+          From the Results tab, you can also:<br>
+          <ul>
+            <li>Reorder results by pressing and dragging</li>
+            <li>Delete individual results by swiping left</li>
+            <li>Share results by swiping right</li>
+            <li>Delete all saved results from the menu button</li>
+            <li>Search through saved results using keywords, test names, or outcomes</li>
+          </ul>          
           <p style="text-align: right; margin: 0.5em 0;">
             <a href="#top" class="back-to-top">⬆ Back to top</a>
           </p>
