@@ -103,10 +103,9 @@ title: Support
           If you're interested in testing new features before they’re released, I'd love your help! You can sign up below to be included in future beta versions of EBM Calculator — or, if you prefer, just send an email to <a href="mailto:beta@ebmcalculator.com">beta@ebmcalculator.com</a>.
           <div id="form-wrapper">
             <div style="text-align: center; margin-top: 10px;">
-              <form action="https://api.web3forms.com/submit" method="POST" id="beta-signup-form" style="max-width: 500px; margin: 0 auto; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">
+              <form action="https://api.web3forms.com/submit" method="POST" id="beta-signup-form" onsubmit="handleBetaSubmit(event)" style="max-width: 500px; margin: 0 auto; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">
                 <input type="hidden" name="access_key" value="64dff39e-917c-4a85-a79e-1bdc5fc5342a">
                 <input type="hidden" name="subject" value="New Beta Signup from ebmcalculator.com">
-                <input type="hidden" name="redirect" value="https://ebmcalculator.com/support?beta=thanks#beta">
                 <h2 style="text-align: center;">Join the Beta Program</h2>
                 <p style="text-align: center;">Be the first to try out new features in EBM Calculator.</p>
                 <label for="email" style="display: block; margin-bottom: 6px; font-weight: 500;">Email address<span style="color: red;">*</span></label>
@@ -127,36 +126,43 @@ title: Support
               <p>Your email was received. You’ll be contacted with the next beta release!</p>
             </div>
             <script>
-              document.addEventListener("DOMContentLoaded", function () {
-                const urlParams = new URLSearchParams(window.location.search);
-                const isBetaThanks = urlParams.get("beta") === "thanks";
-                if (isBetaThanks) {
-                  const formWrapper = document.getElementById("form-wrapper");
-                  const thankYou = document.getElementById("thank-you");
-                  if (formWrapper && thankYou) {
-                    formWrapper.querySelector("form").style.display = "none";
-                    thankYou.style.display = "block";
-                  }
-                  const betaQuestion = document.getElementById("beta");
-                  if (betaQuestion) {
-                    const answer = betaQuestion.nextElementSibling;
-                    if (answer && answer.classList.contains("faq-answer")) {
+              function handleBetaSubmit(event) {
+                event.preventDefault();
+      
+                const form = event.target;
+                const formData = new FormData(form);
+      
+                fetch(form.action, {
+                  method: form.method,
+                  body: formData,
+                  headers: { Accept: "application/json" }
+                }).then(response => {
+                  if (response.ok) {
+                    form.style.display = "none";
+                    document.getElementById("thank-you").style.display = "block";
+      
+                    const beta = document.getElementById("beta");
+                    const answer = beta?.nextElementSibling;
+                    if (answer?.classList.contains("faq-answer")) {
                       answer.style.display = "block";
-                      betaQuestion.querySelector("span").innerHTML = "&#9660;";
-                      const betaContainer = betaQuestion.closest(".faq-answer");
-                      if (betaContainer) {
-                        betaContainer.style.display = "block";
-                        const faqQuestion = betaContainer.previousElementSibling;
-                        if (faqQuestion && faqQuestion.classList.contains("faq-question")) {
-                          faqQuestion.querySelector("span").innerHTML = "&#9660;";
+                      beta.querySelector("span").innerHTML = "&#9660;";
+                      const outerAnswer = beta.closest(".faq-answer");
+                      if (outerAnswer) {
+                        outerAnswer.style.display = "block";
+                        const parentQuestion = outerAnswer.previousElementSibling;
+                        if (parentQuestion?.classList.contains("faq-question")) {
+                          parentQuestion.querySelector("span").innerHTML = "&#9660;";
                         }
                       }
-                      betaQuestion.scrollIntoView({ behavior: "smooth", block: "start" });
+                      beta.scrollIntoView({ behavior: "smooth", block: "start" });
                     }
+                  } else {
+                    alert("There was a problem submitting your request. Please try again.");
                   }
-                  history.replaceState(null, null, window.location.pathname + "#beta");
-                }
-              });
+                }).catch(error => {
+                  alert("Something went wrong. Please try again.");
+                });
+              }
             </script>
           </div>
           <p style="text-align: right; margin: 0.5em 0;">
