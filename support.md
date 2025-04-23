@@ -103,7 +103,7 @@ title: Support
           If you're interested in trying new features before they’re released, you’re welcome to join the beta:
           <div style="text-align: center; margin-top: 10px;">
             <a href="https://testflight.apple.com/join/9FZgaZyd" style="background-color: #073472; color: white; padding: 12px 24px; font-size: 16px; border-radius: 8px; text-decoration: none;">
-              Join the EBM Calculator Beta on TestFlight
+              Join the Beta on TestFlight
             </a>
           </div>
           <p style="text-align: right; margin: 0.5em 0;">
