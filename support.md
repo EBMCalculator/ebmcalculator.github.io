@@ -94,7 +94,7 @@ title: Support
       </div>
       <!-- FAQ Item: Are you planning to add more features? -->
       <div class="faq-item">
-        <div class="faq-question" onclick="toggleAnswer(this)">
+        <div class="faq-question" id="beta" onclick="toggleAnswer(this)">
           <span>&#9654;</span> Are you planning to add more features?
         </div>
         <div class="faq-answer">
@@ -106,7 +106,7 @@ title: Support
               <form action="https://api.web3forms.com/submit" method="POST" id="beta-signup-form" style="max-width: 500px; margin: 0 auto; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">
                 <input type="hidden" name="access_key" value="64dff39e-917c-4a85-a79e-1bdc5fc5342a">
                 <input type="hidden" name="subject" value="New Beta Signup from ebmcalculator.com">
-                <input type="hidden" name="redirect" value="https://ebmcalculator.com/support?beta=thanks#faq">
+                <input type="hidden" name="redirect" value="https://ebmcalculator.com/support?beta=thanks#beta">
                 <h2 style="text-align: center;">Join the Beta Program</h2>
                 <p style="text-align: center;">Be the first to try out new features in EBM Calculator.</p>
                 <label for="email" style="display: block; margin-bottom: 6px; font-weight: 500;">Email address<span style="color: red;">*</span></label>
@@ -131,26 +131,22 @@ title: Support
                 const urlParams = new URLSearchParams(window.location.search);
                 const isBetaThanks = urlParams.get("beta") === "thanks";
                 if (isBetaThanks) {
-                  // Show thank-you, hide form
                   const formWrapper = document.getElementById("form-wrapper");
                   const thankYou = document.getElementById("thank-you");
                   if (formWrapper && thankYou) {
                     formWrapper.style.display = "none";
                     thankYou.style.display = "block";
                   }
-                  // Expand the correct FAQ
-                  document.querySelectorAll(".faq-question").forEach(q => {
-                    if (q.textContent.includes("Are you planning to add more features?")) {
-                      const answer = q.nextElementSibling;
-                      if (answer && answer.classList.contains("faq-answer")) {
-                        answer.style.display = "block";
-                        q.querySelector("span").innerHTML = "&#9660;"; // ▼ in HTML entity
-                        q.scrollIntoView({ behavior: "smooth", block: "start" });
-                      }
+                  const q = document.getElementById("beta");
+                  if (q) {
+                    const answer = q.nextElementSibling;
+                    if (answer && answer.classList.contains("faq-answer")) {
+                      answer.style.display = "block";
+                      q.querySelector("span").innerHTML = "&#9660;";
+                      q.scrollIntoView({ behavior: "smooth", block: "start" });
                     }
-                  });
-                  // Clean the URL
-                  history.replaceState(null, null, window.location.pathname + "#faq");
+                  }
+                  history.replaceState(null, null, window.location.pathname + "#beta");
                 }
               });
             </script>
