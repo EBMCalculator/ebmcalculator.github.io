@@ -94,17 +94,30 @@ title: Support
       </div>
       <!-- FAQ Item: Are you planning to add more features? -->
       <div class="faq-item">
-        <div class="faq-question" id="beta" onclick="toggleAnswer(this)">
+        <div class="faq-question" onclick="toggleAnswer(this)">
           <span>&#9654;</span> Are you planning to add more features?
         </div>
         <div class="faq-answer">
           Yes! The more I learn, the more features I want to build. But I also wanted to release the app quickly to start helping clinicians.<br><br>
           If you have suggestions for new features or improvements, please email me at <a href="mailto:support@ebmcalculator.com">support@ebmcalculator.com</a>.<br><br>
+          If you're interested in testing new features before they're released, see below!
+          <p style="text-align: right; margin: 0.5em 0;">
+            <a href="#top" class="back-to-top">⬆ Back to top</a>
+          </p>
+        </div>
+      </div>
+      <!-- FAQ Item: How do I sign up for beta releases? -->
+      <div class="faq-item">
+        <div class="faq-question" id="beta" onclick="toggleAnswer(this)">
+          <span>&#9654;</span> How do I sign up for beta releases?
+        </div>
+        <div class="faq-answer">
           If you're interested in testing new features before they’re released, I'd love your help! You can sign up below to be included in future beta versions of EBM Calculator — or, if you prefer, just send an email to <a href="mailto:beta@ebmcalculator.com">beta@ebmcalculator.com</a>.
           <div id="form-wrapper">
             <div style="text-align: center; margin-top: 10px;">
               <form action="https://api.web3forms.com/submit" method="POST" id="beta-signup-form" onsubmit="handleBetaSubmit(event)" style="max-width: 500px; margin: 0 auto; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">
                 <input type="hidden" name="access_key" value="64dff39e-917c-4a85-a79e-1bdc5fc5342a">
+                <input type="hidden" name="from_name" value="EBM Calculator Website">            
                 <input type="hidden" name="subject" value="New Beta Signup from ebmcalculator.com">
                 <h2 style="text-align: center;">Join the Beta Program</h2>
                 <p style="text-align: center;">Be the first to try out new features in EBM Calculator.</p>
@@ -128,10 +141,8 @@ title: Support
             <script>
               function handleBetaSubmit(event) {
                 event.preventDefault();
-      
                 const form = event.target;
                 const formData = new FormData(form);
-      
                 fetch(form.action, {
                   method: form.method,
                   body: formData,
@@ -140,7 +151,6 @@ title: Support
                   if (response.ok) {
                     form.style.display = "none";
                     document.getElementById("thank-you").style.display = "block";
-      
                     const beta = document.getElementById("beta");
                     const answer = beta?.nextElementSibling;
                     if (answer?.classList.contains("faq-answer")) {
