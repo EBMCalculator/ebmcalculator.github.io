@@ -100,12 +100,13 @@ title: Support
         <div class="faq-answer">
           Yes! The more I learn, the more features I want to build. But I also wanted to release the app quickly to start helping clinicians.<br><br>
           If you have suggestions for new features or improvements, please email me at <a href="mailto:support@ebmcalculator.com">support@ebmcalculator.com</a>.<br><br>
-          If you're interested in trying new features before they’re released, you’re welcome to join the beta:
+          If you're interested in testing new features before they’re released, I'd love your help!<br>
+          Sign up below to be included in future beta versions of EBM Calculator.
           <div id="form-wrapper">
           <div style="text-align: center; margin-top: 10px;">
             <form action="https://formspree.io/f/mldbepyn" method="POST" style="max-width: 500px; margin: 0 auto; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">
-              <h2 style="text-align: center;">Join the Beta</h2>
-              <p style="text-align: center;">Get early access to new features in EBM Calculator.</p>
+              <h2 style="text-align: center;">Join the Beta Program</h2>
+              <p style="text-align: center;">Be the first to try out new features in EBM Calculator.</p>
               
               <label for="email" style="display: block; margin-bottom: 6px; font-weight: 500;">Email address<span style="color: red;">*</span></label>
               <input type="email" name="email" id="email" required placeholder="your@email.com" style="width: 100%; padding: 10px; margin-bottom: 16px; border: 1px solid #ccc; border-radius: 6px;">
@@ -115,7 +116,7 @@ title: Support
               
               <input type="hidden" name="_subject" value="New Beta Signup from ebmcalculator.com">
               <input type="hidden" name="_captcha" value="false">
-              <input type="hidden" name="_next" value="https://ebmcalculator.com/#success">
+              <input type="hidden" name="_next" value="https://ebmcalculator.com/support?submitted=true">
               
               <button type="submit" style="background-color: #073472; color: white; padding: 12px 24px; border: none; border-radius: 8px; font-size: 16px; cursor: pointer; width: 100%;">
                 Sign Up
@@ -129,13 +130,13 @@ title: Support
           </div>
           
           <script>
-            // Check URL hash for #success
-            if (window.location.hash === "#success") {
+            // Check URL hash for submitted=true
+            if (window.location.search.includes("submitted=true")) {
               document.getElementById("form-wrapper").style.display = "none";
               document.getElementById("thank-you").style.display = "block";
-              // Optionally remove the hash so refreshing doesn’t trigger it again
-              history.replaceState(null, null, ' ');
+              history.replaceState(null, null, window.location.pathname);
             }
+
           </script>
           </div>
           <p style="text-align: right; margin: 0.5em 0;">
