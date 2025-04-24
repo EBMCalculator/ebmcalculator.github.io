@@ -89,15 +89,13 @@ a:hover {
 
 .hero-sticky-img {
   position: sticky;
-  top: 58px; /* adjust if needed to sit below your tab bar */
+  top: 58px; /* Make sure this is below the tab bar */
   z-index: 99;
-  background-color: inherit;
-  display: inline-block;
-  padding: 4px;
-}
-
-.hero-sticky-img img {
+  background-color: white;
+  display: block;
   height: 50px;
+  margin: 0 auto;
+  padding: 8px 0;
 }
 
 /* Dark mode support for background (only needed if you override the color directly)
