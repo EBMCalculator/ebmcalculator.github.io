@@ -49,7 +49,7 @@ title: Support
           <span>&#9654;</span> What devices are compatible?
         </div>
         <div class="faq-answer">
-          EBM Calculator is available on iOS devices running iOS 18.1 or later. It is optimized for iPhones, but will also run on iPads and Apple Silicon Macs.
+          <p>EBM Calculator is available on iOS devices running iOS 18.1 or later. It is optimized for iPhones, but will also run on iPads and Apple Silicon Macs.</p>
           <p style="text-align: right; margin: 0.5em 0;">
             <a href="#top" class="back-to-top">⬆ Back to top</a>
           </p>
@@ -61,15 +61,17 @@ title: Support
           <span>&#9654;</span> How many results can I save?
         </div>
         <div class="faq-answer">
-          You can save up to 50 results.<br><br>
-          From the Results tab, you can also:<br>
+          <p>
+            You can save up to 50 results.<br><br>
+            From the Results tab, you can also:<br>
+          </p>
           <ul>
             <li>Reorder results by pressing and dragging</li>
             <li>Delete individual results by swiping left</li>
             <li>Share results by swiping right</li>
             <li>Search through saved results using keywords, test names, or outcomes</li>            
             <li>Delete all saved results from the menu button</li>
-          </ul>          
+          </ul>       
           <p style="text-align: right; margin: 0.5em 0;">
             <a href="#top" class="back-to-top">⬆ Back to top</a>
           </p>
