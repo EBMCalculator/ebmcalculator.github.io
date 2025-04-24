@@ -89,7 +89,7 @@ a:hover {
 
 .hero-download-img {
   position: sticky;
-  top: 58px; /* adjust to sit below your tab bar */
+  top: 100px; /* adjust to sit below your tab bar */
   z-index: 98;
   background-color: white;
   padding: 8px 0;
