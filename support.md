@@ -20,23 +20,25 @@ title: Support
       <span>&#9654;</span> Frequently Asked Questions
     </div>
     <div class="faq-answer">
-      <!-- FAQ Item: What devices are compatible? -->
+      <!-- FAQ Item: How do I download the app? -->
       <div class="faq-item">
         <div class="faq-question" onclick="toggleAnswer(this)">
-          <span>&#9654;</span> Where do I download the app?
+          <span>&#9654;</span> How do I download the app?
         </div>
         <div class="faq-answer">
-          EBM Calculator is available now on the App Store.
+          EBM Calculator is available now on the App Store.<br>
           <a href="https://apps.apple.com/us/app/ebm-calculator/id6737999201"
              target="_blank" rel="noopener noreferrer">
             <img src="/assets/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg"
                  alt="Download on the App Store"
-                 style="height:50px;"> </a>         
+                 style="height:50px;">
+          </a>         
           <p style="text-align: right; margin: 0.5em 0;">
             <a href="#top" class="back-to-top">⬆ Back to top</a>
           </p>
         </div>
       </div>      
+      <!-- FAQ Item: What devices are compatible? -->      
       <div class="faq-item">
         <div class="faq-question" onclick="toggleAnswer(this)">
           <span>&#9654;</span> What devices are compatible?
