@@ -77,21 +77,34 @@ a:hover {
   }
 }
 
-.hero-download {
-  position: sticky;
-  top: 70px; /* Adjust based on your tab bar height */
-  z-index: 98;
-  background: white;
-  border-bottom: 1px solid #ddd;
-  padding: 12px 0;
-}
-
-.hero-download-inner {
+.hero-download-wrapper {
   max-width: 600px;
-  margin: 0 auto;
+  margin: 30px auto;
   text-align: center;
 }
 
+.hero-download-text {
+  margin-bottom: 1em;
+}
+
+.hero-download-img {
+  position: sticky;
+  top: 58px; /* adjust to sit below your tab bar */
+  z-index: 98;
+  background-color: white;
+  padding: 8px 0;
+}
+
+.hero-download-img img {
+  height: 50px;
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .hero-download-img {
+    background-color: #121212;
+  }
+}
 
 /* Section Link Bar (FAQ / How-To / Versions) */
 .section-links-wrapper {
