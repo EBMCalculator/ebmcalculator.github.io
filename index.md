@@ -21,8 +21,11 @@ title: Home
 </style>
 
 <!-- Hero Download Section -->
+<p style="margin-bottom: 1em; text-align: center;">
+  Available now on the App Store
+</p>
+
 <div class="hero-bar-wrapper">
-  <p style="margin-bottom: 1em;">Available now on the App Store</p>
   <div class="hero-bar">
     <a href="https://apps.apple.com/us/app/ebm-calculator/id6737999201"
        target="_blank" rel="noopener noreferrer">
