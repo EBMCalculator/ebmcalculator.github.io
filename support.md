@@ -37,7 +37,7 @@ title: Support
                 display:block;       /* make margin:auto work */
                 margin: 0.75em auto; /* vertical space + horizontal centering */
               ">
-          </a>        
+          </a><br>        
           <p style="text-align: right; margin: 0.5em 0;">
             <a href="#top" class="back-to-top">⬆ Back to top</a>
           </p>
