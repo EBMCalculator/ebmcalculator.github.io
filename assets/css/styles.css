@@ -80,11 +80,10 @@ a:hover {
 /* Hero Download Section */
 .hero-bar-wrapper {
   position: sticky;
-  top:50px; /* adjust based on height of nav bar; determines where scrolling stops */
-  margin-top: -10px;
+  top: 50px; /* adjust based on height of nav bar; determines where scrolling stops */
   z-index: 99;
   background-color: #ffffff;
-  padding: 8px 0;
+  padding: 4px 0;
   box-shadow: 0 1px 2px rgba(0,0,0,0.04);
 }
 
@@ -94,7 +93,7 @@ a:hover {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 1px;
+  gap: 12px;
 }
 
 /* Section Link Bar (FAQ / How-To / Versions) */
