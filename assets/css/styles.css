@@ -87,24 +87,22 @@ a:hover {
   margin-bottom: 1em;
 }
 
-.hero-sticky-img {
+.hero-download-sticky {
   position: sticky;
-  top: 58px; /* Make sure this is below the tab bar */
+  top: 58px; /* or adjust to your tab bar height */
   z-index: 99;
   background-color: white;
-  display: block;
-  height: 50px;
-  margin: 0 auto;
-  padding: 8px 0;
+  text-align: center;
+  padding: 12px 0;
 }
 
-/* Dark mode support for background (only needed if you override the color directly)
+/* Dark mode support */
 @media (prefers-color-scheme: dark) {
-  .hero-sticky-img {
+  .hero-download-sticky {
     background-color: #121212;
   }
 }
-*/
+
 
 /* Section Link Bar (FAQ / How-To / Versions) */
 .section-links-wrapper {
