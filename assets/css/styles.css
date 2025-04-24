@@ -76,8 +76,8 @@ a:hover {
     font-size: 16px;
   }
 }
+
 /* Hero Download Section */
-/* Section Link Bar (FAQ / How-To / Versions) */
 .hero-bar-wrapper {
   position: sticky;
   top:50px; /* adjust based on height of nav bar; determines where scrolling stops */
@@ -94,17 +94,8 @@ a:hover {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 12px;
+  gap: 1px;
 }
-
-
-/* Dark mode support */
-@media (prefers-color-scheme: dark) {
-  .hero-download-sticky {
-    background-color: #121212;
-  }
-}
-
 
 /* Section Link Bar (FAQ / How-To / Versions) */
 .section-links-wrapper {
