@@ -35,9 +35,9 @@ title: Support
               style="
                 height:50px;
                 display:block;       /* make margin:auto work */
-                margin: 0.75em auto; /* vertical space + horizontal centering */
+                margin: 1em auto; /* vertical space + horizontal centering */
               ">
-          </a><br>        
+          </a>   
           <p style="text-align: right; margin: 0.5em 0;">
             <a href="#top" class="back-to-top">⬆ Back to top</a>
           </p>
