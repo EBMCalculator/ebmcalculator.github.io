@@ -76,35 +76,37 @@ a:hover {
     font-size: 16px;
   }
 }
-
-.hero-download-wrapper {
+/* Hero Download Section */
+.hero-download {
   max-width: 600px;
   margin: 30px auto;
   text-align: center;
 }
 
-.hero-download-text {
+.hero-download p {
   margin-bottom: 1em;
 }
 
-.hero-download-img {
+.hero-sticky-img {
   position: sticky;
-  top: 100px; /* adjust to sit below your tab bar */
-  z-index: 98;
-  background-color: white;
-  padding: 8px 0;
+  top: 58px; /* adjust if needed to sit below your tab bar */
+  z-index: 99;
+  background-color: inherit;
+  display: inline-block;
+  padding: 4px;
 }
 
-.hero-download-img img {
+.hero-sticky-img img {
   height: 50px;
 }
 
-/* Dark mode support */
+/* Dark mode support for background (only needed if you override the color directly)
 @media (prefers-color-scheme: dark) {
-  .hero-download-img {
+  .hero-sticky-img {
     background-color: #121212;
   }
 }
+*/
 
 /* Section Link Bar (FAQ / How-To / Versions) */
 .section-links-wrapper {
