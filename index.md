@@ -28,6 +28,8 @@ title: Home
   </a>
 </div>
 
+<div style="height: 2000px;"></div>
+
 <!-- Goal Statement -->
 <div style="max-width: 600px; margin: 20px auto;" markdown="1">
   The goal of **EBM Calculator** is to help with your appraisal of the medical literature!
