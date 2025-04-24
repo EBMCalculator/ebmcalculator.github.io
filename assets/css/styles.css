@@ -96,6 +96,18 @@ a:hover {
   padding: 12px 0;
 }
 
+/* only the App Store badge sticks */
+.hero-badge-sticky {
+  position: sticky;
+  top: 58px;               /* distance from top, same as your tab-bar height */
+  z-index: 99;             /* just under your tab-bar’s z-index:100 */
+  background-color: white; /* so it covers content as you scroll */
+  padding: 6px 0;          /* optional vertical breathing room */
+  margin: 0 auto;          /* center within its container */
+  max-width: 600px;        /* match your .hero-download width */
+  text-align: center;
+}
+
 /* Dark mode support */
 @media (prefers-color-scheme: dark) {
   .hero-download-sticky {
