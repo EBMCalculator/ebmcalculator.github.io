@@ -31,7 +31,7 @@ title: Support
              target="_blank" rel="noopener noreferrer">
             <img src="/assets/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg"
                  alt="Download on the App Store"
-                 style="height:50px;">          
+                 style="height:50px;"> </a>         
           <p style="text-align: right; margin: 0.5em 0;">
             <a href="#top" class="back-to-top">⬆ Back to top</a>
           </p>
