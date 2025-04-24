@@ -21,12 +21,9 @@ title: Home
 </style>
 
 <!-- Hero Download Section -->
-<div class="hero-download" markdown="1">
-  <!-- this text scrolls normally -->
+<div class="hero-bar-wrapper">
   <p style="margin-bottom: 1em;">Available now on the App Store</p>
-
-  <!-- only this div will stick under the tab-bar -->
-  <div class="hero-badge-sticky">
+  <div class="hero-bar">
     <a href="https://apps.apple.com/us/app/ebm-calculator/id6737999201"
        target="_blank" rel="noopener noreferrer">
       <img src="/assets/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg"
