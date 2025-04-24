@@ -77,6 +77,22 @@ a:hover {
   }
 }
 
+.hero-download {
+  position: sticky;
+  top: 70px; /* Adjust based on your tab bar height */
+  z-index: 98;
+  background: white;
+  border-bottom: 1px solid #ddd;
+  padding: 12px 0;
+}
+
+.hero-download-inner {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
 /* Section Link Bar (FAQ / How-To / Versions) */
 .section-links-wrapper {
   position: sticky;
