@@ -26,13 +26,18 @@ title: Support
           <span>&#9654;</span> How do I download the app?
         </div>
         <div class="faq-answer">
-          EBM Calculator is available now on the App Store.<br>
+          <p>EBM Calculator is available now on the App Store.</p>
           <a href="https://apps.apple.com/us/app/ebm-calculator/id6737999201"
              target="_blank" rel="noopener noreferrer">
-            <img src="/assets/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg"
-                 alt="Download on the App Store"
-                 style="height:50px;">
-          </a>         
+            <img
+              src="/assets/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg"
+              alt="Download on the App Store"
+              style="
+                height:50px;
+                display:block;       /* make margin:auto work */
+                margin: 0.75em auto; /* vertical space + horizontal centering */
+              ">
+          </a>        
           <p style="text-align: right; margin: 0.5em 0;">
             <a href="#top" class="back-to-top">⬆ Back to top</a>
           </p>
