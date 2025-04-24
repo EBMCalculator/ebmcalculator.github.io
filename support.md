@@ -83,8 +83,10 @@ title: Support
           <span>&#9654;</span> Why do the calculators have different input options?
         </div>
         <div class="faq-answer">
-          Each calculator offers different input options to match how authors report their results. Choose the one that fits your study.<br><br>
-          For example, if the study only provides PPV and NPV (and not sensitivity or specificity), select PPV/NPV as your input method.
+          <p>          
+            Each calculator offers different input options to match how authors report their results. Choose the one that fits your study.<br><br>
+            For example, if the study only provides PPV and NPV (and not sensitivity or specificity), select PPV/NPV as your input method.
+          </p>
           <p style="text-align: right; margin: 0.5em 0;">
             <a href="#top" class="back-to-top">⬆ Back to top</a>
           </p>
@@ -110,8 +112,10 @@ title: Support
           <span>&#9654;</span> Why did you create this app?
         </div>
         <div class="faq-answer">
-          I got tired of jumping between different online calculators just to interpret study results, so I built the EBM Calculator to streamline the process and make evidence appraisal simpler for all of us.<br><br>
-          The app has come a long way since I first started developing it, but the goal remains the same: to provide a purposefully simple tool that helps you assess the strength of an association (for therapies or exposures), evaluate diagnostic test performance, and calculate post-test probability.
+          <p>
+            I got tired of jumping between different online calculators just to interpret study results, so I built the EBM Calculator to streamline the process and make evidence appraisal simpler for all of us.<br><br>
+            The app has come a long way since I first started developing it, but the goal remains the same: to provide a purposefully simple tool that helps you assess the strength of an association (for therapies or exposures), evaluate diagnostic test performance, and calculate post-test probability.
+          </p>
           <p style="text-align: right; margin: 0.5em 0;">
             <a href="#top" class="back-to-top">⬆ Back to top</a>
           </p>
@@ -123,9 +127,11 @@ title: Support
           <span>&#9654;</span> Are you planning to add more features?
         </div>
         <div class="faq-answer">
-          Yes! The more I learn, the more features I want to build. But I also wanted to release the app quickly to start helping clinicians.<br><br>
-          If you have suggestions for new features or improvements, please email me at <a href="mailto:support@ebmcalculator.com">support@ebmcalculator.com</a>.<br><br>
-          If you're interested in testing new features before they're released, see below!
+          <p>
+            Yes! The more I learn, the more features I want to build. But I also wanted to release the app quickly to start helping clinicians.<br><br>
+            If you have suggestions for new features or improvements, please email me at <a href="mailto:support@ebmcalculator.com">support@ebmcalculator.com</a>.<br><br>
+            If you're interested in testing new features before they're released, see below!
+          </p>
           <p style="text-align: right; margin: 0.5em 0;">
             <a href="#top" class="back-to-top">⬆ Back to top</a>
           </p>
@@ -137,7 +143,9 @@ title: Support
           <span>&#9654;</span> How do I sign up for beta releases?
         </div>
         <div class="faq-answer">
-          If you're interested in testing new features before they’re released, I'd love your help! You can sign up below to be included in future beta versions of EBM Calculator — or, if you prefer, just send an email to <a href="mailto:beta@ebmcalculator.com">beta@ebmcalculator.com</a>.
+          <p>
+            If you're interested in testing new features before they’re released, I'd love your help! You can sign up below to be included in future beta versions of EBM Calculator — or, if you prefer, just send an email to <a href="mailto:beta@ebmcalculator.com">beta@ebmcalculator.com</a>.
+          </p>
           <div id="form-wrapper">
             <div style="margin-top: 10px; display: flex; justify-content: center;">
               <form action="https://api.web3forms.com/submit" method="POST" id="beta-signup-form" onsubmit="handleBetaSubmit(event)" style="width: 100%; max-width: 500px; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">
