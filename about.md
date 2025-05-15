@@ -51,7 +51,7 @@ title: About
 
 <br>
 
-<!-- Versions Section (moved to bottom) -->
+<!-- Versions Section -->
 <div style="max-width: 600px; margin: 20px auto;">
   <!-- Outer Versions container: always expanded -->
   <div class="faq-item">
@@ -60,7 +60,25 @@ title: About
     </div>
     <!-- Force the outer faq-answer to always display -->
     <div class="faq-answer" style="display: block;">
-      <!-- Most recent version: v1.3.0 (expanded by default) -->
+      <!-- Most recent version: v1.4.0 (expanded by default) -->
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(this)">
+          <span>&#9660;</span> v1.4.0 (currently in beta)
+        </div>
+        <div class="faq-answer" style="display: block;">
+          <ul>
+            <li>Citations now supported in all calculators!</li>
+            <li>Enter a PMID to automatically fetch the full citation</li>
+            <li>Or manually enter your own citation</li>
+            <li>Tap to view, copy, or open the citation in PubMed</li>
+            <li>Citations are now searchable within saved results</li>
+            <li>You can now save up to 100 results</li>
+            <li>Case-Control inputs and results redesigned for better clarity and ease of use</li>
+            <li>Bug fixes and UI polish</li>
+          </ul>
+        </div>
+      </div>      
+      <!-- Version: v1.3.0  -->
       <div class="faq-item">
         <div class="faq-question" onclick="toggleAnswer(this)">
           <span>&#9660;</span> v1.3.0
