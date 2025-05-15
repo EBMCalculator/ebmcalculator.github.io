@@ -4,7 +4,7 @@ title: Privacy Policy
 ---
 
 <h2 style="text-align: center;">Privacy Policy</h2>
-<p style="text-align: center;"><strong>Effective Date:</strong> November 4, 2024</p>
+<p style="text-align: center;"><strong>Effective Date:</strong> May 15, 2025</p>
 
 <!-- 
   The following style makes the privacy policy sections always open:
@@ -43,7 +43,8 @@ title: Privacy Policy
       <p><strong>Local Data Storage:</strong><br>
       Saved results are stored locally on your device and are not shared with third parties.</p>
       <p><strong>No Internet Connectivity Required:</strong><br>
-      The app functions entirely offline and does not transmit data to external servers.</p>
+      The core functionality of the app works entirely offline and does not transmit data to external servers. However, an optional feature allows users to fetch citation information from PubMed by entering a PMID. This feature uses a secure connection to the NCBI eUtils API. No personal data is transmitted&mdash;
+only the user-provided PMID is included in the request.</p>
     </div>
   </div>
   
