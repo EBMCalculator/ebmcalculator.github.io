@@ -75,6 +75,7 @@ title: Privacy Policy
     </div>
     <div class="faq-answer">
       <p>This privacy policy may be updated from time to time. Any changes will be reflected on this page.</p>
+      <p>For a full archive of past versions, visit the <a href="/policies/">Privacy Policy Archive</a>.</p>
     </div>
   </div>
   
