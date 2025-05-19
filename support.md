@@ -245,7 +245,23 @@ title: Support
             </a>
           </p>
           <p>
-            Based on how the authors of this study<sup><a href="#ref1" style="text-decoration: none;">[1]</a></sup> presented their results in the table below, you could choose either input method.
+            If you are reviewing a <strong>Case-Control</strong> study, enable the <strong>Case-Control Study</strong> toggle.
+  This changes the input fields to match the way data are collected in these studies&mdash;starting with groups of cases (with the outcome) and controls (without the outcome), then entering exposure information for each group.
+          </p>
+          <p style="text-align: center;">
+            Exposure Rates for Case-Control Study:
+            <a href="assets/images/screenshots/Effect - Screenshot 2d.png" target="_blank" rel="noopener noreferrer">
+              <img src="assets/images/screenshots/Effect - Screenshot 2d.png" alt="Effect - Screenshot 2d" style="max-width:50%; height:auto; display:block; margin:0 auto; border: 1px solid rgba(0, 0, 0, 0.2); box-shadow: 0 0 8px rgba(0, 0, 0, 0.15); border-radius: 10px;">
+            </a>
+          </p>
+          <p style="text-align: center;">
+            or Counts for Case-Control Study:
+            <a href="assets/images/screenshots/Effect - Screenshot 2e.png" target="_blank" rel="noopener noreferrer">
+              <img src="assets/images/screenshots/Effect - Screenshot 2e.png" alt="Effect - Screenshot 2e" style="max-width:50%; height:auto; display:block; margin:0 auto; border: 1px solid rgba(0, 0, 0, 0.2); box-shadow: 0 0 8px rgba(0, 0, 0, 0.15); border-radius: 10px;">
+            </a>
+          </p>          
+          <p>
+            Based on how the authors of this randomized controlled trial<sup><a href="#ref1" style="text-decoration: none;">[1]</a></sup> presented their results in the table below, you could choose either "Event Rates" or "Counts" to input the data.
           </p>
           <p style="text-align: center;">
             (click to enlarge)
@@ -452,6 +468,75 @@ title: Support
           </p>
         </div>
       </div>
+            <!-- Adding Citations How-To-Guide -->
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(this)">
+          <span>&#9654;</span> Adding Citations
+        </div>
+        <div class="faq-answer">
+          <p>
+            Every calculator has the option to add a citation at the bottom by pressing "Add".
+          </p>
+          <p style="text-align: center;">
+            <a href="assets/images/screenshots/Citation - Screenshot 1a.png" target="_blank" rel="noopener noreferrer">
+              <img src="assets/images/screenshots/Citation - Screenshot 1a.png" alt="Citation - Screenshot 1a" style="max-width:50%; height:auto; display:block; margin:0 auto; border: 1px solid rgba(0, 0, 0, 0.2); box-shadow: 0 0 8px rgba(0, 0, 0, 0.15); border-radius: 10px;">
+            </a>
+          </p>
+          <p>
+            Enter a PMID to fetch the citation from PubMed, or enter it manually.
+          </p>
+          <p style="text-align: center;">
+            PubMed:
+            <a href="assets/images/screenshots/Citation - Screenshot 2a.png" target="_blank" rel="noopener noreferrer">
+              <img src="assets/images/screenshots/Citation - Screenshot 2a.png" alt="Citation - Screenshot 2a" style="max-width:50%; height:auto; display:block; margin:0 auto; border: 1px solid rgba(0, 0, 0, 0.2); box-shadow: 0 0 8px rgba(0, 0, 0, 0.15); border-radius: 10px;">
+            </a>
+          </p>
+          <p style="text-align: center;">
+            <a href="assets/images/screenshots/Citation - Screenshot 3a.png" target="_blank" rel="noopener noreferrer">
+              <img src="assets/images/screenshots/Citation - Screenshot 3a.png" alt="Citation - Screenshot 3a" style="max-width:50%; height:auto; display:block; margin:0 auto; border: 1px solid rgba(0, 0, 0, 0.2); box-shadow: 0 0 8px rgba(0, 0, 0, 0.15); border-radius: 10px;">
+            </a>
+          </p>          
+          <p style="text-align: center;">
+            or Manual Entry:
+            <a href="assets/images/screenshots/Citation - Screenshot 2b.png" target="_blank" rel="noopener noreferrer">
+              <img src="assets/images/screenshots/Citation - Screenshot 2b.png" alt="Citation - Screenshot 2b" style="max-width:50%; height:auto; display:block; margin:0 auto;">
+            </a>
+          </p>
+          </p>
+          <p style="text-align: center;">
+            <a href="assets/images/screenshots/Citation - Screenshot 3b.png" target="_blank" rel="noopener noreferrer">
+              <img src="assets/images/screenshots/Citation - Screenshot 3b.png" alt="Citation - Screenshot 3b" style="max-width:50%; height:auto; display:block; margin:0 auto;">
+            </a>
+          </p>
+          <p>
+            After saving the citation, you can edit or remove it from within the calculator.
+          </p>
+          <p style="text-align: center;">
+            <a href="assets/images/screenshots/Citation - Screenshot 4.png" target="_blank" rel="noopener noreferrer">
+              <img src="assets/images/screenshots/Citation - Screenshot 4.png" alt="Citation - Screenshot 4" style="max-width:50%; height:auto; display:block; margin:0 auto; border: 1px solid rgba(0, 0, 0, 0.2); box-shadow: 0 0 8px rgba(0, 0, 0, 0.15); border-radius: 10px;">
+            </a>
+          </p>
+          <p>
+            A condensed citation will display below the results.
+          </p>
+          <p style="text-align: center;">
+            <a href="assets/images/screenshots/Citation - Screenshot 5a.png" target="_blank" rel="noopener noreferrer">
+              <img src="assets/images/screenshots/Citation - Screenshot 5a.png" alt="Citation - Screenshot 5a" style="max-width:50%; height:auto; display:block; margin:0 auto; border: 1px solid rgba(0, 0, 0, 0.2); box-shadow: 0 0 8px rgba(0, 0, 0, 0.15); border-radius: 10px;">
+            </a>
+          </p>
+          <p>
+            Tap any citation to view the full details, open it in PubMed, or copy the citation to your clipboard.
+          </p>
+          <p style="text-align: center;">
+            <a href="assets/images/screenshots/Citation - Screenshot 5b.png" target="_blank" rel="noopener noreferrer">
+              <img src="assets/images/screenshots/Citation - Screenshot 5b.png" alt="Citation - Screenshot 5b" style="max-width:50%; height:auto; display:block; margin:0 auto; border: 1px solid rgba(0, 0, 0, 0.2); box-shadow: 0 0 8px rgba(0, 0, 0, 0.15); border-radius: 10px;">
+            </a>
+          </p>          
+          <p style="text-align: right; margin: 0.5em 0;">
+            <a href="#top" class="back-to-top">⬆ Back to top</a>
+          </p>
+        </div>
+      </div>
       <!-- Viewing Results How-To-Guide -->
       <div class="faq-item">
         <div class="faq-question" onclick="toggleAnswer(this)">
@@ -459,7 +544,7 @@ title: Support
         </div>
         <div class="faq-answer">
           <p>
-            Click on the Results tab to view up to 50 of your saved results. You can press and drag to rearrange, or click a result to view it individually.
+            Click on the Results tab to view up to 100 of your saved results. You can press and drag to rearrange, or click a result to view it individually.
           </p>
           <p style="text-align: center;">
             <a href="assets/images/screenshots/Results - Screenshot 2.png" target="_blank" rel="noopener noreferrer">
@@ -467,7 +552,7 @@ title: Support
             </a>
           </p>
           <p>
-            Swipe right on a result to share, print, or export.
+            Swipe right on a result to email, message, print, or export.
           </p>
           <p style="text-align: center;">
             <a href="assets/images/screenshots/Results - Screenshot 3a.png" target="_blank" rel="noopener noreferrer">
@@ -491,7 +576,7 @@ title: Support
             </a>
           </p>
           <p>
-            Use the Search function to filter results.
+            Use the Search function to filter results by keyword.
           </p>
           <p style="text-align: center;">
             <a href="assets/images/screenshots/Results - Screenshot 5.png" target="_blank" rel="noopener noreferrer">
