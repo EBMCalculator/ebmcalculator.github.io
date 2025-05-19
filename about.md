@@ -74,6 +74,7 @@ title: About
             <li>Citations are now searchable within saved results</li>
             <li>You can now save up to 100 results</li>
             <li>Case-Control inputs and results redesigned for better clarity and ease of use</li>
+            <li>Results are now better formatted when printed, emailed, or shared via messages</li>
             <li>Bug fixes and UI polish</li>
           </ul>
         </div>
@@ -81,9 +82,9 @@ title: About
       <!-- Version: v1.3.0  -->
       <div class="faq-item">
         <div class="faq-question" onclick="toggleAnswer(this)">
-          <span>&#9660;</span> v1.3.0
+          <span>&#9654;</span> v1.3.0
         </div>
-        <div class="faq-answer" style="display: block;">
+        <div class="faq-answer">
           <ul>
             <li>All new UI with navigation bar and cleaner appearance</li>
             <li>Swipe on results to Share, Edit, Save, or Delete</li>
@@ -99,7 +100,7 @@ title: About
           </ul>
         </div>
       </div>
-      <!-- Other versions remain collapsible by default -->
+      <!-- Version: v1.2.0 -->
       <div class="faq-item">
         <div class="faq-question" onclick="toggleAnswer(this)">
           <span>&#9654;</span> v1.2.0
@@ -114,6 +115,7 @@ title: About
           </ul>
         </div>
       </div>
+      <!-- Version: v1.1.0 -->
       <div class="faq-item">
         <div class="faq-question" onclick="toggleAnswer(this)">
           <span>&#9654;</span> v1.1.0
@@ -125,6 +127,7 @@ title: About
           </ul>
         </div>
       </div>
+      <!-- Version: v1.0.0 -->
       <div class="faq-item">
         <div class="faq-question" onclick="toggleAnswer(this)">
           <span>&#9654;</span> v1.0.0
