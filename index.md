@@ -101,7 +101,7 @@ title: Home
     <div class="faq-question">Save, Search &amp; Share</div>
     <div class="faq-answer">
       <ul>
-        <li><strong>Save</strong> up to 50 results for future reference</li>
+        <li><strong>Save</strong> up to 100 results for future reference</li>
         <li><strong>Search</strong> results to quickly find what matters</li>        
         <li><strong>Share, print, or export</strong> directly from the app</li>
       </ul>
