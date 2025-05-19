@@ -63,7 +63,7 @@ title: About
       <!-- Most recent version: v1.4.0 (expanded by default) -->
       <div class="faq-item">
         <div class="faq-question" onclick="toggleAnswer(this)">
-          <span>&#9660;</span> v1.4.0 (currently in beta)
+          <span>&#9660;</span> v1.4.0
         </div>
         <div class="faq-answer" style="display: block;">
           <ul>
