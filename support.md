@@ -66,10 +66,11 @@ title: Support
             From the Results tab, you can also:<br>
           </p>
           <ul>
-            <li>Reorder results by pressing and dragging</li>
-            <li>Delete individual results by swiping left</li>
+            <li>Search through saved results using keywords, outcomes, citation, or calculator</li>
             <li>Share results by swiping right</li>
-            <li>Search through saved results using keywords, citation, test names, or outcomes</li>            
+            <li>Edit individual results by swiping left</li>
+            <li>Reorder results by pressing and dragging</li>
+            <li>Delete individual results by swiping far left</li>
             <li>Delete all saved results from the menu button</li>
           </ul>       
           <p style="text-align: right; margin: 0.5em 0;">
