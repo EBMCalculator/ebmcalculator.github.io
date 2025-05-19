@@ -68,10 +68,9 @@ title: About
         <div class="faq-answer" style="display: block;">
           <ul>
             <li>Citations now supported in all calculators!</li>
-            <li>Enter a PMID to automatically fetch the full citation</li>
-            <li>Or manually enter your own citation</li>
+            <li>Enter a PMID to automatically fetch the full citation or manually enter your own citation</li>
             <li>Tap to view, copy, or open the citation in PubMed</li>
-            <li>Citations are now searchable within saved results</li>
+            <li>Citations are searchable within saved results</li>
             <li>You can now save up to 100 results</li>
             <li>Case-Control inputs and results redesigned for better clarity and ease of use</li>
             <li>Results are now better formatted when printed, emailed, or shared via messages</li>
