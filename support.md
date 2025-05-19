@@ -502,7 +502,6 @@ title: Support
               <img src="assets/images/screenshots/Citation - Screenshot 2b.png" alt="Citation - Screenshot 2b" style="max-width:50%; height:auto; display:block; margin:0 auto;">
             </a>
           </p>
-          </p>
           <p style="text-align: center;">
             <a href="assets/images/screenshots/Citation - Screenshot 3b.png" target="_blank" rel="noopener noreferrer">
               <img src="assets/images/screenshots/Citation - Screenshot 3b.png" alt="Citation - Screenshot 3b" style="max-width:50%; height:auto; display:block; margin:0 auto;">
