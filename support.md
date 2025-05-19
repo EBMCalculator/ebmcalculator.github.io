@@ -66,7 +66,7 @@ title: Support
             From the Results tab, you can also:<br>
           </p>
           <ul>
-            <li>Search through saved results using keywords, outcomes, citation, or calculator</li>
+            <li>Search through saved results using keywords or citation info</li>
             <li>Share results by swiping right</li>
             <li>Edit individual results by swiping left</li>
             <li>Reorder results by pressing and dragging</li>
@@ -85,7 +85,7 @@ title: Support
         </div>
         <div class="faq-answer">
           <p>          
-            Each calculator offers different input options to match how authors commonly report their results. Choose the one that fits your study.<br><br>
+            Each calculator offers different input options to match how authors commonly report their results. Choose the one that best fits your study.<br><br>
             For example, if the study only provides PPV and NPV (and not sensitivity or specificity), select PPV/NPV as your input method.
           </p>
           <p style="text-align: right; margin: 0.5em 0;">
@@ -145,7 +145,7 @@ title: Support
         </div>
         <div class="faq-answer">
           <p>
-            If you're interested in testing new features before they’re released, I'd love your help! You can sign up below to be included in future beta versions of EBM Calculator — or, if you prefer, just send an email to <a href="mailto:beta@ebmcalculator.com">beta@ebmcalculator.com</a>.
+            If you're interested in testing new features before they’re released, I'd love your help! You can sign up below to be included in future beta versions of EBM Calculator — or, if you prefer, just send an email to <a href="mailto:beta@ebmcalculator.com">beta@ebmcalculator.com</a> and I'll add you to the list.
           </p>
           <div id="form-wrapper">
             <div style="margin-top: 10px; display: flex; justify-content: center;">
