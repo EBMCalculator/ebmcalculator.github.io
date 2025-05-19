@@ -62,14 +62,14 @@ title: Support
         </div>
         <div class="faq-answer">
           <p>
-            You can save up to 50 results.<br><br>
+            You can save up to 100 results.<br><br>
             From the Results tab, you can also:<br>
           </p>
           <ul>
             <li>Reorder results by pressing and dragging</li>
             <li>Delete individual results by swiping left</li>
             <li>Share results by swiping right</li>
-            <li>Search through saved results using keywords, test names, or outcomes</li>            
+            <li>Search through saved results using keywords, citation, test names, or outcomes</li>            
             <li>Delete all saved results from the menu button</li>
           </ul>       
           <p style="text-align: right; margin: 0.5em 0;">
@@ -84,7 +84,7 @@ title: Support
         </div>
         <div class="faq-answer">
           <p>          
-            Each calculator offers different input options to match how authors report their results. Choose the one that fits your study.<br><br>
+            Each calculator offers different input options to match how authors commonly report their results. Choose the one that fits your study.<br><br>
             For example, if the study only provides PPV and NPV (and not sensitivity or specificity), select PPV/NPV as your input method.
           </p>
           <p style="text-align: right; margin: 0.5em 0;">
