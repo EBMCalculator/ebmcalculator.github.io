@@ -103,7 +103,7 @@ title: Home
       <ul>
         <li><strong>Save</strong> up to 100 results for future reference</li>
         <li><strong>Search</strong> results to quickly find what matters</li>        
-        <li><strong>Share, print, or export</strong> directly from the app</li>
+        <li><strong>Email, message, print, or export results</strong> directly from the app</li>
       </ul>
     </div>
   </div>
