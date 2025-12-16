@@ -60,10 +60,41 @@ title: About
     </div>
     <!-- Force the outer faq-answer to always display -->
     <div class="faq-answer" style="display: block;">
-      <!-- Most recent version: v1.4.0 (expanded by default) -->
+      <!-- Most recent version: v1.5.0 (expanded by default) -->
       <div class="faq-item">
         <div class="faq-question" onclick="toggleAnswer(this)">
-          <span>&#9660;</span> v1.4.0
+          <span>&#9660;</span> v1.5.0
+        </div>
+        <div class="faq-answer" style="display: block;">
+          <ul>
+            <li> Clearly labeled input fields across all calculators</li>
+            <li>A significantly improved Results tab with sorting, filtering, and compact views</li>
+            <li>
+              Share results as PNG images
+              <ul>
+                <li>Optimized for Messages, email, and presentations</li>
+                <li>Ideal for quick sharing and teaching</li>
+              </ul>
+            </li>
+            <li>
+              Export results as .ebmc files
+              <ul>
+                <li>Export all results for archiving or backup</li>
+                <li>Export individual results or select a batch to share</li>
+                <li>Share .ebmc files with other EBM Calculator users for teaching or collaboration</li>
+                <li>Recipients can tap an .ebmc file to import results directly into their Saved Results</li>
+              </ul>
+            </li>            
+            <li>Smoother navigation when editing and saving results</li>
+            <li>Updated UI with iOS 26 Liquid Glass design elements</li>            
+            <li>Performance enhancements and bug fixes</li>
+          </ul>
+        </div>
+      </div> 
+      <!-- Version: v1.4.0  -->
+      <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(this)">
+          <span>&#9654;</span> v1.4.0
         </div>
         <div class="faq-answer" style="display: block;">
           <ul>
