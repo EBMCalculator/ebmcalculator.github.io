@@ -96,7 +96,7 @@ title: About
         <div class="faq-question" onclick="toggleAnswer(this)">
           <span>&#9654;</span> v1.4.0
         </div>
-        <div class="faq-answer" style="display: block;">
+        <div class="faq-answer">
           <ul>
             <li>Citations now supported in all calculators!</li>
             <li>Enter a PMID to automatically fetch the full citation or manually enter your own citation</li>
