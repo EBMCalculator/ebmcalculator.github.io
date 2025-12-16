@@ -49,7 +49,7 @@ title: Support
           <span>&#9654;</span> What devices are compatible?
         </div>
         <div class="faq-answer">
-          <p>EBM Calculator is available on iOS devices running iOS 18.1 or later. It is optimized for iPhones, but will also run on iPads and Apple Silicon Macs.</p>
+          <p>EBM Calculator is available on iOS devices running iOS 18.1 or later. It is optimized for iOS 26 on iPhones, but will also run on iPads and Apple Silicon Macs.</p>
           <p style="text-align: right; margin: 0.5em 0;">
             <a href="#top" class="back-to-top">⬆ Back to top</a>
           </p>
