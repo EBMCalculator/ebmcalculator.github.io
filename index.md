@@ -105,7 +105,7 @@ title: Home
         <li><strong>Search</strong> results to quickly find what matters</li>        
         <li><strong>Share</strong> as a PNG—ideal for Messages, email, and clean formatting</li>
         <li><strong>Export</strong> results as an .ebmc file to archive or send to other EBM Calculator users</li>
-        <li>Tap an .ebmc file to import results back into EBM Calculator</li>
+        <li>Tap an .ebmc file to <strong>import</strong> results back into EBM Calculator</li>
       </ul>
     </div>
   </div>
