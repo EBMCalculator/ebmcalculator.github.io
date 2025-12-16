@@ -112,7 +112,7 @@ title: Home
   
   <!-- Library -->
   <div class="faq-item">
-    <div class="faq-question">Library</div>
+    <div class="faq-question">Lessons</div>
     <div class="faq-answer">
       <ul>
         <li>Explore lessons in <strong>Evidence-Based Medicine (EBM)</strong></li>
