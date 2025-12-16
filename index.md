@@ -103,7 +103,9 @@ title: Home
       <ul>
         <li><strong>Save</strong> up to 100 results for future reference</li>
         <li><strong>Search</strong> results to quickly find what matters</li>        
-        <li><strong>Share</strong> results directly from the app</li>
+        <li><strong>Share</strong> as a PNG—ideal for Messages, email, and clean formatting</li>
+        <li><strong>Export</strong> results as an .ebmc file to archive or send to other EBM Calculator users</li>
+        <li>Tap an .ebmc file to import results back into EBM Calculator</li>
       </ul>
     </div>
   </div>
