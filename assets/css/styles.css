@@ -1,43 +1,115 @@
-html {
-  scroll-behavior: smooth;
+/* ============================================================
+   EBM Calculator — global stylesheet
+   Tokens (CSS custom properties) → Base → Layout → Components
+   Dark mode is handled by overriding tokens, not by duplicating
+   every rule.
+   ============================================================ */
+
+:root {
+  /* Color tokens */
+  --bg:            #ffffff;
+  --surface:       #f9f9f9;
+  --surface-hover: #e9f1fd;
+  --text:          #1d1d1f;       /* Apple-style near-black */
+  --text-muted:    #6e6e73;       /* Apple-style secondary */
+  --border:        #d2d2d7;
+  --link:          #073472;
+  --link-hover-bg: #f2f6fc;
+  --accent:        #073472;
+  --accent-fg:     #ffffff;
+  --shadow-sm:     0 1px 2px rgba(0, 0, 0, 0.04);
+  --shadow-md:     0 1px 3px rgba(0, 0, 0, 0.06);
+
+  /* Layout tokens */
+  --content-max:   700px;
+  --hero-max:      980px;
+  --radius-sm:     6px;
+  --radius-md:     8px;
+  --radius-lg:     12px;
+  --nav-height:    50px;
+
+  /* Type tokens */
+  --font-system: -apple-system, BlinkMacSystemFont, "SF Pro Text",
+                 "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
 }
 
-html {
-  scroll-padding-top: 105px;
-}
-
-@media (max-width: 480px) {
-  html {
-    scroll-padding-top: 105px;
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg:            #121212;
+    --surface:       #1c1c1e;
+    --surface-hover: #2c2c2e;
+    --text:          #f5f5f7;
+    --text-muted:    #a1a1a6;
+    --border:        #3a3a3c;
+    --link:          #5b9bd5;
+    --link-hover-bg: #2c2c2e;
+    --accent:        #5b9bd5;
+    --accent-fg:     #0a0a0a;
+    --shadow-sm:     0 1px 2px rgba(0, 0, 0, 0.5);
+    --shadow-md:     0 1px 3px rgba(0, 0, 0, 0.6);
   }
 }
 
+/* ---------- Base ---------- */
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: calc(var(--nav-height) + 55px);
+}
+
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
-  font-size: 16px;
+  font-family: var(--font-system);
+  font-size: 17px;
   line-height: 1.6;
-  color: #333;
-  background-color: #ffffff;
+  color: var(--text);
+  background-color: var(--bg);
   margin: 0;
   padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 a {
-  color: #073472;
+  color: var(--link);
   text-decoration: none;
 }
-
 a:hover {
   text-decoration: underline;
 }
 
-/* Navigation Tabs */
+h1, h2, h3 {
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+/* ---------- Site header ---------- */
+
+.site-header {
+  text-align: center;
+  padding: 24px 16px 12px;
+}
+
+.site-logo {
+  display: block;
+  margin: 0 auto;
+  max-width: 200px;
+  height: auto;
+  background-color: transparent;
+}
+
+.site-title {
+  margin: 8px 0 0;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+/* ---------- Tab bar ---------- */
+
 .tab-bar {
   display: flex;
   justify-content: center;
-  background-color: #ffffff;
+  background-color: var(--bg);
   padding: 6px 0;
-  margin-top: -20px;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -46,45 +118,47 @@ a:hover {
 }
 
 .tab-bar-inner {
-  max-width: 700px;
+  max-width: var(--content-max);
   width: 100%;
   display: flex;
   justify-content: center;
   gap: 8px;
   padding: 0 16px;
-  border-bottom: 1px solid #ccc;  /* constrain the line */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
+  border-bottom: 1px solid var(--border);
+  box-shadow: var(--shadow-sm);
 }
-
 
 .tab-bar a {
   padding: 8px 12px;
-  border-radius: 6px;
+  border-radius: var(--radius-sm);
   font-weight: 500;
   font-size: 16px;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.2s ease;
 }
 
 .tab-bar a:hover {
-  background-color: #f2f6fc;
+  background-color: var(--link-hover-bg);
   text-decoration: none;
 }
 
-@media (max-width: 480px) {
-  .tab-bar a {
-    padding: 8px 12px;
-    font-size: 16px;
-  }
+.tab-bar a.active {
+  background-color: var(--link-hover-bg);
+  color: var(--link);
 }
 
-/* Hero Download Section */
+@media (max-width: 480px) {
+  .tab-bar a { padding: 8px 10px; font-size: 15px; }
+}
+
+/* ---------- Hero / sticky bars on home ---------- */
+
 .hero-bar-wrapper {
   position: sticky;
-  top: 50px; /* adjust based on height of nav bar; determines where scrolling stops */
+  top: var(--nav-height);
   z-index: 99;
-  background-color: #ffffff;
+  background-color: var(--bg);
   padding: 6px 0 4px;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+  box-shadow: var(--shadow-sm);
 }
 
 .hero-bar {
@@ -96,15 +170,15 @@ a:hover {
   gap: 12px;
 }
 
-/* Section Link Bar (FAQ / How-To / Versions) */
+/* ---------- Section link bars (Support / About) ---------- */
+
 .section-links-wrapper {
   position: sticky;
-  top:50px; /* adjust based on height of nav bar; determines where scrolling stops */
-  margin-top: -10px;
+  top: var(--nav-height);
   z-index: 99;
-  background-color: #ffffff;
+  background-color: var(--bg);
   padding: 8px 0;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+  box-shadow: var(--shadow-sm);
 }
 
 .section-links {
@@ -118,141 +192,460 @@ a:hover {
 
 .section-links a {
   padding: 6px 12px;
-  border-radius: 6px;
-  background-color: #ffffff;
-  border: 1px solid #ccc;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+  border-radius: var(--radius-sm);
+  background-color: var(--bg);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-sm);
   font-size: 14px;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.2s ease;
 }
 
 .section-links a:hover {
-  background-color: #f2f6fc;
+  background-color: var(--link-hover-bg);
   text-decoration: none;
 }
 
-/* FAQ Styling */
+/* ---------- FAQ / accordion ---------- */
+
 .faq-item {
   margin-bottom: 24px;
 }
 
 .faq-question {
-  font-weight: bold;
+  font-weight: 600;
   cursor: pointer;
   padding: 12px 16px;
-  background: #f9f9f9;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
-  transition: background 0.3s ease;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-md);
+  transition: background 0.2s ease;
 }
 
 .faq-question:hover {
-  background: #e9f1fd;
+  background: var(--surface-hover);
 }
 
 .faq-answer {
   display: none;
   padding: 8px 16px 12px;
-  margin-top: 0px;
-  border: 1px solid #ccc;
+  border: 1px solid var(--border);
   border-top: none;
-  border-radius: 0 0 8px 8px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
-  background-color: #ffffff;
-  transition: all 0.3s ease;
+  border-radius: 0 0 var(--radius-md) var(--radius-md);
+  box-shadow: var(--shadow-md);
+  background-color: var(--bg);
 }
 
-/* Back to Top Button */
+.faq-answer img {
+  border-radius: var(--radius-sm);
+}
+
+/* ---------- Back to top ---------- */
+
 .back-to-top {
   display: inline-block;
-  background-color: #f3f3f3;
-  border: 1px solid #ccc;
-  border-radius: 6px;
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
   padding: 4px 10px;
-  color: #073472;
-  text-decoration: none;
+  color: var(--link);
   font-size: 0.8em;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.2s ease;
 }
 
 .back-to-top:hover {
-  background-color: #e0e0e0;
+  background-color: var(--surface-hover);
   text-decoration: none;
 }
 
-/* Images inside FAQ/How-To sections */
-.faq-answer img {
-  border-radius: 6px;
-}
+/* ---------- Layout ---------- */
 
-/* Page wrapper for max-width and spacing */
 .content-wrapper {
-  max-width: 700px;
+  max-width: var(--content-max);
   margin: 0 auto;
   padding: 0 16px 40px;
 }
 
-/* Footer */
+/* ---------- Footer ---------- */
+
 .site-footer {
   text-align: center;
   margin-top: 40px;
   padding: 16px;
   font-size: 0.85em;
-  color: #666;
+  color: var(--text-muted);
 }
 
-/* Dark Mode Styles */
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: #121212;
-    color: #e0e0e0;
-  }
+/* ---------- Home: Hero ---------- */
 
-  .tab-bar,
-  .tab-bar-inner,
-  .hero-bar-wrapper,
-  .section-links-wrapper,
-  .faq-question,
-  .faq-answer,
-  .section-links a {
-    background-color: #121212;
-    color: #e0e0e0;
-    border-color: #444;
-  }
-
-  .tab-bar-inner {
-    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.03);
-  }
-
-  .section-links a:hover,
-  .tab-bar a:hover,
-  .tab-bar-inner a:hover,
-  .faq-question:hover,
-  .back-to-top:hover {
-    background-color: #2c2c2c;
-  }
-
-  a {
-    color: #5b9bd5;
-  }
-
-  .back-to-top {
-    background-color: #121212;
-    color: #5b9bd5;
-    border-color: #444;
-  }
-
-  .site-footer {
-    color: #aaa;
-  }
-
-  img {
-    filter: brightness(0.9) contrast(1.1);
-  }
+.hero {
+  text-align: center;
+  padding: 48px 0 32px;
+  max-width: var(--hero-max);
+  margin: 0 auto;
 }
 
-/* Beta Signup Form Field Styling */
+.hero-headline {
+  font-size: clamp(2rem, 5vw, 3.25rem);
+  font-weight: 700;
+  margin: 0 0 12px;
+  letter-spacing: -0.025em;
+}
+
+.hero-subhead {
+  font-size: clamp(1.05rem, 2vw, 1.25rem);
+  color: var(--text-muted);
+  max-width: 540px;
+  margin: 0 auto 28px;
+  line-height: 1.5;
+}
+
+.hero-cta {
+  margin: 0 0 8px;
+}
+
+.hero-cta img {
+  height: 54px;
+  width: auto;
+}
+
+.hero-trust {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin: 8px 0 36px;
+}
+
+/* ---------- Home: Device mockup (CSS-overlaid frame) ----------
+   The iPhone 17 frame PNG is 1350x2760 with a transparent screen
+   area inset ~5.3% horizontally and ~2.5% vertically. The screen
+   image is positioned absolutely under the frame with matching
+   inset so the frame's transparent screen area reveals it cleanly.
+*/
+
+.device-mockup {
+  position: relative;
+  width: 100%;
+  max-width: 320px;
+  aspect-ratio: 1350 / 2760;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .device-mockup { max-width: 360px; }
+}
+
+.device-mockup__screen {
+  position: absolute;
+  top: 2.5%;
+  left: 5.3%;
+  width: 89.4%;
+  height: 95%;
+  object-fit: cover;
+  border-radius: 12%/5.7%;
+  background: var(--bg);
+}
+
+.device-mockup__frame {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  user-select: none;
+}
+
+/* ---------- Home: Features ---------- */
+
+.features {
+  max-width: var(--hero-max);
+  margin: 32px auto 0;
+  padding: 24px 0 16px;
+}
+
+.section-title {
+  text-align: center;
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-weight: 700;
+  margin: 0 0 28px;
+  letter-spacing: -0.02em;
+}
+
+.feature-grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 640px) {
+  .feature-grid { grid-template-columns: 1fr 1fr; }
+}
+
+.feature-card {
+  padding: 22px 22px 20px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.feature-title {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin: 0 0 8px;
+  color: var(--text);
+}
+
+.feature-desc {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+.feature-desc strong {
+  color: var(--text);
+  font-weight: 600;
+}
+
+/* ---------- Page title (for inner pages) ---------- */
+
+.page-title {
+  text-align: center;
+  font-size: clamp(1.6rem, 3vw, 2.1rem);
+  font-weight: 700;
+  margin: 28px 0 24px;
+  letter-spacing: -0.02em;
+}
+
+.page-subtitle {
+  text-align: center;
+  color: var(--text-muted);
+  margin: -12px 0 28px;
+  font-size: 0.95rem;
+}
+
+/* ---------- About: disclaimer & author note ---------- */
+
+.disclaimer {
+  max-width: 600px;
+  margin: 16px auto 28px;
+  padding: 16px 18px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+  border-radius: var(--radius-md);
+}
+
+.disclaimer-title {
+  font-weight: 600;
+  margin: 0 0 6px;
+  color: var(--text);
+}
+
+.disclaimer p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: var(--text);
+}
+
+.author-note {
+  max-width: 600px;
+  margin: 0 auto 28px;
+  text-align: center;
+}
+
+.author-note p { margin: 0.6em 0; }
+
+.cta-stack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  margin: 24px 0 8px;
+}
+
+.email-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 500;
+}
+
+.email-link::before {
+  content: "\2709\FE0E";
+  font-size: 1.25em;
+  line-height: 1;
+}
+
+.bmc-button img {
+  height: 28px;
+  width: auto;
+  display: block;
+}
+
+/* ---------- Native <details>/<summary> components ---------- */
+
+.collapsible {
+  border: 1px solid var(--border);
+  background: var(--surface);
+  border-radius: var(--radius-md);
+  margin-bottom: 12px;
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+}
+
+.collapsible > summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 12px 16px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  transition: background 0.2s ease;
+}
+
+.collapsible > summary::-webkit-details-marker { display: none; }
+
+.collapsible > summary:hover {
+  background: var(--surface-hover);
+}
+
+.collapsible > summary::before {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border: solid currentColor;
+  border-width: 0 2px 2px 0;
+  transform: rotate(-45deg);
+  transition: transform 0.2s ease;
+  flex-shrink: 0;
+}
+
+.collapsible[open] > summary::before {
+  transform: rotate(45deg);
+}
+
+.collapsible-body {
+  padding: 4px 18px 14px;
+  color: var(--text);
+}
+
+.collapsible-body :is(p, ul, ol):first-child { margin-top: 0; }
+.collapsible-body :is(p, ul, ol):last-child  { margin-bottom: 0; }
+
+/* ---------- About: version history ---------- */
+
+.version-list {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.version-date {
+  color: var(--text-muted);
+  font-weight: 400;
+  font-size: 0.9em;
+  margin-left: auto;
+}
+
+/* ---------- Privacy policy sections ---------- */
+
+.policy {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.policy-section {
+  padding: 16px 18px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  margin-bottom: 14px;
+}
+
+.policy-section h3 {
+  margin: 0 0 8px;
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.policy-section p {
+  margin: 0.55em 0;
+  font-size: 0.95rem;
+}
+
+.policy-section p:first-of-type { margin-top: 0; }
+.policy-section p:last-of-type  { margin-bottom: 0; }
+
+/* ---------- Section heading (in-page H3 anchor target) ---------- */
+
+.section-heading {
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin: 36px 0 16px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+  scroll-margin-top: calc(var(--nav-height) + 60px);
+}
+
+/* ---------- Reference footnote (Support how-to citations) ---------- */
+
+.ref {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  margin-top: 18px;
+  line-height: 1.5;
+}
+
+/* ---------- Privacy archive list ---------- */
+
+.archive-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.archive-list li {
+  padding: 14px 18px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  margin-bottom: 10px;
+}
+
+.archive-list a {
+  font-weight: 500;
+}
+
+/* ---------- Support: app screenshots in How-To ---------- */
+
+.app-screenshot {
+  display: block;
+  max-width: min(50%, 280px);
+  height: auto;
+  margin: 14px auto;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-md);
+}
+
+.app-screenshot--wide {
+  max-width: 100%;
+  box-shadow: none;
+}
+
+/* ---------- Beta signup form ---------- */
+
 #beta-signup-form input,
 #beta-signup-form button {
   box-sizing: border-box;

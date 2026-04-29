@@ -1,2 +1,21 @@
-title: ""
-description: ""
+title: "EBM Calculator"
+description: "Evidence-based medicine calculators for iPhone, iPad, and Mac. Calculate effect estimates (ARR, NNT, RR, RRR, OR) and diagnostic test stats (sensitivity, specificity, LR, PPV, NPV) with 95% confidence intervals — plus an interactive Fagan nomogram for post-test probability."
+url: "https://www.ebmcalculator.com"
+baseurl: ""
+
+author:
+  name: "David A. Stewart, MD"
+  email: "support@ebmcalculator.com"
+
+logo: "/assets/images/apple-touch-icon-512x512.png"
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - README.md
+  - .sass-cache

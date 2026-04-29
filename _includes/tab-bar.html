@@ -1,8 +1,9 @@
-<div class="tab-bar">
+{% assign url = page.url %}
+<nav class="tab-bar" aria-label="Primary">
   <div class="tab-bar-inner">
-    <a href="/">Home</a>
-    <a href="/about">About</a>
-    <a href="/support">Support</a>
-    <a href="/privacy-policy">Privacy</a>
+    <a href="/"               class="{% if url == '/' %}active{% endif %}"               {% if url == '/' %}aria-current="page"{% endif %}>Home</a>
+    <a href="/about"          class="{% if url contains '/about' %}active{% endif %}"          {% if url contains '/about' %}aria-current="page"{% endif %}>About</a>
+    <a href="/support"        class="{% if url contains '/support' %}active{% endif %}"        {% if url contains '/support' %}aria-current="page"{% endif %}>Support</a>
+    <a href="/privacy-policy" class="{% if url contains 'privacy' or url contains 'policies' %}active{% endif %}" {% if url contains 'privacy' or url contains 'policies' %}aria-current="page"{% endif %}>Privacy</a>
   </div>
-</div>
+</nav>

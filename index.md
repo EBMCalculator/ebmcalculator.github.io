@@ -1,123 +1,87 @@
 ---
 layout: default
 title: Home
+description: Evidence-based medicine calculators for iPhone, iPad, and Mac. Effect estimates and diagnostic test stats with 95% confidence intervals, plus an interactive Fagan nomogram for post-test probability.
 ---
 
-<!-- Force feature boxes to be always expanded -->
-<style>
-  .static-feature .faq-answer { 
-    display: block !important;
-  }
-  .static-feature .faq-question { 
-    cursor: default;
-  }
-</style>
+<section class="hero">
+  <h2 class="hero-headline">Interpret study results fast.</h2>
+  <p class="hero-subhead">
+    Evidence-based medicine calculators for iPhone, iPad, and Mac.
+    Effect estimates and diagnostic test stats with 95% confidence intervals,
+    plus an interactive Fagan nomogram for post-test probability.
+  </p>
 
-<style>
-  .index-sticky {
-    top: 50px !important; /* Reduce the top offset on the home page so the button sits only 5px below the tab bar */
-    margin-top: 0 !important; /* Remove the negative margin so the button isn't pushed upward */
-  }
-</style>
-
-<!-- Hero Download Section -->
-<p style="margin-bottom: 1em; text-align: center;">
-  Available now on the App Store
-</p>
-
-<div class="hero-bar-wrapper">
-  <div class="hero-bar">
+  <p class="hero-cta">
     <a href="https://apps.apple.com/us/app/ebm-calculator/id6737999201"
-       target="_blank" rel="noopener noreferrer">
+       target="_blank" rel="noopener noreferrer"
+       aria-label="Download EBM Calculator on the App Store">
       <img src="/assets/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg"
-           alt="Download on the App Store"
-           style="height:50px;">
+           alt="Download on the App Store">
     </a>
-  </div>
-</div>
+  </p>
 
+  <p class="hero-trust">Designed and built by David A. Stewart, MD</p>
 
-<!-- Goal Statement -->
-<div style="max-width: 600px; margin: 20px auto;" markdown="1">
-  The goal of **EBM Calculator** is to help with your appraisal of the medical literature!
-</div>
+  <div class="device-mockup">
+    <img class="device-mockup__screen"
+         src="/assets/images/screenshots/Hero - Effect Estimates.png"
+         alt="EBM Calculator showing effect estimates with a 2&times;2 contingency table, NNT, RR, OR, and 95% confidence intervals, with the source study cited below">
+    <img class="device-mockup__frame"
+         src="/assets/images/iphone-17-frame.png"
+         alt="" aria-hidden="true">
+  </div>
+</section>
 
-<!-- Individual Feature Boxes (Always Expanded) -->
-<div class="static-feature" style="max-width: 600px; margin: 20px auto;">
-  <!-- Effect Calculator -->
-  <div class="faq-item">
-    <div class="faq-question">Effect Calculator</div>
-    <div class="faq-answer">
-      <ul>
-        <li>Used for studies that examine the effect of a therapy or exposure</li>
-        <li>
-          Calculate key effect estimates for <strong>dichotomous outcomes</strong>:
-          <ul>
-            <li><strong>Absolute Risk Reduction (ARR)</strong></li>
-            <li><strong>Number Needed to Treat (NNT)</strong></li>
-            <li><strong>Risk Ratio (RR)</strong></li>
-            <li><strong>Relative Risk Reduction (RRR)</strong></li>
-            <li><strong>Odds Ratio (OR)</strong></li>
-          </ul>
-        </li>
-        <li>Includes <strong>95% Confidence Intervals</strong> for every metric</li>
-      </ul>
+<section class="features">
+  <h2 class="section-title">What's inside</h2>
+
+  <div class="feature-grid">
+    <div class="feature-card">
+      <h3 class="feature-title">Effect Calculator</h3>
+      <p class="feature-desc">
+        ARR, NNT, RR, RRR, and OR with 95% confidence intervals from any 2&times;2 table &mdash;
+        for studies of therapy or exposure with dichotomous outcomes.
+      </p>
+    </div>
+
+    <div class="feature-card">
+      <h3 class="feature-title">Diagnostic Test Calculator</h3>
+      <p class="feature-desc">
+        Sensitivity, specificity, likelihood ratios, and predictive values with 95% confidence intervals &mdash;
+        for diagnostic accuracy studies.
+      </p>
+    </div>
+
+    <div class="feature-card">
+      <h3 class="feature-title">Post-Test Probability</h3>
+      <p class="feature-desc">
+        Visualize how a test result shifts the probability of disease with an interactive
+        <strong>Fagan nomogram</strong>.
+      </p>
+    </div>
+
+    <div class="feature-card">
+      <h3 class="feature-title">Save, Search &amp; Share</h3>
+      <p class="feature-desc">
+        Keep up to <strong>100 results</strong> on device. Share as a clean PNG for messages and email,
+        or export <code>.ebmc</code> files to other EBM Calculator users.
+      </p>
+    </div>
+
+    <div class="feature-card">
+      <h3 class="feature-title">Citations</h3>
+      <p class="feature-desc">
+        Attach citations by <strong>PubMed PMID</strong> with one tap, or enter them by hand.
+      </p>
+    </div>
+
+    <div class="feature-card">
+      <h3 class="feature-title">Lessons</h3>
+      <p class="feature-desc">
+        Built-in lessons in evidence-based medicine and biostatistics
+        reinforce the concepts behind every calculation.
+      </p>
     </div>
   </div>
-  
-  <!-- Diagnostic Test Calculator -->
-  <div class="faq-item">
-    <div class="faq-question">Diagnostic Test Calculator</div>
-    <div class="faq-answer">
-      <ul>
-        <li>Used for studies that evaluate the accuracy of a diagnostic test</li>
-        <li>
-          Calculate core statistics:
-          <ul>
-            <li><strong>Sensitivity & Specificity</strong></li>
-            <li><strong>Likelihood Ratios (LR+, LR-)</strong></li>
-            <li><strong>Positive & Negative Predictive Values (PPV, NPV)</strong></li>
-          </ul>
-        </li>
-        <li>Includes <strong>95% Confidence Intervals</strong> for all measures</li>
-      </ul>
-    </div>
-  </div>
-  
-  <!-- Post-Test Probability Calculator -->
-  <div class="faq-item">
-    <div class="faq-question">Post-Test Probability Calculator</div>
-    <div class="faq-answer">
-      <ul>
-        <li>Used to estimate the likelihood of disease after a test result</li>
-        <li>Input Sensitivity & Specificity or Likelihood Ratios</li>
-        <li>Visualize probability changes with an <strong>interactive Fagan Nomogram</strong></li>
-      </ul>
-    </div>
-  </div>
-  
-  <!-- Save, Search & Share -->
-  <div class="faq-item">
-    <div class="faq-question">Save, Search &amp; Share</div>
-    <div class="faq-answer">
-      <ul>
-        <li><strong>Save</strong> up to 100 results for future reference</li>
-        <li><strong>Search</strong> results to quickly find what matters</li>        
-        <li><strong>Share</strong> as a PNG—ideal for Messages, email, and clean formatting</li>
-        <li><strong>Export</strong> results as an .ebmc file to archive or send to other EBM Calculator users</li>
-        <li>Tap an .ebmc file to <strong>import</strong> results back into EBM Calculator</li>
-      </ul>
-    </div>
-  </div>
-  
-  <!-- Library -->
-  <div class="faq-item">
-    <div class="faq-question">Lessons</div>
-    <div class="faq-answer">
-      <ul>
-        <li>Explore lessons in <strong>Evidence-Based Medicine (EBM)</strong></li>
-        <li>Reinforce core concepts in biostatistics and study design</li>
-      </ul>
-    </div>
-  </div>
-</div>
+</section>
