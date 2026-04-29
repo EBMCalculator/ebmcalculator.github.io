@@ -3,23 +3,48 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title | escape }}</title>
+
+    {% seo %}
+
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" media="(prefers-color-scheme: dark)" href="/assets/images/favicon-32x32-dark.png">
+    <link rel="icon" type="image/png" sizes="16x16" media="(prefers-color-scheme: dark)" href="/assets/images/favicon-16x16-dark.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon-180x180.png">
+
     <link rel="stylesheet" href="/assets/css/styles.css">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MobileApplication",
+      "name": "EBM Calculator",
+      "operatingSystem": "iOS 18.1+, iPadOS, macOS (Apple Silicon)",
+      "applicationCategory": "MedicalApplication",
+      "downloadUrl": "https://apps.apple.com/us/app/ebm-calculator/id6737999201",
+      "installUrl": "https://apps.apple.com/us/app/ebm-calculator/id6737999201",
+      "url": "https://www.ebmcalculator.com",
+      "image": "https://www.ebmcalculator.com/assets/images/preview-image-1200x630.png",
+      "author": {
+        "@type": "Person",
+        "name": "David A. Stewart, MD"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    }
+    </script>
   </head>
   <body>
-    <!-- Include common header -->
     {% include header.html %}
-    
-    <!-- Include tab bar -->
     {% include tab-bar.html %}
-    
-    <!-- Main content area -->
+
     <main class="content-wrapper">
       {{ content }}
     </main>
 
-    <!-- Optional: Footer inclusion (create a footer include if desired) -->
     {% include footer.html %}
-
   </body>
 </html>
