@@ -1,5 +1,5 @@
 title: "EBM Calculator"
-description: "Evidence-based medicine calculators for iPhone, iPad, and Mac. Calculate effect estimates (ARR, NNT, RR, RRR, OR) and diagnostic test stats (sensitivity, specificity, LR, PPV, NPV) with 95% confidence intervals — plus an interactive Fagan nomogram for post-test probability."
+description: "Evidence-based medicine calculators for iPhone, iPad, and Mac. Built to support your critical appraisal of the medical literature, with effect estimates, diagnostic test stats, and an interactive Fagan nomogram for post-test probability."
 url: "https://www.ebmcalculator.com"
 baseurl: ""
 

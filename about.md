@@ -36,6 +36,27 @@ description: About EBM Calculator — an evidence-based medicine app built for c
 <div class="version-list">
 
 <details class="collapsible" open>
+  <summary>v1.6.0 <span class="version-date">May 1, 2026</span></summary>
+  <div class="collapsible-body">
+    <p><strong>Big update: iPad layout, iCloud sync, in-app tutorials, and more.</strong></p>
+    <ul>
+      <li>Full iPad layout with adaptive spacing and split-view support</li>
+      <li>Saved results now sync across all your devices through iCloud</li>
+      <li>In-app guided tutorials &mdash; access from the menu in each view or from Settings</li>
+      <li>In-app FAQ in Settings</li>
+      <li>New Settings menu</li>
+      <li>Save unlimited results (previously limited to 100)</li>
+      <li>Manual import option in menu</li>
+      <li>"Update Saved Result" option when editing a previously saved result</li>
+      <li>Date Modified sort option in Saved Results</li>
+      <li>Reorganized menus across all views for consistency</li>
+      <li>Behind-the-scenes storage migration for iCloud sync</li>
+      <li>Performance enhancements and bug fixes</li>
+    </ul>
+  </div>
+</details>
+
+<details class="collapsible">
   <summary>v1.5.1 <span class="version-date">Dec 18, 2025</span></summary>
   <div class="collapsible-body">
     <ul>
