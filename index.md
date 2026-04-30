@@ -23,14 +23,10 @@ description: Evidence-based medicine calculators for iPhone, iPad, and Mac. Effe
 
   <p class="hero-trust">Designed and built by David A. Stewart, MD</p>
 
-  <div class="device-mockup">
-    <img class="device-mockup__screen"
-         src="/assets/images/screenshots/Hero - Effect Estimates.png"
-         alt="EBM Calculator showing effect estimates with a 2&times;2 contingency table, NNT, RR, OR, and 95% confidence intervals, with the source study cited below">
-    <img class="device-mockup__frame"
-         src="/assets/images/iphone-17-frame.png"
-         alt="" aria-hidden="true">
-  </div>
+  <img class="device-mockup"
+       src="/assets/images/hero-iphone-17.png"
+       alt="EBM Calculator showing effect estimates with a 2&times;2 contingency table, NNT, RR, OR, and 95% confidence intervals, with the source study cited below">
+
 </section>
 
 <section class="features">
