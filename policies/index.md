@@ -10,6 +10,7 @@ permalink: /policies/
 
 <div class="policy">
   <ul class="archive-list">
+    <li><a href="/policies/privacy-policy-2025-05-15/">Privacy Policy &mdash; Effective May 15, 2025</a></li>
     <li><a href="/policies/privacy-policy-2024-11-04/">Privacy Policy &mdash; Effective November 4, 2024</a></li>
   </ul>
   <p style="text-align: center; margin-top: 24px;">
